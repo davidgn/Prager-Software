@@ -1,0 +1,77 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Images</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Images</H1>
+<P>First of all, the actual image is&nbsp;not stored in the database; the location of the image on your machine is what is stored in the database.&nbsp; So, if at a later time you decide to move your images to another folder, you will have to&nbsp;update each record in the database with the new image&nbsp;location.&nbsp; For this reason, we suggest you make a new directory where you have the Backup and Export directories (folders).&nbsp; </P>
+<P>And at the present time, the actual images are not uploaded to the listing services because there is no easy way to do this.&nbsp; Very few of the listing services accept images, and there is no common way to upload them; each service is different.&nbsp; We are working on a solution to this problem.&nbsp; Basically, images are for your use.&nbsp; If you want to upload them, you have to create them in a format that each listing service will accept and then manually upload them.&nbsp; </P>
+<H2>Adding or&nbsp;Changing Images</H2>
+<P><IMG align=bottom src="images/image64.png"></P>
+<P>To Add or Change an image for this selected record (you must select a record that this image will belong to), click on Select Image, and a Open Dialog (that's what we call it) will appear..</P>
+<P><IMG align=bottom src="images/image65.png"></P>
+<P>Change directories until you have the directory where your images are stored and select one for this book's record.</P>
+<P><IMG align=bottom src="images/image66.png"></P>
+<P>Figure 60c.&nbsp; Once you have clicked the Open button (as shown in Figure 60b above), you will see your image in the image box for that record.&nbsp; The Update Book button will turn red, telling you that if you want to save this image filename with the record, you must click <STRONG>Update</STRONG>.&nbsp; The image filename is now attached and stored with this record in the database.</P>
+<H2>Deleting Images</H2>
+<P>To delete an image click delete.&nbsp; There is no need to click Update because the deletion is done automatically.</P>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('images.htm'); 
+HMSelectTopic('images.htm');</script></body>
+</html>

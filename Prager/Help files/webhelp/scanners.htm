@@ -1,0 +1,77 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Scanners</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Scanners</H1>
+<H2><U>Setting the ID Tech Scanner to read ISBNs</U></H2>
+<P><FONT size=2>The&nbsp;manual that comes&nbsp;with the ID Tech scanner&nbsp;is really scary, so let's see if I can help...</FONT></P>
+<OL>
+<LI><FONT size=2>connect your scanner&nbsp;</FONT> 
+<LI><FONT size=2>&nbsp;go to page 8 and put the scanner on Reset and press the button on bottom of the scanner&nbsp;</FONT> 
+<LI><FONT size=2>go to page 47 and put the scanner on ISBN ON and press the button again...&nbsp;</FONT> 
+<LI><FONT size=2>go to page 19 and put the scanner on CR (not CR+LF) and press the button again&nbsp;</FONT> 
+<LI><FONT size=2>you should be good to go...&nbsp;</FONT></LI></OL>
+<P><FONT size=2>By the way, it will read 10-digit ISBNs as well as 13-digit ISBNs with the above program.</FONT></P>
+<H2><FONT size=2></FONT>&nbsp;</H2>
+<H2>&nbsp;</H2>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('scanners.htm'); 
+HMSelectTopic('scanners.htm');</script></body>
+</html>

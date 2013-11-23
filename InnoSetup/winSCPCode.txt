@@ -1,0 +1,16 @@
+ //----------------------    WinSCP code    ------------------------
+function IsWinSCPInstalled():Boolean;
+  var
+  fname: String;
+
+begin
+
+  fname := ExpandConstant('{pf32}\WinSCP\WinSCP.exe');
+  Result := false;
+  if not FileExists(fname) then
+      begin
+     //   MsgBox('WinSCP does NOT exist: ' + fname, mbInformation, MB_OK);
+        Result := true;  //  don't process if it already exists
+      end;
+end;
+

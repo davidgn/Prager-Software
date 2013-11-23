@@ -1,0 +1,95 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Creating an Invoice</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Creating an Invoice</H1>
+<P>Normally, unless you really want to, there is no need to create an invoice if the listing service provides you with one.&nbsp; However, some of them, like Choosebooks (ZVAB) don't provide an invoice, so you need to make one.&nbsp; In those cases,&nbsp;what follows are directions on how&nbsp;to create an invoice...</P>
+<H2><U>Three easy steps:</U></H2>
+<OL>
+<LI>Create or select a current customer and transfer the data to the invoice. 
+<LI>Select the books and add them to the Shopping Cart, one at a time (they will automatically show up on the invoice). 
+<LI>Fill out the invoice details, such as tax, shipping, etc.&nbsp; </LI></OL>
+<P>You can now print it... you're done!<U></U></P>
+<H2>
+<H2><U>On the Customer Info Tab...</U></H2>
+<P><U><IMG align=bottom src="images/image69.png"></U></P></H2>
+<P>Customer information is either entered on this screen&nbsp;or picked from what is pre-listed under Customer Data.&nbsp; The only field that is required is the Customer ID field.&nbsp; Once all of the information has been entered, click on the&nbsp;yellow arrow to transfer the information to the actual Invoice form (see figure below).</P>
+<H2><U></U>&nbsp;</H2>
+<H2><U>On the Inventory Side...</U></H2>
+<P><IMG align=bottom src="images/image70.png"></P>
+<P>This is the detail panel.&nbsp; The idea is to transfer a book into the Shopping Cart by clicking on the Shopping Cart button.&nbsp; This will accomplish three things:</P>
+<UL>
+<LI>mark the selected book <STRONG>sold</STRONG> if it is&nbsp;not already so marked 
+<LI>update the database (this record will be part of the next export and upload) 
+<LI>transfer the book information to the shopping cart itself</LI></UL>
+<P><FONT color=#ff0000>Note that in order to move a book to the Shopping Cart, it must have a status of "Sold".<BR></FONT></P>
+<H2><U>On the Invoice Tab...</U></H2>
+<P><IMG align=bottom src="images/image71.png"></P>
+<P>This shows that the book from the Inventory has been placed in the shopping cart and the Customer information has been transferred to the invoice for printing.&nbsp; <STRONG>First things first:</STRONG>&nbsp; you must change the logo and address listed in the invoice (for obvious reasons).&nbsp; <STRONG>You should change the address first, then the logo bitmap.</STRONG>&nbsp; You can change the logo by clicking on the <STRONG>Change logo and address</STRONG> button.&nbsp; A open-file dialog will appear and you should choose a file from the list; if your logo is already there and you just want to change the address, click on Cancel.&nbsp; The logo should be sized to fit, and with a format of <STRONG>.bmp</STRONG>.&nbsp; The address is changed by over-typing the information that is currently there (you have 2 lines, with a total length of 64 characters).&nbsp; Click on <STRONG>Change logo and address</STRONG> and the new information is saved.&nbsp; Now all that is left is to pick a payment method and generate the invoice number.&nbsp; </P>
+<P>The invoice number is either automatically generated (if you have that option checked in Menu-&gt;Options, or you have to supply the invoice number.&nbsp; It must be unique from other Invoice number.&nbsp; If you are just getting started:</P>
+<UL>
+<LI>unclick the Auto-Generate Invoice numbers in the Options menu 
+<LI>pick a starting invoice number and put it in the text box 
+<LI>Add the invoice to the database 
+<LI>check the Auto-Generate invoice numbers in the Options menu; now, for future invoices the next sequential numbe will be generated automatically.</LI></UL>
+<P>The last thing is to preview the invoice before printing, if you desire.</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('creating an invoice.htm'); 
+HMSelectTopic('creating an invoice.htm');</script></body>
+</html>

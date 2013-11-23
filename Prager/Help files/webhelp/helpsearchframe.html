@@ -1,0 +1,691 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+<HTML>
+	<HEAD>
+		<TITLE></TITLE>
+	<LINK REL="stylesheet" TYPE="text/css" HREF="webhelp1.css"></LINK>
+</HEAD>
+	<BODY bgcolor="#FFFFFF">
+		<p><b>Type in the word(s) to search for:</b></p>
+		
+			<table width="100%" ID="Table1">
+				<tr>
+					<td nowrap>
+						<input type="text" id="txtSearchIndex" style="width:60%" onkeydown="javascript:KeyDownHandler(event,'cmdDisplay');">
+						<input type="button" id="cmdDisplay" value="Search" onClick="javascript:SearchForWord();" style="width:55px" >
+					</td>
+				</tr>
+			</table>
+			<select id="lstIndexList" size="700" ondblclick="javascript:ShowIndexItem(); DoWordSearch(txtSearchIndex.value);" style="width:98%; height:80%;">
+			</select>
+	<script language='javascript'>
+var saIndexData = [["","printing database panel.htm"],["Accounting","accounting.htm"],["Add Manually","add manually.htm"],
+["Adding using Auto Price Lookup","autopricelookup.htm"],["Backup","backup.htm"],["Catalogs","catalogs.htm"],
+["Configuration File","configuration file.htm"],["Creating an Invoice","creating an invoice.htm"],["Delete","delete.htm"],
+["Export","export.htm"],["Glossary","glossary.htm"],["Google","google.htm"],
+["Images","images.htm"],["Importing a file","importing.htm"],["Listing Service Mass Delete","listing service mass delete.htm"],
+["Mass Changes","mass changes.htm"],["Menu Bar","menu bar.htm"],["Network Connections","network.htm"],
+["Panel Descriptions","panels.htm"],["Program Updates","program updates.htm"],["Purchase a License","registration.htm"],
+["Reports","reports.htm"],["Repricing","repricing.htm"],["Restore","restore.htm"],
+["Scanners","scanners.htm"],["ScreenShot","screenshot.htm"],["Searching","searching.htm"],
+["Start here","gettingstarted.htm"],["Tracing","tracing.htm"],["Update","update.htm"],
+["Upload","upload.htm"]];
+
+var saWordData = [["printing",[0,7]],["whatever",[0,22]],["shows",[0]],["in",[0,2,5,7,11,13,15,16,17,18,19,22,27,28,29,30]],
+["the",[0,2,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19,22,23,24,25,26,27,28,29,30]],["database",[0,1,4,7,8,9,10,15,16,17,18,22,23,26,27,29]],["panel",[0,18,22,26,27,29,30]],["after",[0]],
+["search",[0,9,15,18,26,27]],["prints",[0]],["accounting",[1,18]],["figure",[1,8,12,13,18,28,30]],
+["sales",[1,11]],["purchases",[1]],["and",[1,5,7,11,13,15,16,17,18,19,22,25,27,28,29,30]],["statistics",[1]],
+["two",[1,5,17,19]],["sets",[1,22]],["of",[1,2,5,7,9,13,15,16,18,19,22,29,30]],["are",[1,4,5,9,13,15,17,18,19,22,30]],
+["provided:",[1]],["prune",[1]],["adding",[2,18]],["book",[2,5,7,8,13,15,18,22,26,27,28,29,30]],
+["manually",[2,5,11,18,22,30]],["check",[2,7,15,18,22]],["options",[2,3,7,13,18,25]],["this",[2,7,11,13,14,15,16,18,22,25,26,27,30]],
+["before",[2,7,18]],["clicking",[2,5,18,22,27]],["auto",[2,3,18]],["numbering",[2,18]],
+["must",[2,5,11,30]],["be",[2,5,7,14,16,18,28,30]],["unique",[2]],["sold",[2,9,14,27]],
+["when",[2,4,9,13,18,28,30]],["you",[2,5,7,9,11,13,15,16,17,18,19,22,25,27,28,29,30]],["have",[2,9,11,13,17,18,22,27,28,30]],["an",[2,7,15,16,18,22,25,26,27,30]],
+["isbn",[2,3,26]],["to",[2,4,5,7,8,9,11,13,14,15,16,17,18,19,22,24,25,26,27,28,29,30]],["add",[2,5,7,9,12,17,18,27,30]],["for",[2,5,7,8,9,13,16,17,18,19,22,27,28,29,30]],
+["pricing",[2,18,22]],["lookup",[2,3]],["if",[2,5,7,9,11,13,16,18,19,22,27,28,30]],["want",[2,5,9,13,15,17,18,25,27]],
+["canned",[2,18]],["text",[2,5,7,13,18]],["which",[2,5,15,18,22,27,28,30]],["makes",[2]],
+["it",[2,5,7,16,18,19,24,25,27,28,30]],["more",[2,28]],["easier",[2]],["repetitive",[2]],
+["description",[2,16]],["field",[2,18,29]],["go",[2,11,25,27,30]],["tab",[2,7,11,13,18,27,30]],
+["do",[2,5,13,15,17,18,22,27,30]],["not",[2,9,13,16,17,19,22,27,30]],["try",[2,19]],["catalog",[2,5,10,13,18]],
+["entries",[2,5]],["box",[2,5,7,13,22]],["task",[2]],["private",[2]],
+["notes",[2]],["get",[2,3,18,28]],["prices",[2,3,15,18,22]],["from",[2,3,5,8,11,13,14,15,16,18,22,26,29,30]],
+["internet",[2,3,18,22]],["total",[2]],["number",[2,7,13,16,18,26]],["copies",[2,18]],
+["multiple",[2,18]],["sku",[2,13,18]],["on",[2,5,7,9,11,12,13,15,16,18,25,26,27,28,29]],["program",[2,4,5,11,16,17,18,19,20,24,25,27,28,30]],
+["page",[2,3,11,16,18]],["case",[2,19]],["each",[2,5,8,18]],["copy",[2]],
+["will",[2,5,7,16,17,18,22,24,27,28,30]],["own",[2,27]],["don",[2,11,18,28]],["info",[2,3,7,11,27]],
+["relisting",[2]],["there",[2,4,19,27]],["is",[2,7,9,13,14,15,16,18,19,22,26,27,30]],["also",[2,13,18,22,29,30]],
+["relist",[2]],["button",[2,5,9,13,18,27]],["getting",[2,19]],["current",[2,5,16]],
+["information",[2,7,11,16,27,28]],["re-pricing",[2,18,22]],["tool",[2,16,18,22]],["using",[3,5,9,13,18,22,26,27,30]],
+["price",[3,18,22]],["checking",[3,18]],["our",[3,16,25]],["bug",[3]],
+["tracking",[3]],["backing",[4]],["up",[4,11,16,18,19,27]],["ways",[4]],
+["backup",[4,16,18,19,27]],["database:",[4]],["exiting",[4,18]],["bak",[4]],
+["configuration",[4,6,17]],["file",[4,5,6,9,13,17,18,25,27,28,30]],["c:",[4,6,17,27,30]],["files",[4,27]],
+["prager",[4,6,16,17,27,28]],["catalogs",[5,13,18]],["amazon",[5,18,22,30]],["com",[5,17,18,19,22,25,28,30]],
+["non-amazon",[5]],["use",[5,13,18,27]],["primary",[5,18]],["secondary",[5,18]],
+["creating",[5,7,9,13]],["created",[5]],["one",[5,11,13,18]],["ways:",[5]],
+["by",[5,9,11,13,15,18,22,24,26,27]],["importing",[5,13,27]],["entering",[5]],["genre",[5]],
+["import",[5,9,13,18,27]],["following:",[5,13,15,18,30]],["create",[5,18,27,30]],["with",[5,24,26,27,28]],
+["entry",[5,18]],["line",[5]],["saving",[5]],["as",[5,13,14,17,18,22,24,25,28]],
+["txt",[5,27,28,30]],["delete",[5,8,18,27,29]],["contents",[5]],["click",[5,11,13,15,18,25,27,28]],
+["that",[5,9,13,15,17,18,19,22,27,28,30]],["otherwise",[5]],["append",[5]],["space",[5]],
+["left",[5]],["name",[5,13,30]],["exactly",[5]],["wish",[5]],
+["appear",[5]],["select",[5,9,13,21,22,29]],["either",[5,9,15,18,27]],["or",[5,9,13,15,18,22,26,27,30]],
+["deletiion",[5]],["selected",[5,13,18]],["indicated",[5,13,22]],["dark",[5]],
+["blue",[5]],["color",[5]],["knows",[5]],["may",[5]],
+["changed",[5,9,13,15]],["at",[5,16,22]],["any",[5,18,29,30]],["time",[5,9,13,18,22]],
+["selecting",[5,22]],["inventory",[6,7,9,11,14,17,18,22,28]],["cfg",[6,17]],["serverinstance",[6]],
+["serverinstallationpath",[6]],["databasepath",[6,17]],["invoice",[7,13,18,27]],["side",[7]],
+["update",[7,9,12,18,22,27,29]],["record",[7,16,18,27]],["part",[7]],["next",[7,11,17,18,25]],
+["export",[7,9,13,18,27,30]],["upload",[7,11,13,27,30]],["transfer",[7,27]],["shopping",[7,27]],
+["cart",[7,27]],["itself",[7]],["customer",[7,18,27]],["first",[7,30]],
+["things",[7]],["first:",[7]],["should",[7,30]],["change",[7,12,15,17,18,22,29,30]],
+["address",[7]],["then",[7,13,18,22]],["logo",[7]],["bitmap",[7]],
+["bmp",[7]],["unclick",[7]],["auto-generate",[7]],["numbers",[7,18]],
+["menu",[7,11,13,16,18,28]],["pick",[7]],["starting",[7,18]],["put",[7,22]],
+["now",[7]],["future",[7]],["invoices",[7,13,18]],["sequential",[7]],
+["numbe",[7]],["generated",[7]],["automatically",[7,13,18,30]],["last",[7,9,13,18]],
+["thing",[7]],["preview",[7]],["desire",[7]],["deleting",[8,12,14,18]],
+["how",[8,18,29]],["your",[8,9,13,16,22,27,30]],["see",[8,18,28,29,30]],["strongly",[8]],
+["recommend",[8]],["informing",[9]],["site",[9,16,19,25,30]],["had",[9]],
+["activity",[9]],["books",[9,13,14,15,18,21,22,27,29]],["added",[9,22]],["etc",[9]],
+["uploading",[9,11,18,30]],["both",[9]],["accomplished",[9,14]],["same",[9,17,18,22]],
+["way:",[9]],["all",[9,13,15,16,18,22,30]],["inclusive",[9,18,26]],["feature",[9,18]],
+["only",[9,13,14,18,19,21,22,26,27,30]],["records",[9,13,27,30]],["since",[9,13]],["appropriate",[9,11]],
+["type",[9,13,15]],["ff",[9]],["hb",[9]],["ui",[9]],
+["tb",[9]],["az",[9]],["mmddyyyy",[9]],["represents",[9]],
+["date",[9,13]],["hhmmss",[9]],["marked",[9,22]],["buttons",[9,12,18]],
+["they",[9]],["function",[9,22]],["glossary",[10]],["tables",[10]],
+["wildcard",[10]],["sm*",[10]],["google",[11,16]],["base",[11]],
+["already",[11,27]],["account",[11,16,27]],["here",[11,27,30]],["open",[11]],
+["main",[11,13]],["tools",[11]],["setup",[11,17,28]],["fill",[11,16,18,27]],
+["following",[11,27,28]],["information:",[11]],["user",[11,30]],["id",[11,22,24]],
+["enter",[11,15,18,27,30]],["received",[11]],["step",[11]],["above",[11,13,18,22,24,27,30]],
+["unless",[11]],["help",[11,16]],["tax",[11]],["save",[11,13,25]],
+["close",[11]],["window",[11,18]],["forget",[11]],["set",[11,29]],
+["ftp",[11]],["without",[11,18]],["we",[11,28]],["can",[11,13,14,16,18,22,27,29,30]],
+["going",[11,17,22]],["settings",[11]],["acccount",[11]],["images",[12]],
+["ignore",[12]],["different",[12,19]],["colors",[12]],["dialog",[13]],
+["displayed",[13,15,26]],["send",[13,25]],["us",[13,25]],["option",[13,18,22]],
+["choice",[13,18]],["changes",[13,15,18,22,29]],["uploaded",[13]],["wants",[13]],
+["further",[13]],["choose",[13,28,30]],["recent",[13]],["names",[13]],
+["list",[13,17,27,30]],["tab-",[13]],["comma",[13]],["delimited",[13]],
+["format",[13,27]],["clients",[13]],["client",[13]],["specified",[13]],
+["ok",[13,28]],["lists",[13]],["homebase",[13,27]],["creates",[13]],
+["based",[13,22]],["let",[13]],["know",[13]],["uiee",[13]],
+["tab-delimited",[13]],["browse",[13]],["note:",[13,22]],["imported",[13]],
+["status",[13,15,18,22,29,30]],["withdrawn",[13]],["xb",[13]],["code",[13,19]],
+["rejected",[13]],["reason",[13]],["windows",[13]],["drag-and-drop",[13]],
+["shown",[13,28]],["done",[13]],["mapping",[13,18]],["later",[13]],
+["mass",[14,15,22,29]],["listing",[14,18,28,29,30]],["service",[14,18,29]],["way",[14,24,27]],
+["mark",[14]],["them",[14,18,22,30]],["changing",[15]],["en-mass",[15]],
+["increase",[15,22]],["decrease",[15,22]],["indicate",[15]],["amount",[15,22]],
+["percentage",[15,22]],["give",[15,19]],["absolute",[15,22]],["say",[15]],
+["between",[15]],["$2",[15,22]],["$3",[15]],["would",[15]],
+["currently",[15,18]],["making",[15]],["very",[15,22,30]],["important",[15,30]],
+["point",[15]],["section",[15]],["bar",[16]],["item",[16,28]],
+["causes",[16]],["entire",[16]],["saved",[16,30]],["restore",[16,19]],
+["restored",[16]],["previous",[16]],["remove",[16]],["embedded",[16]],
+["isbns",[16,24]],["portion",[16]],["convert",[16]],["setting",[16,24,30]],
+["migrate",[16]],["sql",[16]],["server",[16,19]],["users",[16]],
+["release",[16,19]],["prior",[16]],["become",[16,27]],["enabled",[16]],
+["needed",[16]],["composed",[16]],["of:",[16]],["purchase",[16]],
+["license",[16,19]],["take",[16,18,25,30]],["web",[16,18,19,25]],["where",[16,18,19,27]],
+["website",[16]],["home",[16]],["report",[16,21]],["problem",[16,28]],
+["link",[16]],["enable",[16]],["about",[16]],["displays",[16]],
+["version",[16,18,28]],["other",[16,18,22]],["pertinent",[16,27]],["networking",[17]],
+["directory",[17,27]],["folder",[17]],["installed",[17,27]],["find",[17,19,27]],
+["named",[17]],["machinea",[17]],["machineb",[17]],["machinea:c:",[17]],
+["ports:",[17]],["udp",[17]],["tcp",[17]],["port",[17]],
+["lastly",[17]],["need",[17,27]],["firebird",[17]],["engine",[17]],
+["firewall",[17]],["exception",[17]],["below",[17,22]],["http:",[17]],
+["www",[17,19]],["pragersoftware",[17,19]],["mantis",[17]],["descriptions",[18]],
+["initial",[18]],["back",[18,29]],["top",[18,29]],["detail",[18,26]],
+["self-explanatory",[18]],["notice",[18,27]],["some",[18,22]],["fields",[18,27]],
+["asterisk",[18]],["means",[18]],["label",[18]],["cost",[18,22]],
+["instance",[18]],["value",[18]],["frozen",[18]],["becomes",[18]],
+["stickey",[18]],["so",[18]],["re-enter",[18]],["display",[18,26]],
+["criteria",[18,26]],["group",[18]],["individual",[18]],["selection",[18]],
+["third",[18]],["called",[18,27]],["results",[18,22]],["selections",[18]],
+["control",[18,22]],["what",[18,26]],["diaplayed",[18]],["expansion",[18]],
+["sites",[18,30]],["having",[18]],["title",[18,26]],["author",[18,26]],
+["filled",[18]],["exported",[18]],["typically",[18]],["used",[18]],
+["purge",[18]],["replace",[18]],["those",[18]],["alter",[18]],
+["reprice",[18,22]],["en",[18,29]],["masse",[18,29]],["ie",[18,22]],
+["duplicate",[18]],["services",[18]],["instructions",[18,29]],["consists",[18]],
+["automatic",[18,19]],["checked",[18]],["highest",[18]],["giving",[18]],
+["new",[18,19,22]],["stock",[18]],["unit",[18]],["generate",[18]],
+["auto-maintain",[18]],["retention",[18]],["keep",[18]],["directories",[18]],
+["clean",[18]],["warnings",[18]],["warn",[18]],["location",[18]],
+["notify",[18]],["trying",[18]],["dust",[18]],["jacket",[18]],
+["condition",[18,22]],["missing",[18]],["dj",[18]],["verify",[18]],
+["deletes",[18]],["ask",[18]],["default",[18]],["keywords",[18,26]],
+["parsing",[18]],["parse",[18]],["eliminating",[18]],["articles",[18]],
+["placing",[18]],["result",[18]],["capitalize",[18]],["who",[18]],
+["like",[18,28]],["caps",[18]],["enables",[18]],["dual",[18]],
+["catagories",[18]],["bindings",[18]],["rather",[18]],["than",[18]],
+["standard",[18,30]],["handle",[18]],["skus",[18]],["keeping",[18]],
+["increment",[18]],["decrement",[18]],["counter",[18]],["track",[18]],
+["many",[18]],["run",[18]],["updates",[18,19]],["notified",[18]],
+["available",[18]],["turn",[18]],["off",[18]],["tips",[18]],
+["stops",[18]],["showing",[18]],["hover-help",[18]],["silly",[18]],
+["little",[18]],["balloons",[18]],["cause",[18]],["backed",[18]],
+["ends",[18]],["starts:",[18]],["move",[18]],["average",[18]],
+["obtaining",[18,22]],["except",[18,22,29]],["international",[18]],["users:",[18]],
+["kilograms",[18]],["ounces",[18]],["weight",[18]],["measurement",[18]],
+["notification",[19]],["releases",[19]],["no",[19]],["data",[19,27]],
+["sent",[19]],["queried",[19]],["latest",[19]],["methods",[19]],
+["downloading",[19]],["version:",[19]],["beta",[19]],["just",[19,22]],
+["testing",[19,27]],["faint",[19]],["heart",[19]],["faq",[19]],
+["q:",[19]],["a:",[19]],["additiional",[19]],["fee",[19]],
+["licensing",[20]],["reports",[21]],["aging",[21]],["over",[21]],
+["repricing",[22]],["powerful",[22]],["allows",[22]],["by:",[22]],
+["within",[22]],["certain",[22]],["range",[22]],["increasing",[22]],
+["decreasing",[22]],["fixed",[22]],["dollar",[22]],["words",[22]],
+["addition",[22]],["effect",[22]],["finding",[22]],["displaying",[22]],
+["access",[22]],["key",[22]],["does",[22]],["my",[22]],
+["high",[22]],["compute",[22]],["suggested",[22]],["on:",[22]],
+["low",[22]],["skip",[22]],["ed",[22]],["signed",[22]],
+["otherwise:",[22]],["anything",[22]],["good",[22]],["drop",[22]],
+["reprice:",[22]],["self",[22]],["explanatory",[22]],["present",[22]],
+["disabled",[22]],["modified:",[22]],["minimum",[22]],["or:",[22]],
+["prevents",[22]],["highlight",[22]],["when:",[22]],["restoring",[23]],
+["scanners",[24]],["tech",[24]],["scanner",[24]],["read",[24]],
+["well",[24]],["sending",[25]],["screen",[25,28]],["shot",[25]],
+["installing",[25]],["capturing",[25]],["email",[25]],["attachment",[25]],
+["support@pragersoftware",[25,28]],["features",[26]],["optional",[26]],["controls",[26]],
+["searching",[26]],["computer",[26]],["equal",[26]],["computer*",[26]],
+["wildcards",[26]],["work",[26]],["comparison",[26]],["nothing",[26]],
+["else",[26]],["prevent",[26]],["refreshing",[26]],["installation",[27]],
+["sample",[27]],["once",[27]],["familiar",[27]],["tutorial",[27]],
+["panels",[27]],["normally",[27]],["down",[27,28]],["arrow",[27]],
+["scrolling",[27]],["through",[27]],["hard",[27]],["reduce",[27]],
+["quantity",[27]],["sale",[27]],["turns",[27]],["red",[27]],
+["reminding",[27]],["buitton",[27]],["make",[27,29]],["place",[27]],
+["been",[27]],["recurring",[27]],["look",[27]],["his",[27]],
+["her",[27]],["xfer",[27]],["print",[27]],["re",[27]],
+["ready",[27]],["ship",[27]],["tracing",[28]],["exe",[28]],
+["config",[28]],["looks",[28]],["scroll",[28]],["until",[28]],
+["notepad",[28]],["selects",[28]],["presented",[28]],["pragertrace",[28]],
+["examine",[28]],["trace",[28]],["hopefully",[28]],["able",[28]],
+["diagnose",[28]],["enough",[28]],["might",[28]],["asked",[28]],
+["download",[28]],["special",[28]],["has",[28]],["updating",[29]],
+["details",[29]],["numeric",[29]],["every",[29]],["null",[29]],
+["ids",[30]],["passwords",[30]],["order",[30]],["half",[30]],
+["security",[30]],["token",[30]],["obtained",[30]],["venues",[30]],
+["listed",[30]],["password",[30]],["exit",[30]],["always",[30]],
+["applies",[30]],["uploads",[30]],["submit",[30]],["loader",[30]],
+["hbtestupload",[30]],["edited",[30]],["items",[30]],["specific",[30]],
+["business",[30]],["user|prager",[30]]];
+
+	var g_sSearchFor="";	
+	var g_iCurrentNode=0;
+	
+	function PopulateIndex()
+	{
+		var iCount=0;
+		var objOption;
+		
+		if (saIndexData.length==0)
+		{
+			lstIndexList.disabled=true;
+			return;
+		}
+		
+		
+		for(iCount=0; iCount < saIndexData.length; iCount++)
+		{
+			objOption=document.createElement("OPTION");
+			objOption.text=saIndexData[iCount][0];
+			objOption.value=iCount;
+			lstIndexList[lstIndexList.length]=objOption;
+		}
+	}
+	
+	
+	function BrowseToURL(sURL)
+	{ 
+        GetBaseFrameDocument().location.href=sURL;
+	} 
+	
+	function GetBaseFrameDocument()
+	{ 
+        var frames = parent.frames;
+        var iframecount = frames.length;
+        for(var i=0; i < iframecount; i++) 
+                if(frames[i].name == "frmText") 
+                        return frames[i].document;
+	} 
+	
+	
+	function ShowIndexItem()
+	{	
+		if (lstIndexList.selectedIndex==-1)
+		{
+			return;
+		}
+		
+		
+		var iCount=0;
+		for(var iCount=0; iCount < saIndexData.length; iCount++)
+		{
+			if (saIndexData[iCount][0] == lstIndexList.options[lstIndexList.selectedIndex].text)
+			{
+				BrowseToURL(saIndexData[iCount][1]);	
+			}
+		}				
+	}
+	
+	function SearchForIndex()
+	{
+		var iCount=0;
+		for(var iCount=0; iCount < saIndexData.length; iCount++)
+		{
+			if (saIndexData[iCount][0].toLowerCase().indexOf(txtSearchIndex.value.toLowerCase())==0)
+			{
+				lstIndexList.selectedIndex=iCount;
+				return;
+			}
+		}		
+	}
+	
+	
+	function KeyDownHandler(event,btn) 
+	{
+		if (event.keyCode == 13) 
+		{ 
+			event.returnValue=false; 
+			event.cancel = true; 
+			document.getElementById(btn).click(); 
+		} 
+	} 
+	
+	
+	function SearchForWord()
+	{
+		var iCount=0;
+		var iWordCount=0;
+		var iTopicsSearch=0;
+		var objOption;
+		var asWords;
+		var sWord;
+		var bMulti;
+		var sWordsToAdd="*";
+		var sNewWordsToAdd="*";
+		
+		// clear list
+		removeOptions(lstIndexList);
+		
+		// get words
+		if (txtSearchIndex.value.toLowerCase().indexOf(' ') > 1)
+		{
+			asWords = txtSearchIndex.value.toLowerCase().split(' ');
+		}
+		else
+		{
+			asWords=[txtSearchIndex.value.toLowerCase()];
+		}
+		
+		for(var iWordCount=0; iWordCount < asWords.length; iWordCount++)
+		{
+			sWord = asWords[iWordCount];
+				
+			for(var iCount=0; iCount < saWordData.length; iCount++)
+			{
+				if (saWordData[iCount][0] == sWord)
+				{
+					// add topics for this word
+					for(var iTopicsSearch=0; iTopicsSearch < saWordData[iCount][1].length; iTopicsSearch++)
+					{
+						if(iWordCount>0)
+						{	// this is the second or more word
+							if (sWordsToAdd.indexOf("*" + saWordData[iCount][1][iTopicsSearch] + "*") != -1)
+							{
+								sNewWordsToAdd = sNewWordsToAdd + saWordData[iCount][1][iTopicsSearch] + "*";							
+							}
+						}
+						else
+						{
+							// add this topic filename
+							sNewWordsToAdd = sNewWordsToAdd + saWordData[iCount][1][iTopicsSearch] + "*";
+						}
+						
+					}
+				}
+			}
+			
+			sWordsToAdd = sNewWordsToAdd;
+			sNewWordsToAdd = "*";
+		}
+		
+		if(sWordsToAdd=="*")
+		{
+			alert("No matching words found");
+			lstIndexList.disabled=true;
+		}
+		else
+		{				
+			lstIndexList.disabled=false;
+			asWords = sWordsToAdd.split("*");
+			for(var iCount=0; iCount < asWords.length; iCount++)
+			{
+				if (asWords[iCount] !="")
+				{
+					// add this topic
+					objOption=document.createElement("OPTION");
+					objOption.text=saIndexData[asWords[iCount]][0];
+					objOption.value=saIndexData[asWords[iCount]][1];
+					lstIndexList[lstIndexList.length]=objOption;	
+				}
+			}
+		}
+	}
+	
+	
+	function DoWordSearch(sSearchFor)
+	{
+		
+		var sPageState=GetBaseFrameDocument().readyState;
+
+		g_sSearchFor = sSearchFor;
+		
+		if (sPageState != "undefined" && sPageState != null)
+		{
+			if (sPageState == 'complete')
+			{
+				// page loaded, do search
+				findInPage();
+			}
+			else
+			{
+				// not loaded page yet, so wait
+				var t=setTimeout('DoWordSearch(g_sSearchFor)',100);
+			}
+		}
+	
+	}
+              
+    function findInPage() 
+    { 
+		var bFound=false;
+		var objDOMRange
+		var iCount;
+		var asWords;
+		var iWords;
+		
+		// get words
+		if (g_sSearchFor.indexOf(' ') > 1)
+		{
+			asWords = g_sSearchFor.split(' ');
+		}
+		else
+		{
+			asWords=[g_sSearchFor];
+		}
+		
+		for(var iWords=0; iWords < asWords.length; iWords++)
+		{	
+			objDOMRange = GetBaseFrameDocument().body.createTextRange(); 	
+			bFound=false;
+			
+			for (iCount = 0; iCount <= 125; iCount++)			// max of 125 occurances
+			{ 
+				objDOMRange.moveStart("word",1);				// move to start of next word
+				bFound = objDOMRange.findText(asWords[iWords]);	// search for our text
+				if (bFound == true)
+				{
+					objDOMRange.pasteHTML( "<font style='background:#eeccaa'>" + objDOMRange.text + "</font>"); 
+				}
+				else
+				{
+					// no more occurances
+					break;
+				}
+			} 		
+		}
+	}
+	
+	function removeOptions(oSelect) 
+	{ 
+		var o = oSelect.options; 
+		if (o && o.length) 
+		{ 
+			// shortcut if "length" property is not read-only 
+			o.length = 0; 
+		
+			while (o.length > 0) 
+			{ 
+				if (o.remove) 
+				{ 
+					o.remove(o.length - 1); 
+				} 
+				else 
+				{ 
+					o[o.length - 1] = null; 
+				} 
+			} 
+			
+			return true; 
+		} 
+	} 
+
+    function ClickedTopic(v_sFilename, v_iNodeNumber)
+    {
+        BrowseToURL(v_sFilename);
+		//SelectNode(v_iNodeNumber);
+    }
+	
+	    
+    function ClickedHeading(v_iHeadingNumber)
+    {
+		var objItem = document.getElementById("imgh" + v_iHeadingNumber);
+    
+        //if(objItem.tagName.toLowerCase()=="img")
+      //  {
+            if(objItem.src.toLowerCase().indexOf("open")>0)
+            {
+                objItem.src = "whsupport/closedfolder.gif";
+				if (document.getElementById(objItem.getAttribute('divid')) !=null)
+					document.getElementById(objItem.getAttribute('divid')).style.display="none";
+				
+				if (document.getElementById("imghtl" + v_iHeadingNumber).getAttribute('lilev')=="e")
+				{
+					document.getElementById("imghtl" + v_iHeadingNumber).src="whsupport/etlhclosedm.gif";
+				}
+				else
+				{
+					document.getElementById("imghtl" + v_iHeadingNumber).src="whsupport/tlhclosedm.gif";
+				}
+            }
+            else
+            {
+                objItem.src = "whsupport/openfolder.gif";
+				if (document.getElementById(objItem.getAttribute('divid')) != null)
+					document.getElementById(objItem.getAttribute('divid')).style.display="block";
+				
+				if (document.getElementById("imghtl" + v_iHeadingNumber).getAttribute('lilev')=="e")
+				{
+					document.getElementById("imghtl" + v_iHeadingNumber).src="whsupport/etlhopenm.gif";
+				}
+				else
+				{
+					document.getElementById("imghtl" + v_iHeadingNumber).src="whsupport/tlhopenm.gif";
+				}
+            }
+        //}
+    }
+	
+	function SelectNode(v_iNodeNumber)
+    {
+		var iCount=0;
+		var iMax=10000;
+		
+		for(iCount=1; iCount < iMax; iCount++)
+		{
+			try
+			{
+				var objItem = document.getElementById("topicnode" + iCount);
+			}
+			catch (ex)
+			{
+				objItem=null;
+				
+			}
+			
+			if (objItem==null)
+			{
+				return;
+			}
+			
+            if(iCount==v_iNodeNumber)
+            {
+                objItem.style.fontWeight="bold";
+				g_iCurrentNode=iCount;
+				OpenParent(objItem.getAttribute('pf'));
+            }
+            else
+            {
+                objItem.style.fontWeight="normal";
+            }
+        }
+    }
+	
+	function SelectNodeByFilename(v_sFileName)
+    {
+		var iCount=0;
+		var iMax=10000;
+		
+		v_sFileName=decodeURI(v_sFileName);
+		
+		for(iCount=1; iCount < iMax; iCount++)
+		{
+			try
+			{
+				var objItem = document.getElementById("topicnode" + iCount);
+			}
+			catch (ex)
+			{
+				objItem=null;
+				
+			}
+			
+			if (objItem==null)
+			{
+				return;
+			}
+			
+            if(objItem.getAttribute('sfilename')==v_sFileName)
+            {
+                objItem.style.fontWeight="bold";
+				g_iCurrentNode=iCount;
+				if (objItem.getAttribute('rootlevel') !='yes')
+				{
+					OpenParent(objItem.getAttribute('pf'));
+				}
+            }
+            else
+            {
+                objItem.style.fontWeight="normal";
+            }
+        }
+    }
+	
+	function MoveNextTopic()
+	{
+		var iNewNode = g_iCurrentNode+1;
+		
+		try
+		{
+			var objItem = document.getElementById("topicnode" + iNewNode);
+		}
+		catch (ex)
+		{
+			objItem=null;
+			
+		}
+			
+		if (objItem==null)
+		{
+			return;
+		}
+		
+		if(objItem.getAttribute('sfilename')=="")
+		{
+			g_iCurrentNode=g_iCurrentNode+1;
+			MoveNextTopic();
+		}
+		else
+		{
+			ClickedTopic(objItem.getAttribute('sfilename'),iNewNode);
+		}
+	}
+	
+	function MovePrevTopic()
+	{
+		var iNewNode = g_iCurrentNode-1;
+		
+		try
+		{
+			var objItem = document.getElementById("topicnode" + iNewNode);
+		}
+		catch (ex)
+		{
+			objItem=null;
+			
+		}
+			
+		if (objItem==null)
+		{
+			return;
+		}
+		
+		if(objItem.getAttribute('sfilename')=="")
+		{
+			g_iCurrentNode=g_iCurrentNode-1;
+			MovePrevTopic();
+		}
+		else
+		{
+			ClickedTopic(objItem.getAttribute('sfilename'),iNewNode);
+		}
+	}
+	
+	function OpenParent(v_iParentHeadingNumber)
+	{
+		
+		var objItem = document.getElementById("imgh" + v_iParentHeadingNumber);
+		
+		if(objItem==null)
+			return;
+				
+		if(objItem.src.toLowerCase().indexOf("open")==-1)
+		{
+			objItem.src = "whsupport/openfolder.gif";
+			if (document.getElementById(objItem.getAttribute('divid')) != null)
+				document.getElementById(objItem.getAttribute('divid')).style.display="block";
+			
+			if (document.getElementById("imghtl" + v_iParentHeadingNumber).getAttribute('lilev')=="e")
+			{
+				document.getElementById("imghtl" + v_iParentHeadingNumber).src="whsupport/etlhopenm.gif";
+			}
+			else
+			{
+				document.getElementById("imghtl" + v_iParentHeadingNumber).src="whsupport/tlhopenm.gif";
+			}
+		}
+		
+		if (objItem.getAttribute('rootlevel') =='yes')
+		{
+			return;
+		}
+		
+		if (objItem.getAttribute('pf') !=null)
+		{
+			OpenParent(objItem.getAttribute('pf'));
+		}
+	
+	}
+</script>
+
+</body>
+</HTML>
+
+

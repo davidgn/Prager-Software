@@ -1,0 +1,8 @@
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\obj\Release\ListingSyncronizer.exe
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\bin\Release\ListingSyncronizer.exe
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\obj\Release\ResolveAssemblyReference.cache
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\obj\Release\ListingSyncronizer.DonateScreen.resources
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\obj\Release\ListingSyncronizer.Form1.resources
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\obj\Release\ListingSyncronizer.License.resources
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\obj\Release\ListingSyncronizer.Properties.Resources.resources
+D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer\obj\Release\ListingSyncronizer.csproj.GenerateResource.Cache

@@ -1,0 +1,106 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Backup</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Backing up the database</H1>
+<P>&nbsp;</P>
+<H2>Backing up the database</H2>
+<P>There are 2 ways to backup the database:</P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P>1.&nbsp; by clicking on <STRONG>Backup database when exiting</STRONG> as shown in the following figure...</P>
+<P><IMG align=bottom src="images/image51.png"></P>
+<P>or 2.&nbsp; by clicking on Database-&gt;Backup as shown in the figure below.</P>
+<P><IMG align=bottom src="images/image52.png"><IMG align=bottom src="images/help figure 1b.png" width=0></P></BLOCKQUOTE>
+<P>They both accomplish the same thing, but at a different time in the processing.&nbsp; Clicking on Database-&gt;Backup is immediate; clicking on Options-&gt;Backup database when exiting occurs when you exit the program.&nbsp; At any time you need to rebuild the database, just restore the latest backup file.</P>
+<P>All&nbsp;backup files are kept in the directory C:\Prager\Backup.&nbsp;&nbsp; They have a name made up of the database name (in this case dbBooks) fllowed by the date (mmddyyyy) and time (hhmmss) and an extension of <STRONG>.bak</STRONG>.&nbsp; Days retention refers to the amount of days the file is retained before being deleted.&nbsp; Fourteen (14) days is the default (see <A href="configuration file.htm">configuration file</A> for how to change this).&nbsp; NOTE:&nbsp; sometimes there is a problem while running under Windows XP where it gives you an error message saying "Cannot backup... Access Denied", which occurs when you have your backup path set to <STRONG>c:\program files\prager</STRONG>.&nbsp; This is a bug of Microsoft's and the workaround is to select a different Backup Path such as the default (C:\Prager\Backup).</P>
+<P>&nbsp;</P>
+<H1>Doing a backup from the Command Prompt</H1>
+<P>There are rare times that you need to do a backup of the database from a Command Prompt. This is how you do it.</P>
+<DIR>
+<DIR>
+<P>Step 1 - go to the Start Menu and click on Start -&gt; Accessories -&gt; Command Prompt </P></DIR><FONT size=3 face=Calibri><FONT size=3 face=Calibri><SPAN lang="">
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P><IMG align=middle src="images/help - backup1.png"><IMG align=middle src="images/help - backup1.png" width=0></P></BLOCKQUOTE>
+<DIR></FONT></FONT></SPAN><SPAN lang=EN>
+<P>Step 2 - you will see the Command Prompt window open</P></DIR></SPAN><FONT size=3 face=Calibri><FONT size=3 face=Calibri><SPAN lang="">
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P><IMG align=middle src="images/help - backup2.png"></P></BLOCKQUOTE>
+<DIR></FONT></FONT></SPAN><SPAN lang=EN>
+<P>Step 3 - It is positioned at your default directory. We need to change this, so do the following: </P>
+<DIR>
+<DIR>
+<P>where the <B>c:\Users\Rolf&gt; </B>is, type the following: </P><FONT color=#0000ff>
+<P>cd \</FONT> </P><FONT color=#0000ff>
+<P>cd \"Program Files"</FONT> or <FONT color=#0000ff>cd \"Program Files (x86)"</FONT> if you are on a 64-bit machine<FONT color=#ff0000> (don't forget the double-quotes ( " ))</FONT> </P>
+<P>then type the following: <FONT color=#0000ff>cd \Firebird\bin</FONT> </P>
+<P>and it should look like this (notice that what you should have typed in is highlighted in yellow):</P></DIR></DIR></DIR></SPAN><FONT size=3 face=Calibri><FONT size=3 face=Calibri><SPAN lang="">
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P><IMG align=middle src="images/help - backup3.png"></P></BLOCKQUOTE>
+<DIR></FONT></FONT></SPAN><SPAN lang=EN>
+<P>Step 4 - we are going to type in the following statement and press Enter on your keyboard:</P><FONT color=#0000ff>
+<P>gbak.exe -backup -user sysdba -pass masterkey C:\Prager\dbBooks.fdb </FONT><FONT color=#ff0000>c:\Prager\Backup\B20120212125718.gbk<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^ </P></FONT>
+<P>where what's in red is the filename of the backup that consists of a "B" for books, the date in the format yyyymmdd followed by the time as HHMMSS and ends with ".gbk" and the<FONT color=#ff0000> ^</FONT> indicate where spaces are in the command.</P></DIR></DIR>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P>Step 5 - after you press Enter, this is what you will see (if there were any errors, you should take a screen shot of the Command Prompt window and send it to support |at| pragersoftware |dot| com):</P>
+<P><IMG align=middle src="images/help - backup4.png"></P></BLOCKQUOTE></BLOCKQUOTE></SPAN><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('backup.htm'); 
+HMSelectTopic('backup.htm');</script></body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Prager Pricing Program">
+</Property><Property Name="Solution File" Value="D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Prager Pricing Program.sln">
+</Property><Property Name="User Options File" Value="D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Prager Pricing Program.suo">
+</Property><Property Name="Date" Value="Tuesday, January 01, 2008">
+</Property><Property Name="Time" Value="7:22 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Prager Pricing Program.sln" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Prager Pricing Program.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Prager Pricing Program.suo" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Prager Pricing Program.suo">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Prager Pricing Program.csproj" Description="Project file successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Prager Pricing Program.csproj">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Prager Pricing Program.csproj.user" Description="Project user file successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Prager Pricing Program.csproj.user">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="AboutScreen.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\AboutScreen.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="AboutScreen.Designer.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\AboutScreen.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="AddAllDotCom.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\AddAllDotCom.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="CampusiDotCom.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\CampusiDotCom.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="FindBookPricesDotCom.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\FindBookPricesDotCom.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Form1.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Form1.Designer.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Program.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Properties\Resources.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Properties\Resources.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Properties\Settings.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Properties\Settings.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="License.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\License.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="License.Designer.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\License.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Utilities.cs" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Utilities.cs">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="app.config" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Properties\Settings.settings" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\back.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\back.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\banner.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\banner.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\Broom.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\Broom.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\Door1.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\Door1.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\forward.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\forward.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\home.png" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\home.png">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\new10.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\new10.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\printer.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\printer.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\Search.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\Search.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Resources\stopsign.gif" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Resources\stopsign.gif">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="AboutScreen.resx" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\AboutScreen.resx">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Form1.resx" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="License.resx" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\License.resx">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Properties\Resources.resx" Description="File successfully backed up as D:\C# Applications\Prager Pricing Program\Prager Pricing Program\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Prager Pricing Program.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Prager Pricing Program" Source="Prager Pricing Program.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Prager Pricing Program.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Prager Pricing Program.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Prager Pricing Program" Source="Prager Pricing Program.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

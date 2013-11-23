@@ -1,0 +1,70 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Configuration File</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>The Configuration file</H1>
+<P>We use a configuration file to give the program information it needs when starting up that cannot be obtained by other means.&nbsp; It is named <STRONG>Inventory.cfg </STRONG>and is found in the same directory as where you installed the program.&nbsp; You can use a normal text editor (Notepad works nicely) to modifyt it if necessary.&nbsp; The contents look like this:</P>
+<P><FONT color=#0000ff>&lt;Configuration&gt;<BR>&lt;!-- don't change the following&nbsp;three lines unless instructed to do so&nbsp; --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ServerInstance&gt;(local)&lt;/ServerInstance&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ServerInstallationPath&gt;C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\&lt;/ServerInstallationPath&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;DatabasePath&gt;C:\Prager\&lt;/DatabasePath&gt;<BR></FONT><FONT color=#0000ff><BR>&lt;!--&nbsp; the following three lines may be changed if needed&nbsp; --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;BackupPath&gt;c:\Prager\Backup\&lt;/BackupPath&gt;&nbsp; &lt;!--&nbsp; in which directory do you want your backup files placed? --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ExportPath&gt;c:\Prager\Export\&lt;/ExportPath&gt;&nbsp; &lt;!--&nbsp; in which directory do you want your export files placed? --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;DaysRetention&gt;30&lt;/DaysRetention&gt;&nbsp; &lt;!--&nbsp; how many days do you want to keep backup and export files?&nbsp; --&gt;<BR>&lt;/Configuration&gt;</FONT></P>
+<P><STRONG>ServerInstance</STRONG> and <STRONG>ServerInstallationPath</STRONG> are for compatability with previous versions.&nbsp; The <STRONG>DatabasePath</STRONG> is the location of the Firebird database, normally&nbsp;in <STRONG>c:\Prager</STRONG>.</P>
+<P>The other lines are self-explanatory.&nbsp; Note that&nbsp;14 days retention assumes you backup your database daily.&nbsp; You can extend this if necessary; it is only used to "prune" the directory so as to avoid having thousands of unused files taking up space.</P>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('configuration file.htm'); 
+HMSelectTopic('configuration file.htm');</script></body>
+</html>

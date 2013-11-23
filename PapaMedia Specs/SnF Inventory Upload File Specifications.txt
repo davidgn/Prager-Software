@@ -1,0 +1,18 @@
+Inventory Upload File:
+
+File rules: Save the file as a text tab-delimited file in Excel or any other spreadsheet program. If you wish to add/update your inventory, you may keep any filename, such as "inventory.txt". If you wish to delete (purge) your entire 
+online inventory and replace it with the inventory from your file, you must use the word 
+"purge" in your filename, such as "inventory_purge.txt".
+Field rules (column headers are required, all column names are required, must be entered exactly as shown below, and the order must be unchanged):
+
+Code			.... (Required field) Enter the ISBN-10 or ASIN code of the item (must be exactly 10 characters).
+Alternate Code		.... (Optional field) Enter the ISBN-13, UPC, or EAN code of the item (must be exactly 13 characters).
+Title			.... (Optional field) Enter the title of the item.
+Author			.... (Optional field) Enter the author or artist of the item.
+Format			.... (Optional field) Enter the format of the item.
+Condition		.... (Required field) Enter the condition of the item: "New" or "Used" ("Like New" items may be entered as "New").
+Price ($)		.... (Required field) Enter the amount in US Dollars you would like to receive if the item sells. In addition to this amount, you will receive a fixed shipping credit depending on the order's destination (refer to the postage table).
+Status			.... (Required field) Enter the status of the item: "A" for active or "D" for deactive.
+Quantity		.... (Required field) Enter the quantity of the item you have in stock.
+Weight (gms)		.... (Optional field) Enter the weight of the item in grams.
+Comments		.... (Optional field) Enter any private notes or comments about the item.

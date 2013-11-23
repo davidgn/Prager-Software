@@ -1,0 +1,96 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Menu Bar</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Menu Bar</H1>
+<H2>Database Menu Item</H2>
+<P><A name="database menu item"></A></P>
+<P><IMG align=bottom src="images/image7.png"></P>
+<P>The Database Menu Item consists of two selections.&nbsp; They are as follows:</P>
+<UL>
+<LI>Backup - causes the entire database to be saved 
+<LI>Restore - causes the entire database to be restored from a previous backup </LI></UL>
+<H2>&nbsp;</H2>
+<H2>
+<H2>Tools&nbsp;Menu Item</H2>
+<P><IMG align=bottom src="images/image8.png"></P>
+<P>The&nbsp;Tools Menu Item consists of:</P></H2>
+<UL>
+<LI>A tool to remove Embedded ISBNs in the Description portion of a record 
+<LI>A tool to convert all of your 10-digit ISBNs to 13-digit ISBNs 
+<LI>Help for setting up an account at Google 
+<LI>Migrate from SQL Server is for users of a release prior to 8.0 (it will become enabled if needed)</LI></UL>
+<H2><A name="options menu item"></A>&nbsp;</H2>
+<H2>Help Menu Item</H2>
+<P><IMG align=bottom src="images/image9.png"></P>
+<P>&nbsp;</P>
+<P>The Help Menu Item is composed of:</P>
+<UL>
+<LI>Help - will bring up the internal Help file for this program.&nbsp; You may use the F1 key to accomplish the same thing. 
+<LI>Tutorials - web-based tutorials on most of the major functions you might need help with
+<LI>Registration/Unlock&nbsp;- will take you to our web site where you can purchase a license for this program. 
+<LI>Check for Updates - by clicking on this item, the program will go to the web site and check for the existence of a newer version of this program other than the one currently running.&nbsp; It will <STRONG>not </STRONG>download the newer version, but alert you to the fact that a newer version exists.&nbsp; <STRONG>Please note that no data&nbsp;is transmitted from your machine to the website</STRONG>; the website is only interrogated for the latest version of the&nbsp;Inventory Program&nbsp;and that information is returned to the Inventory Program running on your machine. 
+<LI>Prager Website - will take you to the home page on our website. 
+<LI>Report a Problem - a link to the web site to enable you to fill in a Problem Report 
+<LI>About - displays the current version number and other pertinent information </LI></UL>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('menu bar.htm'); 
+HMSelectTopic('menu bar.htm');</script></body>
+</html>

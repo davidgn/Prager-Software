@@ -1,0 +1,76 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Backup</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Backing up the database</H1>
+<P>&nbsp;</P>
+<H2>Backing up the database</H2>
+<P>There are 2 ways to backup the database:</P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P>1.&nbsp; by clicking on <STRONG>Backup database when exiting</STRONG> as shown in the following figure...</P></BLOCKQUOTE>
+<P><IMG align=bottom src="images/image51.png"></P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P>or 2.&nbsp; by clicking on Database-&gt;Backup as shown in the figure below.</P></BLOCKQUOTE>
+<P><IMG align=bottom src="images/image52.png"><IMG align=bottom src="images/help figure 1b.png" width=0></P>
+<P>They both accomplish the same thing, but at a different time in the processing.&nbsp; Clicking on Database-&gt;Backup is immediate; clicking on Options-&gt;Backup database when exiting occurs when you exit the program.&nbsp; At any time you need to rebuild the database, just restore the latest backup file.</P>
+<P>All&nbsp;backup files are kept in the directory C:\Prager\Backup.&nbsp;&nbsp; They have a name made up of the database name (in this case dbBooks) fllowed by the date (mmddyyyy) and time (hhmmss) and an extension of <STRONG>.bak</STRONG>.&nbsp; Days retention refers to the amount of days the file is retained before being deleted.&nbsp; Fourteen (14) days is the default (see <A href="configuration file.htm">configuration file</A> for how to change this).&nbsp; NOTE:&nbsp; sometimes there is a problem while running under Windows XP where it gives you an error message saying "Cannot backup... Access Denied", which occurs when you have your backup path set to <STRONG>c:\program files\prager</STRONG>.&nbsp; This is a bug of Microsoft's and the workaround is to select a different Backup Path such as the default (C:\Prager\Backup).</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('backup.htm'); 
+HMSelectTopic('backup.htm');</script></body>
+</html>

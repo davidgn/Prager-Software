@@ -1,0 +1,110 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Amazon Setup</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>What you need to do to enable Amazon uploads</H1>
+<H2><U>Amazon export changes:</U></H2>
+<P>Amazon has recently (October 2011) changed the way programs access their databases.&nbsp; We have complied, but there are some caveats for the user:</P>
+<UL>
+<LI>If one of your records does NOT have an ISBN or ASIN, then you MUST have the following fields completed otherwixse&nbsp;the book&nbsp;will be rejected: 
+<UL>
+<LI>Author 
+<LI>Title 
+<LI>Publisher 
+<LI>Publish date 
+<LI>Binding</LI></UL></LI></UL>
+<P>The easiest way to fix this is to do a search on books with nothing in the ISBN field.&nbsp; Check each record and complete the missing fields.&nbsp; You should have no problems after that with Amazon rejecting your exported records.&nbsp; Note that the entire uploaded file is not rejected, just the records with the missing fields.</P>
+<H2><U><IMG align=middle src="images/image77.png"></U></H2>
+<H2><U>How to get the new keys:</U></H2>
+<P>You should already have the AWS Amazon Access Key and the Secret Keys... Now for the MWS keys and Associate Tag...when you register for MWS, you are going to get a Merchant ID and a Marketplace ID.&nbsp; Copy and put them in the respective boxes.&nbsp; If you are asked for our "developer id" click on the "Copy to clipboard" button and paste it in the box on the Amazon webpage.&nbsp; Do the same for the Assocciate Tag.&nbsp; </P>
+<P><FONT color=#bc2947>NOTE:&nbsp; it appears that Amazon is not checking the Associate Tag at this time; however, that could change at any time.&nbsp;&nbsp; With that in mind, you DO NOT have to have a website at this time.&nbsp; To create your own Associate Tag, use the first eight (8) characters of your business and append it with a dash followed by the day of the month (i.e. our's is "pragsoft-20").&nbsp; If you have any questions, contact us via our Support page on our website.</FONT></P>
+<P>Now, go back to the Listing Venues page and click on the Amazon site (.com for US or co.uk for the UK) that you wish to upload to.&nbsp; (other sites are coming soon!)</P>
+<P>If you have any problems, please, please notify us immediately via the Support page (don't send us an email, it might get sent to the Junk folder).</P>
+<H2><U>Setup for Amazon MWS (US only)</U></H2>
+<P>From the Amazon.com website:</P>
+<BLOCKQUOTE>
+<P><EM><FONT color=#0000ff>Only the owner of the Amazon seller account can authorize an application to access their seller account. You as the application developer must first sign up to use MWS for your own Amazon seller account and keep a record of the MWS developer account identifier that is displayed on the final registration page. Then, give that number to the Amazon seller who wants to use your application. When the Amazon seller registers, they will use this MWS developer account identifier to grant MWS access to your application. You need to make sure you give information to your sellers about how to enter their seller account identifiers into your application. You can give the Amazon sellers the following instructions to guide them through the MWS registration process: </FONT></EM></P>
+<P><EM><FONT color=#0000ff><B>Instructions for Sellers to Authorize an Application to Access Their Amazon Seller Account</B> </FONT></EM></P>
+<OL>
+<LI><EM><FONT color=#0000ff>Go to </FONT></EM><A href="http://developer.amazonservices.com/"><EM><FONT color=#0000ff>http://developer.amazonservices.com</FONT></EM></A><EM><FONT color=#0000ff>. </FONT></EM>
+<LI><EM><FONT color=#0000ff>Click the <B>Sign up for MWS</B> button. </FONT></EM>
+<LI><EM><FONT color=#0000ff>Log into your Amazon seller account. </FONT></EM>
+<LI><EM><FONT color=#0000ff>On the MWS registration page, click the button for <B>I want to use an application to access my Amazon seller account with MWS</B>. </FONT></EM>
+<LI><EM><FONT color=#0000ff>In the <B>Application Name</B> text box, type the name of the application that you want to use. This doesn't need to be the exact name; it is merely for your reference in the future. </FONT></EM>
+<LI><EM><FONT color=#0000ff>In the <B>Application's Developer Account Number</B> text box, enter the MWS developer account identifier (ours is <STRONG>1145-8140-6600</STRONG>) . </FONT></EM>
+<LI><EM><FONT color=#0000ff>Click the <B>Next</B> button. </FONT></EM>
+<LI><EM><FONT color=#0000ff>Accept the Amazon MWS License Agreement and click the <B>Next</B>. </FONT></EM>
+<LI><EM><FONT color=#0000ff>Copy your account identifiers (Merchant ID and Marketplace ID) and paste them into the respective text boxes, as shown below. It is also a good practice to print this page and&nbsp;put it in a safe place. </FONT></EM></LI></OL></BLOCKQUOTE>
+<P>In order for you to upload to Amazon.com (or any of the international Amazon sites), you have to register for new MWS keys as indicated above.</P>
+<P><IMG align=middle src="images/image46a.png"></P>
+<P>&nbsp;</P>
+<H2><U>Special notes for Amazon.com uploads</U></H2>
+<P>When the upload for Amazon.com has completed, there is a&nbsp; "Submission ID" that is copied to the clipboard.</P>
+<P><IMG align=middle src="images/image32a.png"></P>
+<P>To find out the status of the upload, open the Amazon MWS scratchpad which can be found <A href="https://mws.amazonservices.com/scratchpad/index.html">here.</A>&nbsp; Fill in the fields which are highlighted, and do a paste in the Feed Submission ID field.&nbsp; Click submit, and you will see the results on the right-hand side.&nbsp;</P>
+<P><IMG align=middle src="images/image32b.png"></P>
+<P><FONT color=#ff0000><STRONG>NOTE:&nbsp; Seller Id is your MWS Merchant Id...&nbsp; AWSAccessKeyId is your AWS Access Key... Secret Key is your AWS Secret Key.</STRONG></FONT></P>
+<P>&nbsp;</P>
+<H2>Setup for Amazon.co.uk (UK only)</H2>
+<P>Until Amazon get's the bugs out of MWS for the UK, we are still using the old way of doing things, namely you need AWS keys, not MWS keys.&nbsp; Contact us if you have further questions.</P>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('amazon.htm'); 
+HMSelectTopic('amazon.htm');</script></body>
+</html>

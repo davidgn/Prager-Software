@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ListingSyncronizer">
+</Property><Property Name="Solution File" Value="D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer.sln">
+</Property><Property Name="User Options File" Value="D:\C# Applications\Prager ListingSyncronizer\ListingSyncronizer.suo">
+</Property><Property Name="Date" Value="Friday, January 18, 2008">
+</Property><Property Name="Time" Value="16:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ListingSyncronizer.sln" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ListingSyncronizer.suo" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer.suo">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\ListingSyncronizer.csproj" Description="Project file successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\ListingSyncronizer.csproj">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\ListingSyncronizer.csproj.user" Description="Project user file successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\ListingSyncronizer.csproj.user">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Compare.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Compare.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\DonateScreen.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\DonateScreen.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\DonateScreen.Designer.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\DonateScreen.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\fileConversions.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\fileConversions.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Form1.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Form1.Designer.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\License.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\License.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\License.Designer.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\License.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Program.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Program.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Properties\Resources.Designer.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Properties\Settings.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Properties\Settings.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Reports.cs" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Reports.cs">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Properties\Settings.settings" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Resources\Door1.gif" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Resources\Door1.gif">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Resources\Prager Invoice Logo.bmp" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Resources\Prager Invoice Logo.bmp">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Resources\welcome banner.png" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Resources\welcome banner.png">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\DonateScreen.resx" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\DonateScreen.resx">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Form1.resx" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\License.resx" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\License.resx">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\Properties\Resources.resx" Description="File successfully backed up as D:\C# Applications\Prager ListingSyncronizer\Backup\ListingSyncronizer\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\ListingSyncronizer.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ListingSyncronizer" Source="ListingSyncronizer\ListingSyncronizer.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ListingSyncronizer.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ListingSyncronizer.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ListingSyncronizer" Source="ListingSyncronizer\ListingSyncronizer.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

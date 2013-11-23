@@ -1,0 +1,92 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Google</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Uploading to Google Base</H1>
+<P>There are several things that must be accomplished before you can upload your inventory to Google Base.&nbsp; You must register, set your options in the Inventory Program and then you are able to automatically upload with 1-click to Google Base.</P>
+<H2><U>1.&nbsp; Google Setup</U></H2>
+<UL>
+<LI>If you don't already have a Google account, go <A href="http://https://www.google.com/accounts/newaccount?hl=en&nui=1&continue=https%3a%2f%2fwww.google.com%2fbase%2fpostlogin&followup=https%3a%2f%2fwww.google.com%2fbase%2fpostlogin&service=gbase" target=_blank>here</A> to create one. 
+<LI>Next, open the Inventory program and go to Main Menu -&gt; Tools -&gt; Google Setup 
+<LI>Fill in the following information: 
+<UL>
+<LI>Google User ID - enter the Google ID you received from step 1 above. 
+<LI>Registered File Name:&nbsp; pick any name for a filename; this name will be used during the upload process.&nbsp; Google Base requires this non-changing filename to enable files to be uploaded. 
+<LI>Bookstore Name - enter the name of your bookstore.&nbsp;&nbsp; This name will be carried in the file transmitted to Google. 
+<LI>You <EM>must</EM> have a URL that points to your shopping cart web page, <EM>unless</EM> you are using Google Checkout. 
+<LI>Payment types accepted - click all those that apply.&nbsp; See this Google <A href="http://base.google.com/support/bin/topic.py?topic=8288" target=_blank>Help page</A> for further information. 
+<LI>Sales Tax Info - enter appropriate tax info 
+<LI>Shipping Information - enter your shipping charges for each of the appropriate shipping types.&nbsp; You do not have to fill in any that you don't use. 
+<LI>Save the information and close the window.</LI></UL></LI></UL>
+<P><IMG src="images/google-1.png" align=bottom></P>
+<H2>2. &nbsp;Registering with Google</H2>
+<P>Registering with Google Base is a five (5) step process.&nbsp; They must be done in order, and where indicated by Google, you must wait for a response before continuing to the next step.&nbsp; So go to&nbsp;the Google Base - Bulk Upload&nbsp;Instructions <A href="http://base.google.com/base/overview.html">page</A>&nbsp;and follow the directions.&nbsp; The following notes may help:</P>
+<OL>
+<LI>Item type should be set to "Products" and the Data Feed name should be the same as what you have in Registered File Name above.&nbsp; Make sure you don't delete this data feed on the Google site, otherwise you will have to register it all over again, which is not a big deal, but would have to be done. 
+<LI><STRONG>Don't forget to set up a FTP Account (without this, we can't upload to Google Base) by going to the Settings page, and click on the FTP acccount tab.</STRONG> 
+<LI>Next, you have to manually upload <STRONG>one</STRONG> (and only one book!) book to Google Base, which will register your "data feed" (the file we send to Google Base). 
+<LI>For "creating the Bulk Upload", take one or two of your books and "update" them so they will show up in the "files waiting to be exported" count.&nbsp; Make sure that you have the User ID and Password set correctly on the User IDs and Password page in the Inventory program.&nbsp; Then do an upload to Google Base.&nbsp; Make sure you have checked Google Base on the upload page. 
+<LI>Once this is done, you will receive an email from Google Base stating that your file has been accepted.&nbsp; <STRONG>If Google does not accept your file, and you can't figure out what you did wrong, please notify us, and we will try to help you through this.&nbsp; It's a confusing process until you have done it once, and the Google staff is wonderful in helping you fix any of your&nbsp;problems.</STRONG></LI></OL>
+<P><STRONG></STRONG>&nbsp;</P>
+<H2><U>3.&nbsp; Normal uploading to Google</U></H2>
+<P>Once you have registered, and Google has accepted your file, you need to place your User ID and Password in the program, by going to the User ID's and Passwords page and entering them.&nbsp; <STRONG>This is the User ID and Password you created on the FTP Account page.&nbsp; Don't forget to save them!</STRONG></P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('google.htm'); 
+HMSelectTopic('google.htm');</script></body>
+</html>

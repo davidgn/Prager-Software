@@ -1,0 +1,97 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Restore</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Restoring the database</H1>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P><IMG align=bottom src="images/image53.png"></P></BLOCKQUOTE>
+<P>There is only one way to restore a corrupted database, and that is to&nbsp;click Database-&gt;Restore.&nbsp; You are given a choice of which backup file to use; just choose the one you want as seen in the figure below.</P>
+<BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr>
+<P><IMG align=bottom src="images/image54.png"></P></BLOCKQUOTE>
+<P>and click Open in the Open Dialog box. Everything else is done for you automatically.</P>
+<P>&nbsp;</P>
+<H1>Doing a "restore" from the Command Prompt</H1><FONT size=6><B>
+<UL></B></FONT>
+<P>The first three (3) steps are the same as the backup; for a restore of the badkup file to the database, but I included them here anyway.</P>
+<LI>Step 1 - go to the Start Menu and click on Start -&gt; Accessories -&gt; Command Prompt </LI><FONT size=3 face=Calibri><FONT size=3 face=Calibri><SPAN lang="">
+<P><IMG align=middle src="images/help - backup1.png"></P>
+<LI></FONT></FONT></SPAN><SPAN lang=EN>Step 2 - you will see the Command Prompt window open</LI></SPAN><FONT size=3 face=Calibri><FONT size=3 face=Calibri><SPAN lang="">
+<P><IMG align=middle src="images/help - backup2.png"></P>
+<UL></FONT></FONT></SPAN><SPAN lang=EN></UL>
+<LI>Step 3 - It is positioned at your default directory. We need to change this, so do the following: </LI>
+<UL>
+<UL>
+<LI>where the <B>c:\Users\Rolf&gt; </B>is, type the following: </LI><FONT color=#0000ff>
+<LI>cd \</FONT> </LI><FONT color=#0000ff>
+<LI>cd \"Program Files"</FONT> or <FONT color=#0000ff>cd \"Program Files (x86)"</FONT> if you are on a 64-bit machine<FONT color=#ff0000> (don't forget the double-quotes ( " ))</FONT> </LI>
+<LI>then type the following: <FONT color=#0000ff>cd \Firebird\bin</FONT> </LI>
+<LI>and it should look like this (notice that what you should have typed in is highlighted in yellow):</LI></UL></UL></SPAN><FONT size=3 face=Calibri><FONT size=3 face=Calibri><SPAN lang="">
+<P><IMG align=middle src="images/help - backup3.png"></P></FONT></FONT></SPAN><SPAN lang=EN>
+<P> </P>
+<LI>Step 4 - we are going to type in the following statement and press Enter on your keyboard:</LI>
+<UL>
+<UL><FONT color=#0000ff>
+<P>gbak.exe -REP -user sysdba -pass masterkey </FONT><FONT color=#ff0000>"C:\Prager\Backup\B20120203150911.gbk"</FONT><FONT color=#0000ff> C:\Prager\dbBooks.fdb<BR></FONT><FONT color=#ff0000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ^ </P></FONT>
+<P>where what's in red is the filename of the backup file that you created, found in C:\Prager\Backups and the <FONT color=#ff0000>^</FONT> indicate where spaces are in the command.</P>
+<P>Step 5 - after you press Enter,you should see the same thing as in Step 5 above, except for the command, it will start with -REP (if there were any errors, you should take a screen shot of the Command Prompt window and send it to support |at| pragersoftware |dot| com):</P></SPAN><FONT size=3 face=Calibri><FONT size=3 face=Calibri><SPAN lang=""></UL></UL></UL></FONT></FONT></SPAN>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('restore.htm'); 
+HMSelectTopic('restore.htm');</script></body>
+</html>

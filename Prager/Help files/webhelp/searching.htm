@@ -1,0 +1,76 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Searching</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Using the Search features</H1>
+<P><IMG src="images/help figure 5.png" align=bottom></P>
+<P>&nbsp;</P>
+<H2><U>Optional Display Criteria</U></H2>
+<P>This controls what is displayed on the <A href="panels.htm#database panel">Database Panel</A>.&nbsp; You can choose to display all of your inventory or select only those in which the Status is marked For Sale, Hold or Sold.&nbsp; It can be changed at any time and the display on the Database Panel will refresh itself.</P>
+<H2><U>Searching by ISBN, Title, Author or Book Number</U></H2>
+<P>As you enter a character in any of the fields you will notice that the Database Panel is constantly changing until you stop typing.&nbsp; This is called drill-down searching.&nbsp; Once you stop typing, you will see the results of your search in the Database Panel.&nbsp; Clicking on any book in the Database Panel will populate the <A href="panels.htm#detail panel">Detail Panel</A>.</P>
+<H2><U>Inclusive Search</U></H2>
+<P>The inclusive search (see bottom&nbsp;of figure&nbsp;above) is used to do a "power search"&nbsp; with and/or logic capabilities.&nbsp; That means that you can search for any number of fields (location, title, book number, etc) being equal, not equal, less than, greater than some value.&nbsp; You can also combine this with an "and/or" situation to exclude even more from the search.&nbsp; An example would be where "Location is less than 24 and Price is less than 12.00".&nbsp; This would find all books in locations 1-24 whose price is 0.00 to 11.99.</P>
+<P>In addition, you can use wildcards.&nbsp; By this we mean you can use an * (asterisk) to search for any occurance of a word or words.&nbsp; For instance, if you&nbsp;want to&nbsp;search for the keyword <STRONG>Computer </STRONG>in any part&nbsp;of Keywords, merely select <STRONG>Keywords, is equal to</STRONG> and type the word <STRONG>Computer*</STRONG> (the word computer with an asterisk appended) in the space provided.&nbsp; Click Search and the Database Panel will then refresh showing you all of the titles with keywords containing the word Computer.&nbsp; <STRONG>Wildcards only work with an "equal" comparison, nothing else!</STRONG></P>
+<P>The <STRONG>Prevent the Database Panel from refreshing </STRONG>allows you to freeze the Database Panel so you can make changes to any of the books currently displayed in that panel.&nbsp; This is useful when you have to change locations.&nbsp; You do an Inclusive Search on Location, freeze the panel and then you make changes to each of the books currently displayed in the panel.</P>
+<P>Now, what can you do with this?&nbsp; You can take the results which appear in the Database Panel and export them to one or more of your listing services.&nbsp; For instance, I wanted to&nbsp;have an export file with less than 1000 books.&nbsp; I used the Location field and kept changing the location until I got under 1000 books, which I then exported to Alibris with a purge/replace.&nbsp; Cool, huh?</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('searching.htm'); 
+HMSelectTopic('searching.htm');</script></body>
+</html>

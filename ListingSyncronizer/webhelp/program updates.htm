@@ -1,0 +1,83 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Program Updates</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Getting Program Updates</H1>
+<H2>&nbsp;</H2>
+<H2>Automatic notification of new releases</H2>
+<P>By default, the program will automatically check to see if it is the latest version running.&nbsp; It does this by querying the server where version information is stored.&nbsp; <STRONG>In no case is data sent to the server; only queried!</STRONG></P>
+<P>If you would rather not have the program check for updates automatically (we don't recommend this), go into the Program Options page and un-check Automatically Check for Updates.&nbsp; Now you will have to manually check for updates yourself by clicking on the Main Menu-&gt;Help-&gt;Check for Updates.&nbsp; Please note that program updates can occur at any time, so it is recommended you stay current.&nbsp; Some of the updates are critical and are so marked on the Versions page on our web site <A href="http://www.pragersoftware.com">www.pragersoftware.com</A>.</P>
+<H2>&nbsp;</H2>
+<H2>Where to find the latest release</H2>
+<P>You can always find the latest release of the program at&nbsp;our <A href="http://www.pragersoftware.com/downloads"><FONT color=#0000ff>web site</FONT></A>.&nbsp; It looks something like this...</P>
+<P><IMG align=bottom src="images/image14.png"></P>
+<P>There are two (2) different methods of downloading the latest version:</P>
+<UL>
+<LI>the complete program, including all sample files and the Help File -&nbsp;&nbsp;you would only download this once 
+<LI>the program with updates only&nbsp;&nbsp;- select this one <STRONG>only</STRONG> <STRONG>if you have&nbsp;previously downloaded the complete version </STRONG>
+<LI>BETA code is just that... code that is up for testing... give it a try if you are not "faint of heart"...</LI></UL>
+<P>Click on&nbsp;whichever&nbsp;file you want&nbsp;and save it to your hard drive.&nbsp; Before you install it, we highly recommend you do a backup of the database (see <A href="backup.htm">Backup and Restore</A>).&nbsp; Then install it and you will have the latest version of the program.&nbsp; </P>
+<H2>FAQ's</H2>
+<P>1.&nbsp; <STRONG>Q:</STRONG>&nbsp; Will I have to reinstall the supporting software also when I update the program?<BR>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>A:&nbsp; </STRONG>Absolutely not!&nbsp; The only thing you will have to install is the program updates.</P>
+<P>2.&nbsp; <STRONG>Q:</STRONG>&nbsp; Will my records in the database be destroyed?<BR>&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>A:</STRONG>&nbsp; Absolutely not!&nbsp; Only the program is updated.&nbsp; Sometimes the database is updated, but you should do a backup beforehand anyway.</P>
+<P>3.&nbsp; <STRONG>Q:</STRONG>&nbsp; I heard the program "expires" every six (6) months.&nbsp; Why?<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <STRONG>A:</STRONG>&nbsp; That is the only way we can force users to stay current.&nbsp; Sometimes it is very detrimental for you not to upgrade to the latest release.&nbsp; But, please be assured <STRONG>there is no additiional license fee... </STRONG></P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('program updates.htm'); 
+HMSelectTopic('program updates.htm');</script></body>
+</html>

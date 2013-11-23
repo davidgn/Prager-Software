@@ -1,0 +1,100 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Start here</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1></H1>
+<H2>
+<H2><U>Testing the Installation</U></H2></H2>
+<P>The sample database (<STRONG>Sample File to Import.txt</STRONG>, found in the same directory in which you installed the program) was supplied to enable you to test the installation and become familiar with the program.&nbsp; <STRONG>Once you have become familiar with the program and you want to add your own records, you need to do the following</STRONG>:</P>
+<P>1.&nbsp; Delete each sample record individually.&nbsp; This is done by selecting the record and clicking on Delete.</P>
+<P>2.&nbsp; Ask your listing service (Alibris, ABE Books, etc.) to export your listings in HomeBase, UIEE or tab-delimited format and download&nbsp;that file&nbsp;to your computer.</P>
+<P>3.&nbsp; Take this exported file that you have downloaded and Import it into&nbsp;this program.&nbsp; (see <A href="importing.htm#importing">Importing</A>)</P>
+<P>4.&nbsp; You should now be able to see your entire inventory in upper the <A href="panels.htm#database panel">Database Panel</A>.</P>
+<H2><U>Tutorial<A name="tutorial"></A></U></H2>
+<P>You should use the sample database supplied with the program to become familiar with the different things you can do.&nbsp; Add, delete and update the sample records and see what happens.&nbsp; <STRONG>DO NOT upload any files while using the sample database.&nbsp; It will do the upload and your inventory in the listing services will be affected</STRONG>.</P>
+<P>1.&nbsp; First, become familiar with the <A href="panels.htm#panel descriptions">panels</A>.&nbsp; </P>
+<P>2.&nbsp; Start the program.&nbsp;</P>
+<P>3.&nbsp; You will notice that there is nothing in the Database Panel.</P>
+<P><IMG src="images/help figure 1a.png" align=bottom></P>
+<P>This is so you can do an import using the Sample Import file;&nbsp;&nbsp;when you have completed learning about the program, an import&nbsp;of your&nbsp;inventory&nbsp;&nbsp;is the first thing you should do&nbsp; to get your own records into the database.</P>
+<P>Go to the directory where you installed the program (normally <STRONG>c:\program files\prager</STRONG>), and you will find a file called "Sample File to Import.txt" (it's in <STRONG>HomeBase format</STRONG>).&nbsp; Now <A href="importing.htm">go here</A> to learn how to import that file.</P>
+<P>4.&nbsp; Once that file has been imported, your Database Panel should look exactly like this:</P>
+<P><IMG src="images/help figure 1.png" align=bottom></P>
+<P>5.&nbsp; Now you have a database with records in it.&nbsp; You can <A href="add manually.htm">add</A>, <A href="update.htm">update</A>, <A href="delete.htm">delete</A> and&nbsp;<A href="searching.htm">search</A> to become familiar with it.&nbsp; If you want to mark a book as "Sold", click on the <STRONG>down arrow</STRONG> next to the quantity, which reduces the count of books in your inventory.&nbsp; Once the count gets to zero, the book's Status is&nbsp;marked as "Sold".&nbsp; Conversely, if you get the book back, or have multiple copies (and you want them all listed under one SKU), click the <STRONG>up arrow</STRONG> until you get a count of 1 or equal to the number of books on hand.</P>
+<P>6.&nbsp; Once you have made modifications to your records in the database, three things must be done (do not do #2 below with the sample data because it will be uploaded to the listing services):</P>
+<UL>
+<LI><A href="export.htm">create an export file</A> for uploading to the listing services 
+<LI><A href="upload.htm">upload that file</A> to the listing services 
+<LI><A href="backup.htm">backup the database</A> before you quit the program</LI></UL>
+<H2>&nbsp;</H2>
+<H2><U>How to&nbsp;sell a book&nbsp;with the Prager Inventory Program</U></H2>
+<OL>
+<LI>find the book in the Database Panel, either by using the Search tab or scrolling down through your books (that's the hard way!.. use the Search tab) 
+<LI>reduce the quantity to account for this sale (notice that the Update Book button turns red, reminding you that you have to update the database by clicking this button) 
+<LI>click on the Update buitton 
+<LI>if you need to make an Invoice, click on Shopping Cart, which will transfer the book data to the Shopping Cart (you can only place books in the shopping cart that have been Sold) 
+<LI>go to the Customer Info tab and enter your customer's information if not already there; if this is a recurring customer, look for his/her record in the list above 
+<LI>transfer the data to the invoice (click on Xfer Data to Invoice) 
+<LI><A href="creating an invoice.htm">fill in the pertinent fields on the Invoice</A> and click on Add 
+<LI>print the invoice and you're ready to ship the book</LI></OL>
+<H2><U></U>&nbsp;</H2><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('gettingstarted.htm'); 
+HMSelectTopic('gettingstarted.htm');</script></body>
+</html>

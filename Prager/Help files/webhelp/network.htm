@@ -1,0 +1,81 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Network Connections</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Networking Setup</H1>
+<P>In the same directory (folder) that you have installed the Inventory program, you will find a file named <STRONG>Inventory.cfg</STRONG>.&nbsp; Using any text editor (Notepad will work just fine), open this file.&nbsp; It will initially look something like this:</P>
+<P><FONT color=#0000ff>&lt;Configuration&gt;<BR>&lt;!-- don't change the following two lines unless instructed to do so&nbsp; --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ServerInstance&gt;(local)&lt;/ServerInstance&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ServerInstallationPath&gt;C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\&lt;/ServerInstallationPath&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ServerInstallationPath&gt;C:\Program Files\Microsoft SQL Server\MSSQL.1\MSSQL\Data\&lt;/ServerInstallationPath&gt;</FONT></P>
+<P><FONT color=#0000ff>&nbsp;&nbsp;&nbsp; <FONT color=#c60000>&lt;DatabasePath&gt;c:\Prager\&lt;/DatabasePath&gt;<BR></FONT>&nbsp;&nbsp;&nbsp; &lt;FirebirdInstallationPath&gt;c:\Program Files\Firebird\bin\&lt;/FirebirdInstallationPath&gt;<BR>&nbsp;&nbsp;&nbsp; <BR>&nbsp; &lt;!--&nbsp; the following three lines may be changed if needed&nbsp; --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;BackupPath&gt;j:\Prager\Backup\&lt;/BackupPath&gt;&nbsp; &lt;!--&nbsp; in which directory do you want your backup files placed? --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ExportPath&gt;j:\Prager\Export\&lt;/ExportPath&gt;&nbsp; &lt;!--&nbsp; in which directory do you want your export files placed? --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;DaysRetention&gt;3&lt;/DaysRetention&gt;&nbsp; &lt;!--&nbsp; how many days do you want to keep backup and export files?&nbsp; --&gt;<BR>&lt;/Configuration&gt;</FONT></P>
+<P><FONT color=#000000>The line you want to change is &lt;DatabasePath&gt;.&nbsp; Change that line to conform to the following:</FONT></P>
+<P><FONT color=#000000><IMG alt="Two computers networked" src="images/network.png" align=bottom></FONT></P>
+<P><FONT color=#000000>For Example:&nbsp; assume you have two machines:&nbsp; <STRONG>machineA</STRONG> and <STRONG>machineB</STRONG>.&nbsp; The database (dbBooks.fdb) resides on <STRONG>machineA</STRONG>.&nbsp; <EM>Do not</EM> change the configuration above for <STRONG>machineA</STRONG>; you want to change the <STRONG>Inventory.cfg</STRONG> file on <STRONG>machineB</STRONG> to be something like this, so that it points to <STRONG>machineA</STRONG>:</FONT></P>
+<UL>
+<LI><FONT color=#5566aa><FONT color=#ff0000>&lt;DatabasePath&gt;</FONT><STRONG>machineA:C:\Prager\</STRONG><FONT color=#ff0000>&lt;/DatabasePath&gt;</FONT></FONT> </LI></UL>
+<P>After the machine name, place a colon (:), followed by the drive letter, another colon, &nbsp;and directory where the database is located.&nbsp; <EM>Do not</EM> put in the database name in, the program does that automatically.&nbsp; Make sure you have the ending backslash.&nbsp; You can find your machine names by looking in My Computer -&gt; Properties -&gt; Computer Name tab.</P>
+<P>In addition, you have to make some changes to your Firewall program (be it Windows firewall or some other vendor).&nbsp; For example, open the Windows Firewall by going to Control Panel -&gt; Windows Firewall.&nbsp; Go to Exceptions.&nbsp; You are going to click on Add Port...</P>
+<P><IMG src="images/help figure 62.png" align=bottom></P>
+<P>Next, you are going to add two (2) ports: 3050 UDP and 3050 TCP...</P>
+<P><IMG src="images/help figure 62a.png" align=bottom></P>
+<P>Do the same for TCP port 3050... lastly, you need to add the Firebird database engine to the firewall exception list as below.</P>
+<P><IMG src="images/help figure 62b.png" align=bottom></P>
+<P>Use the Browse button to navigate to the directory shown, and click on the fbserver.exe file.&nbsp; (that way, you won't make any spelling mistakes!).&nbsp; That's all there is to it; you can check it out by turning on both machines, make a change on Machine A, and see if it shows up on Machine B.&nbsp; If you have any problems,&nbsp; open up a support ticket at <A href="http://www.pragersoftware.com/mantis">http://www.pragersoftware.com/mantis</A> .</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('network.htm'); 
+HMSelectTopic('network.htm');</script></body>
+</html>

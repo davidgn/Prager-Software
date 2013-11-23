@@ -1,0 +1,75 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Delete</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Deleting a book from the database</H1>
+<P>&nbsp;</P>
+<P><IMG src="images/help figure 2.png" align=bottom></P>
+<P>&nbsp; The Database Panel</P>
+<H2>&nbsp;</H2>
+<H2>How to delete a book from your database</H2>
+<P><IMG src="images/help figure 1.png" align=bottom></P>
+<P>If you remember,&nbsp;selecting&nbsp;any row in the Database Panel (<A href="delete.htm#figure 14">see Figure 14</A>) will populate the Detail Panel as shown in&nbsp;Figure 15.&nbsp; All of the fields in the record have been populated.&nbsp; Now, verify that this book is the one to delete and&nbsp;click the Delete button.&nbsp; If you have checked Options -&gt; Verify Deletes, a message box will appear asking you to verify the action.&nbsp; I <EM>strongly recommend</EM> using this option for obvious reasons!</P>
+<P><STRONG>Note that this does NOT delete the book(s) from the listing service!&nbsp; It only deletes from your database; to delete from the listing service, you only have to mark the book as 'Sold'</STRONG></P>
+<P>In addition, you can do mass deletes.&nbsp; Just select each book that you want to delete in the Database Panel and click Delete.&nbsp; If you have Verify Deletions checked, you will be asked to verify the delete <EM>for each book.</EM></P>
+<P>Oh, by the way, once deleted, it's gone forever!&nbsp;&nbsp; The only way to get it back is to restore the database from a previous backup.</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('delete.htm'); 
+HMSelectTopic('delete.htm');</script></body>
+</html>

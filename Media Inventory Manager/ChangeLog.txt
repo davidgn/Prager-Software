@@ -1,0 +1,112 @@
+﻿        /*---------------    Changes    -------------------------
+
+         *----    11.x.x    ----
+         *
+        -  added:  ability to change Custom Site names (auto-populates ID and Password page)  (11.4.3)
+        -  added:  ability to upload to Amazon.co.uk  (11.4.3)
+         * 
+        -  added:  for Amazon export, convert USD using current exchange rates (11.4.2)
+        -  fixed:  B & N was not initialized on Upload page  (11.4.2)
+        -  changed: usign Get Info, if Not Found using UPC, will try again using ASIN  (11.4.2)
+        -  changed: the way program finds Firebird installation path (11.4.2)
+        -  fixed:  error when GUID already set (11.4.1)
+        -  changed: when adding a book, Add button no longer will turn red (11.4.1)
+        -  fixed: when adding a book, selecting catalogs causes both Update and Add buttons to turn red (11.4.1)
+        -  fixed:  locale error in initialization routines  (11.4.1)
+        -  fixed: license screen messages which were not visible  (11.4.0)
+        -  changed: no longer populate Edition from Amazon when getting book info (11.4.0)
+        -  added:  option to populate Description field when getting book info  (11.4.0)
+        -  added:  int'l shipping to Description field of ABE export files (11.4.0)
+        -  changed:  enhanced Export page, adding listing of books that were exported (11.4.0)
+        -  changed:  removed option to NOT backup database when exiting (11.4.0)
+        -  changed:  improved database maintenance; added GUID field (11.4.0)
+        -  fixed:  when number of copies is missing, default is now zero, and warning is given when selected (11.3.11)
+        -  fixed:  get book info using ASIN; picked up "description" (11.3.11)
+        -  fixed:  book condition export file to ABE now allows for "collectible" (11.3.10)
+        -  fixed:  import of tab-delimited file containing single quotes in location caused crash (11.3.9)
+        -  fixed:  Amazon purge/replace would purge again when processing non-UPC file (11.3.8)
+        -  fixed:  database maintenance error  (11.3.7)
+        -  fixed:  missing time period on Sales Report causes crash (11.3.6)
+        -  added:  indicator for which sites have no monthly charge (11.3.6)
+        -  removed:  A1Books (bankrupt)  (11.3.6)
+        -  added: new file names to export file cleanup (11.3.6)
+        -  fixed:  Valore filename for uploads (11.3.5)
+        -  fixed:  displayed file type in UserIDs and Passwords tab for Valore uploads (11.3.5)
+        -  fixed:  ABE filename when doing an export (11.3.5)
+        -  fixed:  license issue  (11.3.4)
+        -  added: message to re-start the program when user id and password are initially created for the database (11.3.3)
+        -  upgraded: database engine (11.3.3)
+        -  changed: message regarding Custom and Generic conditions for Amazon and ABE uploads (11.3.3)
+        -  fixed:  Inventory report would not print what was shown in Database panel (11.3.2)
+        -  changed: apostrophe in customer billing address would cause crash (11.3.2)
+        -  added: publication year and sales rank to ASIN report (11.3.1)
+        -  changed: tabs are now on two rows (11.3.0)
+        -  changed:  size of the main window is now larger (11.3.0)
+        -  fixed:  missing customer number in invoices (11.2.5)
+        -  fixed:  single apostrophe in customer name causes crash (11.2.5)
+        -  removed: 10-digit to 13-digit UPC conversion from Mass Changes page (11.2.5)
+        -  fixed:  program crash when updating invoice records (11.2.4)
+        -  fixed:  uploaded conditions when using Amazon conditions (11.2.3)
+        -  fixed:  when changing bindings options, they were not being refreshed immediately  (11.2.3)
+        -  added: warning message about skipping rows on Canned Text  (11.2.3)
+        -  changed:  error message when upload file is missing on Amazon upload (11.2.3)
+        -  added:  tab mapping for BookTrakker imports  (11.2.2)
+        -  changed:  default accounting year to 2011  (11.2.2)
+        -  added:  give user the option to clear the user id's and passwords   (11.2.2)
+        -  fixed:  Amazon upload filenames (11.2.1)
+         -  changed:  date for database purge to "last date updated" (11.2.0)
+         -  fixed:  moved Inventory.cfg to proper folder (11.2.0)
+         -  fixed:  purge books from database (11.1.1)
+         -  fixed:  sometimes Keywords are full of blanks  (11.1.1)
+         -  fixed:  apostrophe in Notes field would cause rejection during Add/Update (11.1.1)
+         -  changed:  new file format for ABE  (11.1.0)
+         -  changed:  file formats from HomeBase to UIEE for B & N, Biblio, Biblion, Bibliophile  (11.1.0)
+         -  changed: repricing routines now use Amazon.com due to legal reasons (11.0.3)
+         -  fixed: inventory report was taking too long to process large files (11.0.3)
+         -  fixed: search routines when object selected but no search criteria (11.0.3)
+         -  removed database maintenance (deprecated) (11.0.2)
+        -  code refresh
+        -  fixed:  inclusive search with no selection would cause crash  (11.0.1)
+         */
+
+
+        /* --------------    TODO    ----------------------------
+         
+         HIGH PRIORITY
+         *** add code for annual registration
+         * add volume information to Amazon uploads (see Bailey Osborne's email - 4-14-2011)
+         * get image from Amazon if box is checked
+         * automate ABE import v3.0 tab files
+         * when doing an add to invoice d/b, top listview is not populated!
+        *  special update for Mike (3/28 email)
+        * numeric/string sort (see sample in directory)
+        * add "sticky's" to invoices
+        * clean createHB...cs file (move import stuff to another file)
+        *  sales report - when multiple copies exist, how to tell to put them in sales report?
+        *   IP-18 -- Inclusive Search Result Inaccurate (Inclusive Search where SKU is greater than 40= SKU 1 thru 9 and then grater than 40)
+        *  IP-19 --  ( Custom Export) Exporting to Quickbooks
+        *  have users register so I can email them critical messages
+        *  import customer info from tab-delimited file
+        *  allow editing/entering of book condition and jacket
+        *  give users a choice of which columns they want to view in database panel (allow reordering)
+        -  make a x64 version
+        *  expand 'catalog' limits
+        *	
+         * 
+         MEDIUM PRIORITY
+         *  Amazon.ca and UK
+         *  letter that can be sent to places that I list, indicating the change of software and the new mapping of data? Bookhound, does
+         *  change inclusive search (don't allow "greater than" for alpha)
+         *  Amazon.com import mapping (see email dated 4/22)  ??????????????
+         *  break into separate .dll's
+         *  custom uploads - save name
+
+         LOW PRIORITY
+         *  registration database (check licenses against the database)
+         *  check ASIN against what's in the database (Amazon to program)
+         *  add search for any string in the record... (change drilldown to have checkboxes for major search fields)
+         *  allow status qualifiers to be stacked
+         *  ASIN - get condition of books 
+         *  change database listview to datagridview
+        
+        */

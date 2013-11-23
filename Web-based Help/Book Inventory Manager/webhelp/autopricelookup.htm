@@ -1,0 +1,71 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Adding using Auto Price Lookup</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Using Auto Price Lookup</H1>
+<H2>Checking Options</H2>
+<P><IMG align=bottom src="images/image37.png"></P>
+<P>On the Program Options page, there is a menu check-box for Automatic Pricing Lookup.&nbsp; When this option is checked, it works two ways:&nbsp; when you enter the ISBN and click <STRONG>Get Info w/ ISBN</STRONG>, after the detail has been obtained from the internet, it will automatically go and check prices, displaying what it found on the screen below.&nbsp; Other way it works is if you just want to check prices on a selected book (select a book by clicking on the book in the Database Panel above the tabs) and click <STRONG>Get Prices from Internet</STRONG>.&nbsp; This will do the same as described above, only you can do it at any time after the book has been entered.&nbsp; The results are shown below.&nbsp; At the present time, this only works for books with ISBNs (not ASINs).</P>
+<P>&nbsp;</P>
+<P><IMG align=bottom src="images/image24.png"></P>
+<P>NOTE:&nbsp; It is to your advantage to notify us when this is not working.&nbsp; We get the prices from several websites that may change how they display the prices.&nbsp; When they change, we are not able to get the prices, therefore we need to be notified.&nbsp; Please open a ticket at <A href="http://www.pragersoftware.com/mantis">our Bug Tracking page</A>.</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('autopricelookup.htm'); 
+HMSelectTopic('autopricelookup.htm');</script></body>
+</html>

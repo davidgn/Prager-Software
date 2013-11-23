@@ -1,0 +1,78 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Update</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Updating book details</H1>
+<P><IMG align=bottom src="images/image40.png"></P>
+<P>A unique feature is how multiple copies are handled.&nbsp; You can either have one SKU for each copy, or you can have all copies under one SKU.&nbsp; The secret is in the quantity field;&nbsp; When you have one SKU for each book and if the quantity field is zero, the book is considered sold.&nbsp; If you have one SKU for multiple copies of a book, and you sell one of the copies, you must decrement your copy count.&nbsp; The program will not do it for you, since it does not know how many copies you have sold.&nbsp; When the quantity count goes to zero, the book is then marked sold which indicates no more copies are available.</P>
+<P>To update any of the book details, select the book from the Database Panel and make changes to any field <EM>except</EM> the Book # field (that is the database key and will not allow changes).&nbsp; Notice that when you make any changes, the Update button will turn red; this is to remind you that updates are pending.&nbsp; Click Update; the database now has the updated information.&nbsp; Note that you can only update a book&nbsp;if it's status is For Sale.&nbsp; If you need to relist the book because it was returned, etc., you can use the Relist button.&nbsp; This only works if the book has a status of Sold; if you are supplying your own book numbers, the Book # text box becomes enabled so you can enter a&nbsp;different book number&nbsp;(NOTE:&nbsp; if you use the same number, the system will assign the next highest <STRONG>numeric</STRONG> book number&nbsp;)&nbsp; The "Date Last Updated" field will reflect the current date and time of the update.</P>
+<P>&nbsp;</P>
+<H2><U>Mass changes</U></H2>
+<P><IMG align=bottom src="images/image29.png"></P>
+<P>If you want to only change the Satus of your books, use this panel.&nbsp; This is used when you have duplicate books on a listing service and you need to mark them as "Sold" which will cause the listing service to drop the books from their inventory.</P>
+<P>For instructions on how to change the status of books en masse, see <A href="listing service mass delete.htm#mark status en masse">Delete Books from the Listing Service</A></P>
+<P>You can also make "mass" changes to <STRONG>every book in the database</STRONG> by supplying the information used to find the books that match your criteria.&nbsp; Simply select the field in the "Change the" box and fill in the "from" and "to" fields.&nbsp; On checkboxes, such as Expedited Shipping and Int'l Shipping, the database may carry a "Null" value rather than the customary 'Y' or 'N'.&nbsp; If your changes do not appear to work, try the change again with the following:</P>
+<UL>
+<LI>set the 'from' field to <STRONG>NULL</STRONG> 
+<LI>set the 'to' field to either&nbsp;<STRONG>N</STRONG> or&nbsp;<STRONG>Y</STRONG> as you choose</LI></UL>
+<P><A href="panels.htm#top of form">back to top</A></P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('update.htm'); 
+HMSelectTopic('update.htm');</script></body>
+</html>

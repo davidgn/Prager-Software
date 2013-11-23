@@ -1,0 +1,68 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Asin</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Using the ASIN lookup tool</H1>
+<P>This program has the ability to do a lookup to Amazon.com for ASINs when you don't have a ISBN.&nbsp; (an ISBN is preferred, because other listing venues do not recognize Amazon's ASIN).</P>
+<P>You would start by selecting the ASIN page (tab), which will cause the program to go through your database looking for all books that don't have either an ISBN or an ASIN.&nbsp; It then lists what it found in the top portion of the page; all you have to do is click on one of the books and the program does everything else.&nbsp; Once you have the list, select the book closest to yours and click <STRONG>Update</STRONG>.&nbsp; That's it!&nbsp; If you have too many books to do at one sitting, don't worry.&nbsp; Stop anywhere, and the next time you go to the page, all of the books that still don't have ASINs or ISBNs will be listed, ready for you to start.</P>
+<P><IMG align=bottom src="images/image72.png"></P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('asin.htm'); 
+HMSelectTopic('asin.htm');</script></body>
+</html>

@@ -1,0 +1,300 @@
+Books
+	226909          Arts, Architecture & Photography/Architecture
+	226910          Arts, Architecture & Photography/Art History
+	226912          Arts, Architecture & Photography/Artists
+	226911          Arts, Architecture & Photography/Dance
+	170970          Arts, Architecture & Photography/Other
+	226913          Arts, Architecture & Photography/Other Media
+	226914          Arts, Architecture & Photography/Painting
+	226915          Arts, Architecture & Photography/Photography
+	226916          Arts, Architecture & Photography/Sculpture
+	226917          Arts, Architecture & Photography/Theater
+	226893          Biographies & Memoirs/Artists & Authors
+	226897          Biographies & Memoirs/Athletes & Adventurers
+	226894          Biographies & Memoirs/Children's & Young Adult
+	226895          Biographies & Memoirs/Leaders
+	170971          Biographies & Memoirs/Other
+	226896          Biographies & Memoirs/Professionals & Academics
+	226899          Business & Investing/Accounting
+	226900          Business & Investing/Economics
+	226901          Business & Investing/Finance
+	226902          Business & Investing/Industries & Professions
+	226903          Business & Investing/Investing
+	226904          Business & Investing/Management & Leadership
+	226905          Business & Investing/Marketing & Sales
+	170972          Business & Investing/Other
+	226906          Business & Investing/Personal Finance
+	226907          Business & Investing/Small Business & Entrepreneurship
+	226947          Children's Books/Board Books
+	226942          Children's Books/Classics
+	226948          Children's Books/Early Readers
+	226943          Children's Books/Educational
+	226944          Children's Books/Myths, Legends & Fairy Tales
+	226949          Children's Books/Older Readers
+	68295          Children's Books/Other
+	226946          Children's Books/Picture Books
+	226945          Children's Books/Series
+	226919          Computers & Internet/Certification
+	226920          Computers & Internet/Graphics & Software
+	226921          Computers & Internet/Networking & OS
+	170973          Computers & Internet/Other
+	226922          Computers & Internet/Programming
+	226923          Computers & Internet/Web Development
+	296214          Cooking, Food & Wine/Appetizers
+	296215          Cooking, Food & Wine/Baking
+	296216          Cooking, Food & Wine/Beverages
+	296217          Cooking, Food & Wine/Breakfast
+	296218          Cooking, Food & Wine/Culinary Arts & Techniques
+	296219          Cooking, Food & Wine/Desserts
+	296220          Cooking, Food & Wine/Dietary & Health
+	296221          Cooking, Food & Wine/Entertaining
+	296222          Cooking, Food & Wine/Essays
+	296223          Cooking, Food & Wine/Fruits & Vegetables
+	296224          Cooking, Food & Wine/History
+	296225          Cooking, Food & Wine/Holiday Cooking
+	296226          Cooking, Food & Wine/Microwave Cookery
+	296227          Cooking, Food & Wine/Natural & Organic Foods
+	170974          Cooking, Food & Wine/Other
+	296228          Cooking, Food & Wine/Outdoor
+	296229          Cooking, Food & Wine/Pasta
+	296230          Cooking, Food & Wine/Pizza
+	296231          Cooking, Food & Wine/Poultry
+	296232          Cooking, Food & Wine/Quick & Easy Cookery
+	296233          Cooking, Food & Wine/Regional Cuisine
+	296234          Cooking, Food & Wine/Salads
+	296235          Cooking, Food & Wine/Seafood
+	296236          Cooking, Food & Wine/Seasonal
+	296237          Cooking, Food & Wine/Soups & Stews
+	296238          Cooking, Food & Wine/Vegetarian & Vegan
+	226980          Entertainment/Comics
+	226981          Entertainment/Games
+	226982          Entertainment/Humor
+	226983          Entertainment/Movies
+	226984          Entertainment/Music
+	170975          Entertainment/Other
+	226985          Entertainment/Radio
+	226986          Entertainment/Television
+	172781          Foreign Language/Foreign Language Instruction
+	296241          Foreign Language/French
+	296242          Foreign Language/German
+	296243          Foreign Language/Italian
+	296240          Foreign Language/Other
+	296244          Foreign Language/Spanish
+	226951          Health, Mind & Body/Beauty & Fashion
+	226952          Health, Mind & Body/Death & Grief
+	226953          Health, Mind & Body/Diets & Nutrition
+	226954          Health, Mind & Body/Fitness
+	226955          Health, Mind & Body/Health Issues
+	226956          Health, Mind & Body/Mental Health
+	170976          Health, Mind & Body/Other
+	226957          Health, Mind & Body/Reference
+	226958          Health, Mind & Body/Self-Improvement
+	226959          Health, Mind & Body/Sexuality
+	296296          Health, Mind & Body/Yoga
+	226970          History/Africa
+	296281          History/Americas/Canada
+	296279          History/Americas/Central America
+	296282          History/Americas/Mexico
+	296280          History/Americas/North America
+	226971          History/Americas/Other
+	296284          History/Americas/South America
+	296283          History/Americas/United States
+	226972          History/Ancient
+	226973          History/Asia
+	226974          History/Australia & Oceania
+	226975          History/Europe
+	296285          History/Family & Genealogical
+	296286          History/Maritime
+	226976          History/Middle East
+	226977          History/Military
+	170977          History/Other
+	296287          History/Social
+	296288          History/Travel & Exploration
+	226978          History/World
+	226961          Home & Garden/Animal Care & Pets
+	226962          Home & Garden/Antiques & Collectibles
+	226963          Home & Garden/Crafts & Hobbies
+	226964          Home & Garden/Entertaining
+	226965          Home & Garden/Gardening & Horticulture
+	226966          Home & Garden/How-To & Home Improvements
+	226967          Home & Garden/Interior Design
+	170978          Home & Garden/Other
+	226968          Home & Garden/Weddings
+	226988          Horror/Dark Fantasy
+	226989          Horror/Erotic
+	226990          Horror/Ghosts
+	226991          Horror/Graphic Novels
+	226992          Horror/Occult
+	170979          Horror/Other
+	226993          Horror/Vampires
+	226925          Literature & Fiction/Adventure
+	296290          Literature & Fiction/Anthologies/Essays
+	226926          Literature & Fiction/Anthologies/Other
+	296291          Literature & Fiction/Anthologies/Poetry
+	296292          Literature & Fiction/Anthologies/Short Stories
+	226927          Literature & Fiction/Drama
+	226928          Literature & Fiction/Erotica
+	226929          Literature & Fiction/Ethnic
+	226930          Literature & Fiction/Gay & Lesbian
+	226931          Literature & Fiction/Historical Novels
+	226932          Literature & Fiction/History & Criticism
+	226934          Literature & Fiction/Military & War
+	68296          Literature & Fiction/Other
+	226936          Literature & Fiction/Period Literature/18th Century
+	226937          Literature & Fiction/Period Literature/19th Century
+	226938          Literature & Fiction/Period Literature/Classical Era
+	226939          Literature & Fiction/Period Literature/Contemporary
+	296293          Literature & Fiction/Period Literature/Gothic
+	226940          Literature & Fiction/Period Literature/Renaissance
+	504514          Literature & Fiction/Poetry/American
+	504516          Literature & Fiction/Poetry/Anthologies
+	504518          Literature & Fiction/Poetry/European
+	504520          Literature & Fiction/Poetry/History & Criticism
+	194019          Literature & Fiction/Poetry/Other
+	504522          Literature & Fiction/Poetry/Writing
+	296294          Literature & Fiction/Vintage Paperbacks
+	296295          Literature & Fiction/Westerns
+	226933          Literature & Fiction/World Literature
+	226879          Mystery & Thrillers/Mystery/Anthologies
+	226880          Mystery & Thrillers/Mystery/British Detectives
+	226881          Mystery & Thrillers/Mystery/Hard-Boiled
+	226882          Mystery & Thrillers/Mystery/Historical
+	226878          Mystery & Thrillers/Mystery/Other
+	226883          Mystery & Thrillers/Mystery/Series
+	68298          Mystery & Thrillers/Other
+	226887          Mystery & Thrillers/Thrillers/Legal
+	226888          Mystery & Thrillers/Thrillers/Medical
+	226886          Mystery & Thrillers/Thrillers/Other
+	226889          Mystery & Thrillers/Thrillers/Psychological & Suspense
+	226890          Mystery & Thrillers/Thrillers/Spy & Intrigue
+	226891          Mystery & Thrillers/Thrillers/Technothrillers
+	226884          Mystery & Thrillers/True Crime
+	296248          Nonfiction/Cars & Transportation/Automobilia
+	296249          Nonfiction/Cars & Transportation/Aviation
+	265823          Nonfiction/Cars & Transportation/Other
+	296250          Nonfiction/Cars & Transportation/Railroadiana
+	296251          Nonfiction/Cars & Transportation/Ships & Waterways
+	296252          Nonfiction/Ethics
+	265824          Nonfiction/Gay & Lesbian
+	296253          Nonfiction/Geography
+	265825          Nonfiction/Government & Politics
+	265826          Nonfiction/Law
+	68299          Nonfiction/Other
+	265827          Nonfiction/Philosophy
+	296255          Nonfiction/Social Sciences/Anthropology
+	265828          Nonfiction/Social Sciences/Other
+	296256          Nonfiction/Social Sciences/Sociology
+	265829          Nonfiction/Women's Studies
+	68297          Other
+	504426          Parenting & Families/Adoption
+	504428          Parenting & Families/Aging Parents
+	504430          Parenting & Families/Conflict Resolution
+	504432          Parenting & Families/Divorce
+	504434          Parenting & Families/Education
+	504436          Parenting & Families/Family Activities
+	504438          Parenting & Families/Family Health
+	504440          Parenting & Families/Family Relationships
+	170980          Parenting & Families/Other
+	504442          Parenting & Families/Parenting
+	504444          Parenting & Families/Pregnancy & Childbirth
+	504446          Parenting & Families/Reference
+	504448          Parenting & Families/Special Needs
+	170985          Parenting & Families/Teens
+	226865          Rare/Arts, Architecture & Photography
+	296180          Rare/Atlases & Maps
+	226866          Rare/Biographies & Memoirs
+	226867          Rare/Children's Books
+	226868          Rare/Cooking, Food & Wine
+	296181          Rare/Ephemera
+	296182          Rare/Facsimile
+	226869          Rare/History
+	265822          Rare/Home & Garden
+	226870          Rare/Literature & Fiction
+	296183          Rare/Manuscripts
+	226871          Rare/Modern First Editions
+	296185          Rare/Nonfiction/Geography
+	296186          Rare/Nonfiction/Government & Politics
+	296187          Rare/Nonfiction/Law
+	226872          Rare/Nonfiction/Other
+	296188          Rare/Nonfiction/Philosophy
+	296189          Rare/Nonfiction/Social Sciences
+	296190          Rare/Nonfiction/Women's Studies
+	68300          Rare/Other
+	226873          Rare/Poetry
+	226874          Rare/Religion & Spirituality
+	226875          Rare/Science & Nature
+	296191          Rare/Travel & Exploration
+	296245          Reference/Atlases & Maps
+	292144          Reference/Bibliography
+	292145          Reference/Dictionaries
+	292146          Reference/Encyclopedia
+	170981          Reference/Other
+	296246          Reference/Thesauri
+	296192          Religion & Spirituality/Buddhism
+	292166          Religion & Spirituality/Christianity
+	296193          Religion & Spirituality/Eastern Philosophy
+	296194          Religion & Spirituality/Esoterica & New Age
+	296195          Religion & Spirituality/Hinduism
+	292164          Religion & Spirituality/Islam
+	292165          Religion & Spirituality/Judaism
+	296196          Religion & Spirituality/Occult
+	170982          Religion & Spirituality/Other
+	296197          Religion & Spirituality/Sacred Texts
+	296198          Religion & Spirituality/Spirituality
+	193848          Romance/Contemporary
+	296931          Romance/Gothic
+	193849          Romance/Historical
+	296933          Romance/Inspirational
+	68301          Romance/Other
+	296932          Romance/Paranormal
+	193850          Romance/Regency
+	296930          Romance/Suspense
+	296929          Romance/Traditional
+	296200          Science & Nature/Agricultural Sciences
+	296201          Science & Nature/Archaeology
+	296202          Science & Nature/Astronomy
+	296203          Science & Nature/Biological Sciences
+	296204          Science & Nature/Chemistry
+	296205          Science & Nature/Earth Sciences
+	296206          Science & Nature/Engineering
+	296207          Science & Nature/Environmental Sciences
+	296208          Science & Nature/History of Science
+	296209          Science & Nature/Mathematics
+	296210          Science & Nature/Medicine
+	170983          Science & Nature/Other
+	296211          Science & Nature/Physics
+	296212          Science & Nature/Psychology
+	504490          Science Fiction & Fantasy/Anthologies
+	504492          Science Fiction & Fantasy/Fantasy
+	504494          Science Fiction & Fantasy/Gaming
+	504496          Science Fiction & Fantasy/Graphic Novels
+	504498          Science Fiction & Fantasy/High Tech
+	504500          Science Fiction & Fantasy/Historical
+	504502          Science Fiction & Fantasy/Military
+	68302          Science Fiction & Fantasy/Other
+	504504          Science Fiction & Fantasy/Science Fiction
+	504506          Science Fiction & Fantasy/Series
+	504508          Science Fiction & Fantasy/Star Trek
+	504510          Science Fiction & Fantasy/Star Wars
+	504452          Sports & Outdoors/Baseball
+	504454          Sports & Outdoors/Basketball
+	504456          Sports & Outdoors/Biographies
+	504458          Sports & Outdoors/Coaching
+	504460          Sports & Outdoors/Football (American)
+	504462          Sports & Outdoors/Golf
+	504464          Sports & Outdoors/Hiking & Camping
+	504466          Sports & Outdoors/History
+	504468          Sports & Outdoors/Hockey
+	504470          Sports & Outdoors/Hunting & Fishing
+	504472          Sports & Outdoors/Motor Sports
+	68294          Sports & Outdoors/Other
+	504474          Sports & Outdoors/Racket Sports
+	504476          Sports & Outdoors/Running
+	504478          Sports & Outdoors/Soccer
+	504480          Sports & Outdoors/Sports Psychology
+	504482          Sports & Outdoors/Water Sports
+	504484          Sports & Outdoors/Weight Lifting & Training
+	504486          Sports & Outdoors/Winter Sports
+	68303          Textbooks
+	170984          Travel & Exploration
+

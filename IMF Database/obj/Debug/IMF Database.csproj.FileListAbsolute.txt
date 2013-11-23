@@ -1,0 +1,8 @@
+F:\Prager\IMF Database\bin\Debug\IMF Database.exe
+F:\Prager\IMF Database\bin\Debug\IMF Database.pdb
+F:\Prager\IMF Database\obj\Debug\ResolveAssemblyReference.cache
+F:\Prager\IMF Database\obj\Debug\IMF_Database.Properties.Resources.resources
+F:\Prager\IMF Database\obj\Debug\IMF Database.csproj.GenerateResource.Cache
+F:\Prager\IMF Database\obj\Debug\IMF Database.exe
+F:\Prager\IMF Database\obj\Debug\IMF Database.pdb
+F:\Prager\IMF Database\obj\Debug\IMF_Database.Form1.resources

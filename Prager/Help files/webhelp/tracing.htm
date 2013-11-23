@@ -1,0 +1,82 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Tracing</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Tracing</H1>
+<H2><U>Setup</U></H2>
+<P>Occasionally, there comes a time when we need to trace the inner workings of the program.&nbsp;&nbsp; This topic is meant to show you how to turn "tracing" on and off.&nbsp; First, you need to look for a file called <STRONG>Prager Book Inventory.exe.config </STRONG>which you will find in the installation directory (normally c:\Program Files\Prager).&nbsp; Once you have found that file, double-click on it to open it... you will get a pop-up window that looks something like this in Figure 61.&nbsp;</P>
+<P><IMG src="images/help figure 61.png" align=bottom></P>
+<P>Figure 61.&nbsp; Open Dialog</P>
+<P>&nbsp;</P>
+<P>When you click on the "Choose Program" menu item, you get a screen that looks like the following in Figure 61a.</P>
+<P><IMG src="images/help figure 61a.png" align=bottom></P>
+<P>Figure 61a.&nbsp; The "Open With" dialog window</P>
+<P>&nbsp;</P>
+<P>Scroll down until you see the listing for Notepad and click on it (that selects it)... click OK and you will be presented with the following, as shown in Figure 61b.</P>
+<P><IMG src="images/help figure 61b.png" align=bottom></P>
+<P>Figure 61b.&nbsp; The Prager Book Inventory.exe.config file opened in Notepad.</P>
+<P>&nbsp;</P>
+<P>Notice the two highlighted (in yellow and pointed to by the red arrows)... these two lines need to be removed; however, we don't want to delete the lines, but rather just overwrite them using the space bar.&nbsp; This will have the effect of removing the characters which are directions to comment out the lines between the highlighted lines.&nbsp; The lines in between the highlighted lines cause the program to generate a trace file called <STRONG>pragerTrace.txt</STRONG>.&nbsp; </P>
+<P>Once you have removed the lines by overwriting them, save the file by clicking on the Main Menu-&gt;File-&gt;Save.&nbsp; Now, run the Prager Inventory program and when it stops (due to an error or ?), send us the file <STRONG>pragerTrace.txt</STRONG> as an attachment to an email to <A href="mailto:support@pragersoftware.com">support@pragersoftware.com</A>.&nbsp; Once this is done, you need to add those lines we removed back in in the exact place they were.&nbsp; This turns off tracing, which takes a lot of resources and will definitely slow the program.&nbsp; Don't forget, put the characters back in the same positions exactly as shown: first line has&nbsp;a left-arrow, exclamation point followed by two dash symbols (&lt;!--)... the second line is two dash symbols followed by a right arrow (--&gt;).</P>
+<P>We will examine the trace file and hopefully be able to diagnose the problem; if we don't have enough information, you might be asked to download a special version which has more tracing in it.</P>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('tracing.htm'); 
+HMSelectTopic('tracing.htm');</script></body>
+</html>

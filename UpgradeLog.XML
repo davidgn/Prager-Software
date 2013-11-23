@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Create Registration Codes">
+</Property><Property Name="Solution File" Value="J:\C# Applications\Create Registration Codes\Create Registration Codes.sln">
+</Property><Property Name="User Options File" Value="J:\C# Applications\Create Registration Codes\Create Registration Codes.suo">
+</Property><Property Name="Date" Value="Saturday, March 21, 2009">
+</Property><Property Name="Time" Value="9:12 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Create Registration Codes.sln" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Create Registration Codes.suo" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes.suo">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Create Registration Codes.csproj" Description="Project file successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Create Registration Codes.csproj">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Create Registration Codes.csproj.user" Description="Project user file successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Create Registration Codes.csproj.user">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Form1.cs" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Form1.Designer.cs" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Program.cs" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Program.cs">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Properties\AssemblyInfo.cs" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Properties\Resources.cs" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Properties\Resources.cs">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Properties\Settings.cs" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Properties\Settings.cs">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Properties\Settings.settings" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\103_67.ico" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\103_67.ico">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Form1.resx" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Properties\Resources.resx" Description="File successfully backed up as J:\C# Applications\Create Registration Codes\Backup\Create Registration Codes\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Create Registration Codes.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Create Registration Codes" Source="Create Registration Codes\Create Registration Codes.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Create Registration Codes.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Create Registration Codes.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes\Create Registration Codes.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,7 @@
+F:\Prager\SQLite Database Manager\bin\Debug\SQLite Database Manager.exe
+F:\Prager\SQLite Database Manager\bin\Debug\SQLite Database Manager.pdb
+F:\Prager\SQLite Database Manager\obj\Debug\ResolveAssemblyReference.cache
+F:\Prager\SQLite Database Manager\obj\Debug\SQLite_Database_Manager.Properties.Resources.resources
+F:\Prager\SQLite Database Manager\obj\Debug\SQLite Database Manager.csproj.GenerateResource.Cache
+F:\Prager\SQLite Database Manager\obj\Debug\SQLite Database Manager.exe
+F:\Prager\SQLite Database Manager\obj\Debug\SQLite Database Manager.pdb

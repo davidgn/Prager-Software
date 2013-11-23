@@ -1,0 +1,86 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Papamedia</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Setup for Papa Media venue</H1>
+<H2><U>General Information</U></H2>
+<P>Papa Media is a listing venue that only charges for books sold, not for listing on their site.&nbsp; Therefore, there is much interest in how we interact with the Papa Media site.&nbsp; For starters, uploading to the Papa Media site is a bit different, in that they "pull" the files we upload to our server.&nbsp; This is different from most of the other sites in that it does NOT go directly to the Papa Media site - they visit our server several times a day to get the files that users have uploaded.</P>
+<P>So, this is going to be directed to those users who&nbsp;currently use another inventory management system (big bummer!) and need to either switch to ours or use ours to upload their inventory to Papa Media.&nbsp; If any of these instructions are not clear, please let us know via email to support at pragersoftware dot com. (replace the word 'at' with @ and the word 'dot' with a period)</P>
+<H2><U>Users who want to switch to the Prager Inventory system</U></H2>
+<UL>
+<LI>Download and install the latest version of the program from our <A href="http://www.pragersoftware.com" target=_blank>website</A> 
+<LI>Go to the <A href="gettingstarted.htm">Getting Started topic</A> and learn how to find your way around the program 
+<LI>Once you have imported the sample file and filled the database, it's time to import your own file which you are going to have to create from your old inventory program, excel spread sheet, or enter the books manually.&nbsp; Please ask us for help if you need assistance on this task.&nbsp; (see <A href="importing.htm">Importing files</A>) 
+<LI>OK, so now you have all of your inventory in the Prager Inventory program.&nbsp; The next thing you have to do is put your email address&nbsp;on the User ID and Password page, next to the Papa Media line.&nbsp; There is no password required. 
+<LI>Next, go to the <A href="export.htm">Export page</A> and create a series of export files;&nbsp; there will be several types of files, UIEE, Tab-delimited, HomeBase,etc.&nbsp; You will not see one for Papa Media because we have created it under a different name. 
+<LI>Finally, go to the Upload page (you should be taken there automatically upon completion of the Export) and click on the checkbox next to Papa Media.&nbsp; Then click on the Upload button. 
+<LI>You can watch the status of the upload process in the yellow window.&nbsp; If there are any errors that you don't understand, contact us.</LI></UL>
+<H2><U>Users who don't want to switch to the Prager Inventory program (bummer!)</U></H2>
+<UL>
+<LI>You are going to do everything as indicated above 
+<LI>Once you get all of your inventory into the Prager Inventory program, and do the export and upload, that is it for this time. 
+<UL>
+<LI>Note that you MUST click on the "Delete all books first?" checkbox, otherwise you are going to possibly duplicate your inventory.&nbsp; I say possibly because Papa Media does NOT use SKUs, but rather ISBNs to "control" the inventory.&nbsp; This also means that you can NOT have multiple copies of a book with the same ISBN.</LI></UL>
+<LI>The next time you want to upload your inventory, you go through the steps of creating the export file from your inventory program, importing it into the Prager Inventory program, export and upload.&nbsp; You will do this each and every time you want to upload to Papa Media.&nbsp; (it would be much easier to convert to our program so you don't have&nbsp; to do the export from your current program and then import to ours).<BR><BR></LI></UL>
+<P>&nbsp;</P>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('papamedia.htm'); 
+HMSelectTopic('papamedia.htm');</script></body>
+</html>

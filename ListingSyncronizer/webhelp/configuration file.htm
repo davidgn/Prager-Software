@@ -1,0 +1,78 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Configuration File</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>The Configuration file</H1>
+<H2><FONT color=#ff0000>If you are running this program on Vista or Windows 7, read this carefully!</FONT></H2>
+<P>We use a configuration file to give the program information it needs when starting up that cannot be obtained by other means.&nbsp; It is named <STRONG>Inventory.cfg </STRONG>and is found in the same directory as where you installed the program.&nbsp; You can use a normal text editor (Notepad works nicely) to modifyt it <EM>if necessary </EM>(the installation program will do this for you except in difficult circumstances, such as a change in installation directory, etc).&nbsp; The contents look like this:</P>
+<P><FONT color=#0000ff>&lt;Configuration&gt;</FONT></P>
+<P><FONT color=#0000ff>&lt;!--&nbsp; do you see the four characters at the beginning of this line?&nbsp; and the 3 characters at the end of this line? --&gt;<BR>&lt;!--&nbsp; well, those mark the characters between them as a "comment" (both the start and the end)...&nbsp; --&gt;<BR>&lt;!--&nbsp; so, remove those characters for whichever line for the FirebirdInstallationPath that pertains to your system.&nbsp; --&gt;<BR>&lt;!-- (you can right-click on the Computer icon (on desktop or Start menu), then left-click on Properties to see if you have a 64-bit machine)&nbsp; --&gt;</FONT></P>
+<P><FONT color=#0000ff>&nbsp;&nbsp;&nbsp; &lt;!-- uncomment the line below ONLY if you have a 64-bit machine (x64) AND are running Vista (x64) or Windows 7 (x64) and comment out the line for 32-bit machines--&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;!-- &lt;FirebirdInstallationPath&gt;C:\Program Files (x86)\Firebird\bin&lt;/FirebirdInstallationPath&gt; --&gt;</FONT></P>
+<P><FONT color=#0000ff>&nbsp;&nbsp;&nbsp; &lt;!-- all other cases (32-bit machine or running a 32-bit version of Windows) use the line below, leaving the above "commented out"&nbsp; --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;FirebirdInstallationPath&gt;C:\Program Files\Firebird\bin&lt;/FirebirdInstallationPath&gt;</FONT></P>
+<P style="MARGIN-RIGHT: 0px" dir=ltr><FONT color=#0000ff><BR>&nbsp;&nbsp;&nbsp; &lt;!--&nbsp; Prager.Options.xml file path <EM>if network</EM>ed&nbsp; (eg. <A href="//192.168.0.248/prager">\\192.168.0.248\Prager</A> where the IP address&nbsp;points to <STRONG>c:\Prager</STRONG> <EM>on the host which must be shared with the name of "Prager")</EM>&nbsp; --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;!--&nbsp;&nbsp;&nbsp; &lt;ProgramOptionsFilePath&gt;\\192.168.0.248\Prager&lt;/ProgramOptionsFilePath&gt;&nbsp; --&gt;<BR>&nbsp;&nbsp;&nbsp; </FONT></P>
+<P style="MARGIN-RIGHT: 0px" dir=ltr><FONT color=#0000ff>&lt;DatabasePath&gt;C:\Prager\&lt;/DatabasePath&gt;</FONT></P>
+<P><FONT color=#0000ff>&nbsp;&nbsp;&nbsp; &lt;BackupPath&gt;c:\Prager\Backup\&lt;/BackupPath&gt;&nbsp; &lt;!--&nbsp; in which directory do you want your backup files placed? --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;ExportPath&gt;c:\Prager\Export\&lt;/ExportPath&gt;&nbsp; &lt;!--&nbsp; in which directory do you want your export files placed? --&gt;<BR>&nbsp;&nbsp;&nbsp; &lt;DaysRetention&gt;30&lt;/DaysRetention&gt;&nbsp; &lt;!--&nbsp; how many days do you want to keep backup and export files?&nbsp; --&gt;</FONT></P>
+<P><FONT color=#0000ff>&lt;/Configuration&gt;<BR></FONT></P>
+<P><STRONG>Firebird</STRONG><STRONG>InstallationPath</STRONG> is the path where you installed the Firebird database program; for Windows XP it is usually <STRONG>c:\Program Files</STRONG>.&nbsp; For Vista and Windows 7, it is normally <STRONG>c:\Program Files (x86)</STRONG>.&nbsp; The <STRONG>DatabasePath</STRONG> is the location of the Firebird <EM>database (not the Firebird program)</EM>&nbsp;normally&nbsp;in <STRONG>c:\Prager</STRONG>.&nbsp; If you are networking, see the section on Network Connections.</P>
+<P>The other lines are self-explanatory.&nbsp; Note that&nbsp;30 days retention assumes you backup your database daily.&nbsp; You can extend this if necessary; it is only used to "prune" the directory so as to avoid having thousands of unused files taking up space.</P>
+<P>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('configuration file.htm'); 
+HMSelectTopic('configuration file.htm');</script></body>
+</html>

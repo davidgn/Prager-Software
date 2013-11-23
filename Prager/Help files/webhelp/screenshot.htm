@@ -1,0 +1,80 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>ScreenShot</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Sending us a "screen shot"</H1>
+<P>We ask that you do all of your problem reporting by using the Mantis Bug Tracker system.&nbsp; This will insure that nothing gets lost, and&nbsp;you can continually track the progress of your issue.&nbsp; Please fill in all of the information, such as Operating System, Service Pack level and other information that will enable us to reproduce the issue.</P>
+<P>Occassionally, you might have an&nbsp;issue where we&nbsp;ask&nbsp;you to send a screen shot of the offending error message or some other window.&nbsp; This is how you do it...</P>
+<H3><U>Installing a Screen Shot Program</U></H3>
+<P>Go to our <A href="http://www.pragersoftware.com/downloads"><FONT color=#0000ff>web site</FONT></A> and download one of the free screen shot programs listed under Optional Software.&nbsp; Install it and start it&nbsp; (the following examples use the program ScreenPrint32).</P>
+<P>&nbsp;</P>
+<H3><U>Capturing the screen</U></H3>
+<P>When you start the program, the first thing you will see is the the screen shown in Figure 59a&nbsp;below.</P>
+<P><IMG src="images/help figure 59a.png" align=bottom></P>
+<P>Figure 59a.&nbsp; Click on the option pointed to by the red arrow.</P>
+<P>Next, you want to click on the <STRONG>Save Options</STRONG> tab and click on the two boxes as indicated by Figure 59b below.</P>
+<P><IMG src="images/help figure 59b.png" align=bottom></P>
+<P>Figure 59b.&nbsp; Save Options tab</P>
+<P>Once you have done both of these tasks, click OK and the&nbsp;ScreenPrint32 setup screen goes away.</P>
+<H3><U>Doing the&nbsp;actual capture</U>&nbsp; </H3>
+<P>To capture a window or portion of your screen, press your left mouse button and drag it over the area you want to capture.&nbsp; Release the button and press the right mouse button to complete the capture.&nbsp; Your captured image will be found in the directory you selected in Folder (see Figure 59b).&nbsp; <STRONG>Take this file and send it to us as an email attachment </STRONG>to <A href="mailto:support@pragersoftware.com">support@pragersoftware.com</A> and include your Issue number (if available) in the Subject line of your email.</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('screenshot.htm'); 
+HMSelectTopic('screenshot.htm');</script></body>
+</html>

@@ -1,0 +1,20 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+obj\Debug\Prager_Pricing_Program.License.resources
+obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+.\bin\Debug\Prager Pricing Program.exe.config
+.\bin\Debug\Prager Pricing Program.exe
+.\bin\Debug\Prager Pricing Program.pdb
+obj\Debug\Prager Pricing Program.exe
+obj\Debug\Prager Pricing Program.pdb
+.\bin\Release\Prager Pricing Program.exe.config
+obj\Release\Prager Pricing Program.exe
+.\bin\Release\Prager Pricing Program.exe
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Prager_Pricing_Program.formISBNLookup.resources
+obj\Release\Prager_Pricing_Program.License.resources
+obj\Release\Prager_Pricing_Program.Properties.Resources.resources
+obj\Release\Prager Pricing Program.csproj.GenerateResource.Cache
+obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+obj\Release\Prager_Pricing_Program.AboutScreen.resources

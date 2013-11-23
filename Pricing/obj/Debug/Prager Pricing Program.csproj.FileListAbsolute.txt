@@ -1,0 +1,115 @@
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe.config
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.exe
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.pdb
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.pdb
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\ResolveAssemblyReference.cache
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.License.resources
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+D:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+F:\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe.config
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.exe
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.pdb
+F:\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe
+F:\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.pdb
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\ResolveAssemblyReference.cache
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.License.resources
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+F:\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\ResolveAssemblyReference.cache
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.License.resources
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.exe
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe.config
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\bin\Debug\Prager Pricing Program.pdb
+J:\C# Applications\Prager Pricing Program\Prager Pricing Program\obj\Debug\Prager Pricing Program.pdb
+E:\C# Projects\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe.config
+E:\C# Projects\Prager Pricing Program\obj\Debug\Prager Pricing Program.exe
+E:\C# Projects\Prager Pricing Program\obj\Debug\Prager Pricing Program.pdb
+E:\C# Projects\Prager Pricing Program\bin\Debug\Prager Pricing Program.exe
+E:\C# Projects\Prager Pricing Program\bin\Debug\Prager Pricing Program.pdb
+E:\C# Projects\Prager Pricing Program\obj\Debug\ResolveAssemblyReference.cache
+E:\C# Projects\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+E:\C# Projects\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+E:\C# Projects\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.License.resources
+E:\C# Projects\Prager Pricing Program\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+E:\C# Projects\Prager Pricing Program\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+L:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe.config
+L:\Prager\Pricing\obj\Debug\Prager Pricing Program.exe
+L:\Prager\Pricing\obj\Debug\Prager Pricing Program.pdb
+L:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe
+L:\Prager\Pricing\bin\Debug\Prager Pricing Program.pdb
+L:\Prager\Pricing\obj\Debug\ResolveAssemblyReference.cache
+L:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+L:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+L:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.License.resources
+L:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+L:\Prager\Pricing\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+G:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe.config
+G:\Prager\Pricing\obj\Debug\Prager Pricing Program.exe
+G:\Prager\Pricing\obj\Debug\Prager Pricing Program.pdb
+G:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe
+G:\Prager\Pricing\bin\Debug\Prager Pricing Program.pdb
+G:\Prager\Pricing\obj\Debug\ResolveAssemblyReference.cache
+G:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+G:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+G:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.License.resources
+G:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+G:\Prager\Pricing\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+E:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe.config
+E:\Prager\Pricing\obj\Debug\Prager Pricing Program.exe
+E:\Prager\Pricing\obj\Debug\Prager Pricing Program.pdb
+E:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe
+E:\Prager\Pricing\bin\Debug\Prager Pricing Program.pdb
+E:\Prager\Pricing\obj\Debug\ResolveAssemblyReference.cache
+E:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+E:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+E:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.License.resources
+E:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+E:\Prager\Pricing\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+F:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe.config
+F:\Prager\Pricing\obj\Debug\Prager Pricing Program.exe
+F:\Prager\Pricing\obj\Debug\Prager Pricing Program.pdb
+F:\Prager\Pricing\bin\Debug\Prager Pricing Program.exe
+F:\Prager\Pricing\bin\Debug\Prager Pricing Program.pdb
+F:\Prager\Pricing\obj\Debug\ResolveAssemblyReference.cache
+F:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+F:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+F:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.License.resources
+F:\Prager\Pricing\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+F:\Prager\Pricing\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+F:\Prager Software\Pricing\bin\Debug\Prager Pricing Program.exe.config
+F:\Prager Software\Pricing\obj\Debug\Prager Pricing Program.exe
+F:\Prager Software\Pricing\obj\Debug\Prager Pricing Program.pdb
+F:\Prager Software\Pricing\bin\Debug\Prager Pricing Program.exe
+F:\Prager Software\Pricing\bin\Debug\Prager Pricing Program.pdb
+F:\Prager Software\Pricing\obj\Debug\ResolveAssemblyReference.cache
+F:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+F:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+F:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.License.resources
+F:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+F:\Prager Software\Pricing\obj\Debug\Prager Pricing Program.csproj.GenerateResource.Cache
+D:\Prager Software\Pricing\bin\Debug\Prager Pricing Program.exe.config
+D:\Prager Software\Pricing\obj\Debug\Prager Pricing Program.exe
+D:\Prager Software\Pricing\obj\Debug\Prager Pricing Program.pdb
+D:\Prager Software\Pricing\bin\Debug\Prager Pricing Program.exe
+D:\Prager Software\Pricing\bin\Debug\Prager Pricing Program.pdb
+D:\Prager Software\Pricing\obj\Debug\ResolveAssemblyReference.cache
+D:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.AboutScreen.resources
+D:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.formISBNLookup.resources
+D:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.License.resources
+D:\Prager Software\Pricing\obj\Debug\Prager_Pricing_Program.Properties.Resources.resources
+D:\Prager Software\Pricing\obj\Debug\ResGen.read.1.tlog
+D:\Prager Software\Pricing\obj\Debug\ResGen.write.1.tlog
+D:\Prager Software\Pricing\bin\Debug\PricingRoutines.dll
+D:\Prager Software\Pricing\bin\Debug\PricingRoutines.pdb
+D:\Prager Software\Pricing\obj\Debug\GenerateResource.read.1.tlog
+D:\Prager Software\Pricing\obj\Debug\GenerateResource.write.1.tlog

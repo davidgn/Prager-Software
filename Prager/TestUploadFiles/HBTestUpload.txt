@@ -1,0 +1,53 @@
+HDRS|
+PRCT|HBV3.0
+DATE|11/23/2004 10:20:36 AM
+TIME|10:20:36.2812500
+HVER|2.3.19
+COMM|
+SYST|PROD
+FNAM|c:\Program Files\Prager\Export\HBTestUpload.txt
+HPFM|
+HDRE|
+BOOS|
+BOOK|17019990392
+TRAN|A
+ANAM|Clyde Francis Lytle (editor)
+TNAM|Test Entry - book not for sale
+PBLS|The Coslett Publishing Co.
+SUB1|Poetry, Prose, Verse
+DESC|an anthology of prayers, memorable phrases
+PRIC|1.38
+JACK|J
+BIND|S
+UPDT|11/23/2004
+UPTM|9:19:00
+BCAT|
+ABLE|1
+UBID|
+EDNT|Revised
+JCKC|No Jacket as Issued
+BNDC|Leatherette
+PBPL|Williamsport, PA
+PBYR|1948
+BOOC|Fine
+SIZE|
+STAT|Sold
+PPRC|3.00
+PDSC|
+LOCA|58
+BOOE|
+TRLS|
+PRCT|HBV3.0
+DATE|11/23/2004 10:20:36 AM
+TIME|10:20:36.3281250
+HVER|2.3.19
+USER|Prager
+COMM|
+SYST|PROD
+FNAM|c:\Program Files\Prager\Export\HBTestUpload.txt
+HPFM|
+HDRE|
+TADD|1
+TDEL|0
+TCNT|1
+TRLE|

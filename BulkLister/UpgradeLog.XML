@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="BulkAddBooks">
+</Property><Property Name="Solution File" Value="D:\Prager Software\BulkLister\BulkAddBooks.sln">
+</Property><Property Name="User Options File" Value="D:\Prager Software\BulkLister\BulkAddBooks.suo">
+</Property><Property Name="Date" Value="Thursday, May 26, 2011">
+</Property><Property Name="Time" Value="6:22 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="BulkAddBooks.sln" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\BulkAddBooks.sln">
+</Event><Event ErrorLevel="0" Project="" Source="BulkAddBooks.suo" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\BulkAddBooks.suo">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="BulkAddBooks.csproj" Description="Project file successfully backed up as D:\Prager Software\BulkLister\Backup\BulkAddBooks.csproj">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="mainForm.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\mainForm.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="mainForm.Designer.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\mainForm.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="miscClasses.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\miscClasses.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="Program.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="utilities.cs" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\utilities.cs">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="app.config" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\app.config">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="Properties\Settings.settings" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="mainForm.resx" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\mainForm.resx">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="Properties\Resources.resx" Description="File successfully backed up as D:\Prager Software\BulkLister\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="BulkAddBooks" Source="BulkAddBooks.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="BulkAddBooks.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="BulkAddBooks" Source="BulkAddBooks.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="BulkAddBooks.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="BulkAddBooks.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="BulkAddBooks" Source="app.config" Description="File converted successfully. All &lt;supportedRuntime&gt; and &lt;requiredRuntime&gt; tags were removed to enable the project to build and run with Visual Studio 2005.">
+</Event><Event ErrorLevel="3" Project="BulkAddBooks" Source="app.config" Description="Converted">
+</Event></UpgradeLog>

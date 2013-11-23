@@ -1,0 +1,1 @@
+csc ndir.cs FileComparer.cs ..\StringLogicalComparer.cs

@@ -1,0 +1,75 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Accounting</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Accounting</H1>
+<P><IMG src="images/help figure 12.png" align=bottom></P>
+<P>Figure 12.</P>
+<H2><U>Sales, Purchases and Database Statistics</U></H2>
+<P>Two sets of statistics are provided:</P>
+<UL>
+<LI>Sales and Purchases 
+<LI>Database statistics </LI></UL>
+<P>The accounting figures are created initially when the database is first loaded.&nbsp; After you have added, deleted, etc., and you want to see up-to-date statistics, click on the Accounting Tab..&nbsp; It will refresh the display.&nbsp; The current year is initially displayed, but using the "For year" entry, you can see statistics from any previous year starting with the time you first loaded the inventory. By clicking on the year displayed, or using the up and down arrows, you can select any year desired.&nbsp; Clicking on a year automatically refreshes the display for that year.</P>
+<H2><U>Prune Database</U></H2>
+<P>This option allows you to delete books that have been sold from prior years.&nbsp; It will not allow you to delete the current year's sold books.&nbsp; This has the effect of "pruning" your database, which will reduce the amount of space it takes on your hard drive.</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('accounting.htm'); 
+HMSelectTopic('accounting.htm');</script></body>
+</html>

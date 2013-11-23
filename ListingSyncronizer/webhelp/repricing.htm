@@ -1,0 +1,123 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Repricing</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Repricing books in your inventory</H1>
+<H2><U>Repricing your inventory using Mass Changes </U></H2>
+<P><IMG align=bottom src="images/image29.png"></P>
+<P>This powerful option allows you to reprice your books in your inventory by:</P>
+<UL>
+<LI>Which Books? 
+<UL>
+<LI>all books, or 
+<LI>only books within a certain price range, or 
+<LI>by catalog, or&nbsp; 
+<LI>books within a range of book numbers&nbsp;</LI></UL>
+<LI>Type of change?&nbsp; 
+<UL>
+<LI>increasing prices 
+<LI>decreasing prices 
+<LI>absolute amount (sets book prices to a fixed amount, ie. $2.76)</LI></UL>
+<LI>Change by? 
+<UL>
+<LI>by dollar amount, or 
+<LI>by percentage, or 
+<LI>absolute amount</LI></UL></LI></UL>
+<P>In other words, you can increase or decrease prices for all books or just some books, by a fixed dollar amount or by percentage.</P>
+<P><STRONG>NOTE:</STRONG>&nbsp; when entering a percentage, <STRONG>DO NOT</STRONG> enter twenty percent as .20 (dot 2 0)... enter it as 20&nbsp; (twenty-two and one-half percent would be entered as 22.5).</P>
+<P>Once you have entered how you want to reprice your books, just click&nbsp;&nbsp;Change.</P>
+<P>In addition, you can change the Status of all the books that are in the Database Panel as indicated.</P>
+<H2><U><A name="pricing service"></A></U>&nbsp;</H2>
+<H2><U>Repricing your inventory using&nbsp;"Get Prices&nbsp;from Internet" button</U></H2>
+<P>You can also reprice books manually by selecting a book from the Database Panel and then clicking <STRONG>Get Prices From Internet.&nbsp; </STRONG>This will have the effect of going to the internet, finding the prices of the book and displaying them in the <STRONG>Pricing Results</STRONG> tab.&nbsp; You can then manually figure out what you want to sell your book for and update the price manually.&nbsp; Don't forget to click the <STRONG>Update</STRONG> button to make the changes permanent.</P>
+<H2>
+<H2><U></U>&nbsp;</H2>
+<H2><U>Obtaining an Amazon.com Access Key ID</U></H2>
+<P><IMG align=bottom src="images/image50.png"></P></H2>
+<P>Occassionally, you will get a message about the AWS server is unavailable.&nbsp; This is because we use one access key to get the prices from Amazon.com.&nbsp; Their rules state that we can submit no more than one request per second, and because we might have many users getting prices at the same time, this will cause an error.&nbsp; The solution is for you to get your own Amazon.com Access Key and enter it in the space provided.&nbsp; We will then use your unique access key to get prices, thus bypassing any chance of the "server unavailable" error.&nbsp; </P>
+<P>To get your access key, go to&nbsp;<A href="http://www.amazon.com/aws-home-page-money/b?ie=utf8&node=3435361" target=_blank>Amazon.com</A>&nbsp;and sign up for Amazon Web Services.&nbsp; When you have obtained your key (get the Public key, not the Secret key), enter it in the space provided.&nbsp; The program will take it from there.</P>
+<H2>
+<P>&nbsp;</P></H2>
+<H2><U>Repricing your inventory using the Re-Pricing Tool</U></H2>
+<P>The repricing tool is a licensed function.&nbsp; It will work for the first 30-day trial period, but after that you need to purchase a license.&nbsp; So what can you do with this?&nbsp; Well, we use it to reprice our books for two distinct&nbsp; selling venues: Amazon.com and all of the others.&nbsp; How do we do this?&nbsp; Well, first we check the <STRONG>Prices from Amazon.com only</STRONG> which will get us prices from Amazon.com only.&nbsp; Then, we go through the steps outlined below, checking the books whose price we want&nbsp; to update, then click on the Update button.&nbsp; This will update the database.&nbsp; Next, we do an export (you will notice that all of the books you just updated are waiting for export)&nbsp; Upload this export you just created to Amazon.com <EM>only, </EM>unless you want all of the other selling venues to have the same prices.&nbsp; Next, we re-do the entire prices checking Prices from all venues, and upload that file to all of the selling venues <EM>except Amazon.com</EM>.&nbsp; Pretty nifty,huh?&nbsp; (If you have any questions, please contact us.)</P>
+<P><IMG align=bottom src="images/image22.png"></P>
+<P>Figure 56.&nbsp; This is the first screen for the Re-Pricing Tool.&nbsp;&nbsp;&nbsp; Make sure you highlight all fields that are to participate in the computation of a suggested price, otherwise you will get strange or no results.&nbsp; Note:&nbsp; use the tool-tips (balloon thingies) for an explanation of each field (you turn them on and off in the Options menu).&nbsp; The different section's meaning are as follows:</P>
+<UL>
+<LI><STRONG>Comparisons and computations are based on:&nbsp; </STRONG>This allows you to control what the filters are compared to.&nbsp; For instance, you can get prices from all of the consolidating services (such as AddAll.com, BookFinder, etc.), or if you only sell on Amazon, then get your&nbsp;suggested prices from Amazon.com.&nbsp; You can also combine new and used books from the services, or separate them out.&nbsp; This has the&nbsp;effect of only comparing the prices obtained from the&nbsp;services against the condition of your book&nbsp;(if you book is used, only prices returned with a condition of used will be used).&nbsp; This <EM>does</EM> affect the price, so experiment!&nbsp; 
+<LI><STRONG>If my price is HIGH, compute a suggested price based on: </STRONG>you have a choice of either using a fixed amount (in dollars and cents) or a percentage when computing a new suggested price.&nbsp; The amount (either a percentage of dollar amount) goes in the text box, and then you choose either <STRONG>above</STRONG> or <STRONG>below </STRONG>the high, low or average price that was returned from the pricing routines.&nbsp; For instance, the figure above shows a suggested price will be computed based on a percentage of 20% below the average price returned by the pricing routines. 
+<LI><STRONG>If my price is LOW, compute a suggested price based on:</STRONG>&nbsp; same as above 
+<LI><STRONG>If the book is NEW, compute a suggested price based on: </STRONG>same as above 
+<LI><STRONG>Skip 1st Ed and signed, otherwise: </STRONG>do not reprice any books marked First Ed. or Signed.&nbsp; If this is not checked, you can add a premium to the&nbsp;computed suggested price by entering a percentage in the box.&nbsp;&nbsp;If you don't want a percentage added, <STRONG>do not put anything in the box!</STRONG>&nbsp; 
+<LI><STRONG>If condition is marked Very Good, drop price by: </STRONG>this allows you to drop the price based on condition by a given percentage.&nbsp; Again, if you don't want to alter the suggested price based on condition, <STRONG>do not put anything in the box.</STRONG> 
+<LI><STRONG>Control range of books to reprice: </STRONG>you can exclude books either above or below a certain price.&nbsp; Books priced above or below will not be repriced. 
+<LI><STRONG>Reprice books with ISBNs (default):&nbsp; </STRONG>self explanatory. 
+<LI><STRONG>Reprice books without ISBNs:&nbsp; </STRONG>(at the present time, this function is disabled). 
+<LI><STRONG>Start with book number:&nbsp; </STRONG>allows you to start at a particular book number.&nbsp; Since the books are entered in the database by ascending book number, this will allow you to stop the repricing and then restart it at a later time.&nbsp; Good for when you have many thousands of books you want to reprice over several days. 
+<LI><STRONG>Reprice books added or modified:</STRONG> use this to reprice books added on or after the selected date.&nbsp; Useful when you just finished adding books and now want to get competitive prices. 
+<LI><STRONG>Minimum price is my cost or: </STRONG>prevents the suggested price from going below your cost or whatever price you select. 
+<LI><STRONG>Highlight price when: </STRONG>self explanatory</LI></UL>
+<P>&nbsp;</P>
+<P><IMG align=bottom src="images/image28.png"></P>
+<P>This is what the&nbsp;Re-Pricing Tool&nbsp;returns.&nbsp; It's pretty self explanatory.&nbsp; The prices are obtained from over 80 sites or Amazon only; it goes through your entire inventory (presently taking only books with ISBNs), one book at a time, finding the lowest and highest prices.&nbsp; Once all of the prices have been obtained, an average is computed.&nbsp; The suggested prices are computed based on the criteria you select on Filters tab, with all types of combinations available.&nbsp; </P>
+<P>So, what do you do next?&nbsp; Well, you check the boxes on the left for each book you want to reprice, or you can click on&nbsp;<STRONG>Check All</STRONG>.&nbsp; After you have checked the&nbsp;lines you want, click on <STRONG>Update</STRONG> to update the selected records in the database.&nbsp; Your changes are then marked for export and after exporting, you upload to your listing services.&nbsp;&nbsp;<SPAN style="FONT-FAMILY: Arial; COLOR: navy; FONT-SIZE: 10pt"><FONT color=#990000> As long as you don't update the database, you can reprice over and over again using different parameters until you're satisfied.</FONT></SPAN></P>
+<P>If you have any questions or comments, let us know.</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('repricing.htm'); 
+HMSelectTopic('repricing.htm');</script></body>
+</html>

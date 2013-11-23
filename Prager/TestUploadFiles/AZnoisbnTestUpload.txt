@@ -1,0 +1,35 @@
+prager
+Books
+03/14/2005
+7:14 AM
+
+UR|17019990392
+AA|Clyde Francis Lytle (editor)
+AI|
+TI|Test Entry - book not for sale
+DP|1948
+PU|The Coslett Publishing Co.
+PP|Williamsport, PA
+LG|English
+ED|Revised
+BD|Leatherette
+BN|
+NC|
+CN|Fine
+PR|7.63
+NT|059600799X slight yellowing due to age; wear to edges due to age225 p.; diagrams; index;
+JK|No DJ Issued
+KE|Science and Technology
+KE|Basic Mathematics for Aviation
+LO|1
+PC|0.00
+TP|
+IS|Sold
+XA|1
+XB|2
+XC|BO
+XD|S
+
+
+
+

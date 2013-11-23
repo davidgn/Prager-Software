@@ -1,0 +1,96 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Export</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Creating a file for export</H1>
+<P><IMG align=middle src="images/image75.png"></P>
+<H2><U>Indicate which export files to create:</U> <FONT color=#bc2947>(New)</FONT></H2>
+<P>You must indicate to the program which venues you are going to upload to during the export process.&nbsp; Some of the venues (i.e. ABE, Amazon, Chrislands, etc) require a special formatted file.&nbsp; To save space on your hard drive, the program will NOT create an export file for those venues unless you tell it to, by clicking on the venue name in the top box.&nbsp; If the venue name is checked, a file for that venue will be created, otherwise it will not.&nbsp; If you don't upload to a particular venue, don't check the box.</P>
+<H2><U>General Exporting instructions:</U></H2>
+<P>There are two times when you might want to perform an export of your records:&nbsp; </P>
+<OL>
+<LI>when you are going to do a purge&nbsp;and replace&nbsp;of all of your records on a listing site, or 
+<LI>when you are informing the site that you had activity on your inventory (books added, sold, etc.) by uploading to the site</LI></OL>
+<P>Both are accomplished the same way:</P>
+<UL>
+<LI>Export files are always created using HomeBase, UIEE, comma-separated values (CSV)&nbsp;and tab-delimited formats, because some listing services require one or the other. (you don't have to worry about which file goes with which listing service, it is done automatically for you by the program).&nbsp; Tab-delimited files are created in two possible formats: normal tab-delimited and Amazon.com-specific formats.&nbsp;&nbsp; 
+<LI>if you want to export <EM>all </EM>of your records, click "Export entire database".&nbsp;&nbsp; NOTE:&nbsp; At the end of the export, a message box will pop-up and will ask you&nbsp;if you are doing a purge/replace of the entire inventory.&nbsp; This affects the&nbsp;date "Changed Since"&nbsp; date which needs to be changed to match the exported file.&nbsp; This is done automatically by the program if you click Yes. (otherwise, you can really screw things up because the program won't know you did a purge and will again export&nbsp;all the records that have been changed since the date indicated).&nbsp; 
+<LI>If you want to only export a&nbsp;sub-set of records that you have selected using the <A href="searching.htm">Inclusive Search feature</A>, check "Only those displayed...".&nbsp; What ever is showing in the Database Panel will then be included in the export file. 
+<LI>if you only want to export the records that have changed since the last export, select "Changed since" button.</LI></UL>
+<P>It is assumed that all of your user ID's's are identical for each of the&nbsp;listing services.&nbsp; The file that is exported has a User ID in the header; <STRONG>by default this ID is taken from the&nbsp;first user ID on the Upload Tab page </STRONG>for the appropriate file type<STRONG>.</STRONG></P>
+<P>The export files&nbsp;are&nbsp;created automatically&nbsp;and placed&nbsp;in the C:\Prager\Export folder with the name looking like this:&nbsp;&nbsp;&nbsp;"FFmmddyyyyhhmmss.txt"&nbsp; where</P>
+<UL>
+<LI>FF is either <STRONG>HB</STRONG> for HomeBase format, <STRONG>UI</STRONG> for UIEE format, <STRONG>CV</STRONG> for comma-separated value, <STRONG>TB</STRONG> for normal tab-delimited format or&nbsp; <STRONG>AZ</STRONG> for Amazon.com .&nbsp; 
+<LI>mmddyyyy represents the date of the export 
+<LI>hhmmss represents the time of the export.</LI></UL>
+<P>NOTE:&nbsp;&nbsp;If you don't see the filename you expect, it is because there were no records to export, therefore the file was not created.</P>
+<P>Records are only marked for export when added using the Add or Update buttons; <EM>they are not marked for export when added to the database using the Import function.</EM>&nbsp; An indication of how many records exported is displayed next to Records Processed:.&nbsp; The filename is also displayed for ease in finding it for <A href="upload.htm">uploading</A>.</P>
+<H2><U>ABE file format conversion:</U></H2>
+<P>Recently, ABE has indicated they prefer a tab-delimited format rather than the HomeBase format they have used for years.&nbsp; When you do an export, you will be asked if you want to change the format from HomeBase to tab-delimted.&nbsp; If you have already done the conversion, click on the "Don't ask me this again" checkbox, and you won't see the reminder mesage.</P>
+<P>If you reply no, then your export to ABE will be in the HomeBase format.&nbsp; If you reply yes, then several things will occur:</P>
+<UL>
+<LI>First, click on the checkbox highlighted in yellow in the image above.&nbsp; This will create a tab-delimited export file for ABE with an extension of HOLD.&nbsp; This will notify ABE that your file needs to be verified. 
+<LI>Next, you must notify ABE that you have sent them a file for uploading with an extension of HOLD.&nbsp; They will verify the file format and then process it. 
+<LI>Once both of the above have been accomplished, and ABE has notified you that your file has been accepted, you can then ignore the message about "Have you notified ABE ..." when you do the export.</LI></UL>
+<P>If you have any questions or problems, please let us know.</P>
+<P><BR></P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('export.htm'); 
+HMSelectTopic('export.htm');</script></body>
+</html>

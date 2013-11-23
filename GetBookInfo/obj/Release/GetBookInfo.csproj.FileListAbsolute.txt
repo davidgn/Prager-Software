@@ -1,0 +1,5 @@
+D:\Prager Software\GetBookInfo\bin\Release\GetBookInfo.dll
+D:\Prager Software\GetBookInfo\bin\Release\GetBookInfo.pdb
+D:\Prager Software\GetBookInfo\obj\Release\GetBookInfo.dll
+D:\Prager Software\GetBookInfo\obj\Release\GetBookInfo.pdb
+D:\Prager Software\GetBookInfo\obj\Release\GetBookInfo.csprojResolveAssemblyReference.cache

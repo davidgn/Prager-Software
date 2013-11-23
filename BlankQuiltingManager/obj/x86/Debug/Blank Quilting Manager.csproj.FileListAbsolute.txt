@@ -1,0 +1,23 @@
+D:\Prager Software\Blank Quilting Manager\bin\Debug\Blank Quilting Manager.exe
+D:\Prager Software\Blank Quilting Manager\bin\Debug\Blank Quilting Manager.pdb
+D:\Prager Software\Blank Quilting Manager\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Prager Software\Blank Quilting Manager\obj\x86\Debug\Blank_Quilting_Manager.mainForm.resources
+D:\Prager Software\Blank Quilting Manager\obj\x86\Debug\Blank_Quilting_Manager.Properties.Resources.resources
+D:\Prager Software\Blank Quilting Manager\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Prager Software\Blank Quilting Manager\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Prager Software\Blank Quilting Manager\obj\x86\Debug\Blank Quilting Manager.exe
+D:\Prager Software\Blank Quilting Manager\obj\x86\Debug\Blank Quilting Manager.pdb
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\Blank Quilting Manager.exe
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\Blank Quilting Manager.pdb
+D:\Prager Software\BlankQuiltingManager\bin\Debug\Blank Quilting Manager.exe
+D:\Prager Software\BlankQuiltingManager\bin\Debug\Blank Quilting Manager.pdb
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\Blank_Quilting_Manager.mainForm.resources
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\Blank_Quilting_Manager.Properties.Resources.resources
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Prager Software\BlankQuiltingManager\bin\Debug\Blank Quilting Manager.exe.config
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\ResGen.read.1.tlog
+D:\Prager Software\BlankQuiltingManager\obj\x86\Debug\ResGen.write.1.tlog
+D:\Prager Software\BlankQuiltingManager\bin\Debug\System.Data.SQLite.dll
+D:\Prager Software\BlankQuiltingManager\bin\Debug\System.Data.SQLite.xml

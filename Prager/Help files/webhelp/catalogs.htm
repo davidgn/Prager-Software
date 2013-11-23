@@ -1,0 +1,101 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Catalogs</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Catalogs</H1>
+<P>Catalogs are methods to segregate books by subject, such as History, Cooking, etc.&nbsp; They come in two flavors:</P>
+<UL>
+<LI>Amazon.com 
+<LI>non-Amazon.com</LI></UL>
+<P>Amazon.com catalogs are prefixed by a 6 digit number (most of the time), where non-Amazon.com catalogs are not.&nbsp; Your choice of which catalog to use is predicated on whether or not you upload to Amazon.com or not.&nbsp; Non-Amazon sites will accept the catalog entries without the prefix.&nbsp; The figure below shows the Amazon.com catalog structure.</P>
+<P>In addition, for either catalog, you may have sub-catalogs (this makes more sense for where you use the non-Amazon.com catalog).&nbsp; It allows you to further breakdown your catalogs, from general to specific.&nbsp;&nbsp; If you want to use both catalogs, you must indicate that by clicking on the <STRONG>Use Primary and Secondary Catalogs</STRONG> in the Program Options page (tab).</P>
+<P><IMG src="images/help figure 11.png" align=bottom></P>
+<P>&nbsp;</P>
+<H2>Creating the Catalogs</H2>
+<UL>
+<LI><IMG src="images/help figure 11a.png" align=bottom></LI></UL>
+<P>Catalogs are created in one of two ways:</P>
+<UL>
+<LI>By importing from a file 
+<LI>By manually entering each catalog genre</LI></UL>
+<P>To import from a text file, do the following:</P>
+<UL>
+<LI>create a text file with one entry on each line, saving the file as a .txt file 
+<LI>click on the Browse button&nbsp; and select the file you have just created 
+<LI>if you want to delete the current contents, click that box; otherwise, you will <EM>append</EM> the entries to the current catalog entries 
+<LI>click the Import button</LI></UL>
+<P>To import manually, do the following:</P>
+<UL>
+<LI>in the space to the left of the Add Entry button, add the name of the catalog entry exactly as you wish it to appear 
+<LI>click the round button for either the Primary Catalog or Secondary Catalog; this is where your entry will be placed.&nbsp; NOTE: you must have selected a primary catalog entry (it must be indicated as selected, normally by turning blue) before you can add a secondary catalog entry. 
+<LI>Click the Add Entry button</LI></UL>
+<P>To delete a catalog entry, do the following:</P>
+<UL>
+<LI>Select either a Primary Catalog or Secondary Catalog entry for deletiion (it must be selected as indicated by the dark blue color) 
+<LI>click the Delete button (the program knows which catalog to delete the entry from)</LI></UL>
+<P>&nbsp;</P>
+<H2>Using the Catalogs</H2>
+<P dir=ltr><IMG src="images/help figure 35.png" align=bottom></P>
+<P dir=ltr>In the Book Detail page (tab) you will find the Select Catalog button as shown above.&nbsp; Do not enter anything in the catalog entry unless you are making a special one-time entry to the book's catalog.&nbsp; Just click the Select Catalog button and you will be transferred to the Catalog page (tab) where you can select a Primary Catalog entry.&nbsp; If you have not entered a secondary catalog entry, you will&nbsp; be returned to the Book Detail page.&nbsp; If you want to enter a Secondary catalog entry for this book, you must do it before you click on the Select Catalog button (this is the only way the program knows not to return you to the Book Detail page).&nbsp; If there are Secondary Catalog entries attached to the Primary Catalog, they will be displayed.&nbsp; At this time, you may choose one or not.&nbsp; If you decide not to choose a secondary catalog entry, then manually click on the Book Detail page to return and continue providing data on the current book.</P>
+<P dir=ltr>Catalog entries may be changed at any time by selecting the book and clicking on the Select Catalog button.</P>
+<P dir=ltr>&nbsp;</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('catalogs.htm'); 
+HMSelectTopic('catalogs.htm');</script></body>
+</html>

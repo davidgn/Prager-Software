@@ -1,0 +1,101 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Upload</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Uploading records to listing sites</H1>
+<H2><U>Setting your User IDs and Passwords</U></H2>
+<P><IMG align=bottom src="images/help figure 13a.png" width=0><IMG align=bottom src="images/image46.png"></P>
+<P>Figure 13a.&nbsp; This is where you set your User IDs and Passwords.&nbsp; Once you have entered them, you must save them; you can over-ride them at any time, but you should always save your changes.&nbsp; Some important notes:</P>
+<UL>
+<LI>Columns 4-6&nbsp;for the pre-defined sites can not be altered.&nbsp; 
+<LI>Amazon.com requires your email address for the User ID field.&nbsp; In addition, you now have to have an "Amazon Access Key" <STRONG>and</STRONG> an "Amazon Secret Key" in order to get prices and bibliographic data for each book.&nbsp; Click on the Get Keys button to go to the Amazon website, get your keys and copy and paste them into the respective boxes. 
+<LI>In order for you to upload to Half.com, you must have a "security token", which can be obtained from <A href="http://pages.ebay.com/file_exchange/programmaticupload.html?id=0">Half.com</A>.&nbsp;&nbsp; </LI></UL>
+<P>If you have listing venues that are not listed here, you can add them using the <STRONG>Custom Listing Sites.&nbsp; </STRONG>To use the custom sites feature, you need to fill in the information as indicated above.&nbsp; Some of this information will have to come from the listing service itself (FTP address and directory).&nbsp; Once this has been filled in, you can go to the Upload tab where you will see the "Name" of the custom site indicated.&nbsp; Just check the box and the export file chosen will be uploaded to that service.&nbsp; It is recommended that you test your information that was entered by checking the "Test" box and doing a test upload first.&nbsp; Note that this is only for FTP uploads; some sites do now allow FTP uploads, so you should check with them to make sure it is a feature they support.</P>
+<H2><U></U>&nbsp;</H2>
+<H2><U>One-Click&nbsp;uploading to listing services</U></H2>
+<P><IMG align=bottom src="images/help figure 13.png" width=0><IMG align=bottom src="images/image32.png"></P>
+<P>&nbsp;</P>
+<P>Figure 13. </P>
+<P><FONT color=#c10000>First of all, <STRONG>and this is very important</STRONG>: next to some of the listing sites, you may&nbsp;see a '2'.&nbsp; This means that you must register with the listing services to be able to upload using FTP, which is what this program uses.&nbsp; Simply contact them and ask for a FTP account.&nbsp; They will respond via e-mail giving you a new user ID and password.&nbsp; This is the user ID and password&nbsp;you must&nbsp;use for uploading.</FONT></P>
+<P>Also next to the listing sites is the format of the file that is sent to that particular site.&nbsp; If the site gives you a choice of formats, pick the format we have indicated we use.&nbsp; If you don't pick the correct format, your uploads will not be accepted by the listing site.</P>
+<P>Next to the Upload button,&nbsp;it tells you&nbsp;if an export &nbsp;file is&nbsp;waiting to be uploaded since your last upload.&nbsp; There are&nbsp;ninteen (19)&nbsp;sites you can currently upload your inventory changes to as seen above.&nbsp; Note that some of them are disabled (lighter color)... this is because if you don't have a userid and password, you can not choose to upload to that site.&nbsp;</P>
+<P>To upload to any or all of the sites, do the following:</P>
+<OL>
+<LI><A href="export.htm">Create an export file</A>, 
+<LI>go to the Upload tab (see figure 38 above). 
+<LI>Make sure you have a UserID and Password set for the service you are going to upload to.&nbsp; If you do not have the UserID and Password set for a particular site will not be enabled (text will be dimmed). 
+<LI>check the&nbsp;box next to the listing service you want to upload to 
+<LI>enter your user name and password for that site (it will automatically be saved when you exit the program) 
+<LI>click on "Save Selections" if you want to keep the selected sites between executions of the program&nbsp; 
+<LI>click "Upload" and you will be presented with the Open Dialog box as seen below.&nbsp;</LI></OL>
+<P><FONT color=#ff0000></FONT></P>
+<P><FONT color=#000000><IMG align=bottom src="images/image48.png"></FONT></P>
+<P>Note the list of filenames all begin with HB... this is because the program knows which file-type goes with which listing venue.&nbsp; <STRONG>You should always choose from this list</STRONG>; do not enter your own filename because it may not be found when the name is changed for other listing venues.&nbsp; For instance, if you want to upload to Amazon.com, it takes a&nbsp;.txt file; find the HB prefixed filename from the list above and click it; the filename will automatically be changed for Amazon.com within the program.&nbsp; Note:&nbsp; if you do not have an ISBN or an ASIN for a particular record, it will not be uploaded.&nbsp; You are going to have to do it manually.&nbsp; <FONT color=#ff0000>This applies to Amazon.com uploads only!</FONT></P>
+<UL>
+<LI>just do an Inclusive search: select ISBN, "is equal to" and leave the remainder of the fields blank.&nbsp; 
+<LI>Then go to the export page and click on "Only those displayed in the Database Panel using Inclusive Search".&nbsp; 
+<LI>Click export and a file with only those records without ISBNs will be created.&nbsp; 
+<LI>Take this file and manually submit it using the Standard Book Loader.</LI></UL>
+<P><FONT color=#ff0000>It is recommended you test your first uploads&nbsp;by clicking the "Test" checkbox.&nbsp; This has the effect of not uploading a real file, but a file that has been designed to test the connection and your UserID and Password.&nbsp; The file name is found at&nbsp; <STRONG>c:\HBTestUpload.txt;</STRONG> <STRONG>this file should be edited to change items that are specific to your business</STRONG> (line <STRONG>USER|Prager</STRONG> located at the top&nbsp;of the file).&nbsp; There is also a file in UIEE format called <STRONG>UITestUpload.txt.&nbsp; </STRONG>It should also be edited.</FONT></P>
+<P>&nbsp;You can follow progress of the upload(s) in the <A href="panels.htm#status">Status Panel</A>.&nbsp; The file format (HomeBase, UIEE or Tab) is automatically selected depending on listing site requirements.&nbsp; You will always be presented with a HB prefix file to select in the Open Dialog.&nbsp; This is normal; the program uses that selection to find the correct file and construct new filenames accordingly.</P>
+<P>NOTE:&nbsp; <STRONG>you can not do an automatic&nbsp;purge on all listing sites using the automated upload</STRONG> at this time.&nbsp; This is because in most cases, the listing web-site has a box to click or some other action that must be done to effect the purge.&nbsp; </P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('upload.htm'); 
+HMSelectTopic('upload.htm');</script></body>
+</html>

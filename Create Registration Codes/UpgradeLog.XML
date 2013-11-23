@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Create Registration Codes">
+</Property><Property Name="Solution File" Value="D:\Prager Software\Create Registration Codes\Create Registration Codes.sln">
+</Property><Property Name="Date" Value="Monday, September 12, 2011">
+</Property><Property Name="Time" Value="7:46:17 AM">
+</Property></Properties><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Create Registration Codes" Source="Create Registration Codes.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Create Registration Codes" Source="Create Registration Codes.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

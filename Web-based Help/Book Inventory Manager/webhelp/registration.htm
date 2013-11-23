@@ -1,0 +1,75 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Purchase a License</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Program Licensing</H1>
+<P><IMG align=bottom src="images/image15.png"></P>
+<P>As noted, you must purchase a license within 30 days of installation.&nbsp; Failure to do so will disable the most of the functions.</P>
+<P>To register, click the&nbsp;Help -&gt; Purchase License&nbsp;menu item.&nbsp; You will be taken to the web site where you can purchase a license using&nbsp;PayPal.&nbsp; On the website, you will see this page:</P>
+<P><IMG align=middle src="images/image78.png"></P>
+<P>Notice the highlighted fields... you will put the MAC address in the field for the program you are going to purchase the license for.&nbsp; (only one occurrance of the MAC address is necessary).&nbsp; You get the MAC address from either the Book or Media Inventory program, as shown here:</P>
+<P><IMG align=middle src="images/image79.png"></P>
+<P>Click on Help, then on About... you will see the following screen, where the MAC address is highlighted.&nbsp; Click on the Copy button, which will copy the MAC address to the clipboard.</P>
+<P><IMG align=middle src="images/image80.png"></P>
+<P>&nbsp;</P>
+<P>We will respond with an email containing your&nbsp;License code, <STRONG>which you should copy and paste into the&nbsp;License Screen above</STRONG>.&nbsp; Click&nbsp;Enter when completed and your&nbsp;information will be saved.</P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('registration.htm'); 
+HMSelectTopic('registration.htm');</script></body>
+</html>

@@ -1,0 +1,3 @@
+.\bin\Debug\Prager Pricing Program.exe.config
+obj\Debug\Prager Pricing Program.exe
+obj\Debug\Prager Pricing Program.pdb

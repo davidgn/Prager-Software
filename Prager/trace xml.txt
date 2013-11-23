@@ -1,0 +1,12 @@
+  <system.diagnostics>
+    <sources>
+      <source name="prager" switchvalue="None">
+        <listeners>
+              <add initializeData="pragerTrace.txt" type="System.Diagnostics.TextWriterTraceListener"
+        </listeners>
+      </source>
+    </sources>
+    <sharedListeners>
+        <add initializeData="pragerTrace.txt" type="System.Diagnostics.TextWriterTraceListener" name="x">
+    </sharedListeners>
+  </system.diagnostics>

@@ -1,0 +1,66 @@
+BODY {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+}
+TD {
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+}
+H1 {
+	font-size: 130%;
+}
+H2 {
+	font-size: 120%;
+}
+H3 {
+	font-size: 115%;
+}
+H4 {
+	font-size: 100%;
+	font-style: Italic;
+}
+H5 {
+	font-size: 100%;
+}
+a:hover {
+	color: blue;
+	font-weight: bold;
+}
+A {
+	color: #5566AA;
+}
+.headertable {
+	cellpadding: 0;
+	border: 1;
+	bordercolor: #000000;
+	background: #99ccff;
+}
+.titleline1 {
+	background: transparent;
+	font-style: italic;
+}
+.titleline2 {
+	font-size: 80%;
+	font-weight: bold;
+}
+TABLE {
+	cellpadding: 2;
+	border: 2;
+	bordercolor: #FFFFFF;
+	bordercolordark: #FFFFFF;
+	bordercolorlight: #FFFFFF;
+	background: #eeeeff;
+}
+LI {
+	list-style-position: inside;
+	text-indent: 0pt;
+}
+IMG {
+	border: 0;
+}
+UL {
+	list-style-type: square;
+}
+.seealso {
+	font-weight: bold;
+}

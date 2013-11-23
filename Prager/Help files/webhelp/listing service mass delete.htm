@@ -1,0 +1,75 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Listing Service Mass Delete</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1><A name="mark status en masse"></A>Mass deleting books from the listing service inventory</H1>
+<P>There are times that you have to delete books that are duplicates in the inventory of the listing service.&nbsp; <STRONG>The only way this can be accomplished is to mark them as "Sold".</STRONG>&nbsp; The following instructions will accomplish this.</P>
+<H2>1.&nbsp; Backup your database</H2>
+<P><IMG src="images/help figure 1b.png" align=bottom></P>
+<P>We highly suggest you backup your previous state of the database just in case you make changes you wish you hadn't.&nbsp; Simply click on the Menu-&gt;Database-&gt;Backup.&nbsp; You will see the status in the Status Panel when completed.&nbsp; At that time you may go on to Step 2.</P>
+<H2>2.&nbsp; Select books that are to be updated</H2>
+<P><IMG src="images/help figure 51.bmp" align=bottom></P>
+<P>Select each book from the Database Panel by holding the CTRL key and left-clicking each entry.&nbsp; When completed, each entry that is to be marked as "Sold" will be dark blue in color as above.&nbsp; An alternative method of marking is to mark the first entry by left-clicking, then scroll down to the last entry to be marked, hold the Shift key and left-click the last entry.&nbsp; It might take some practice, but it is faster than clicking each book individually.</P>
+<P><IMG src="images/help figure 10.png" align=bottom></P>
+<P>Once you have selected multiple books for updating, click on the&nbsp;Mass Changes tab.&nbsp; Click on the "Mark Sold" button and each book that you previously marked in Step 1 will be updated.&nbsp; Marking a book as "Sold" is the same thing as deleting it from the listing services.</P>
+<P></P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('listing service mass delete.htm'); 
+HMSelectTopic('listing service mass delete.htm');</script></body>
+</html>

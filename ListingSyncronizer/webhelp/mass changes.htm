@@ -1,0 +1,84 @@
+<!-- saved from url=(0025)http://www.helpmatic.net/ -->
+
+<!-- Created using Helpmatic Pro HTML V6.5.3 -->
+
+<html>
+<head>
+<title>Mass Changes</title>
+<LINK REL="stylesheet" TYPE="text/css" HREF="default.css"></LINK>
+
+</head>
+
+<BODY><H1>Changing prices en-mass</H1>
+<P><IMG align=bottom src="images/image55.png"></P>
+<P>Figure 57a.&nbsp; This is the section where you can make mass changes to prices; either raising or lowering them or changing them to an absolute amount.&nbsp;&nbsp; For instance, to either increase or decrease prices, you would do the following:</P>
+<UL>
+<LI>check either increase or decrease in the <STRONG>Type of Change</STRONG> box 
+<LI>indicate which books to change in the <STRONG>Change which books</STRONG> box 
+<LI>check either amount or percentage and give the amount in the <STRONG>Change by</STRONG> box 
+<LI>Click on <STRONG>Change</STRONG></LI></UL>
+<P>To change books to an absolute amount (say you want to change all books between $2.50 and $3.50 to $3.75), you would do the following:</P>
+<UL>
+<LI>check on Absolute amount in the <STRONG>Type of Change</STRONG> box 
+<LI>indicate which books to change in the <STRONG>Change which books</STRONG> box by clicking on Price Range and entering 2.50 in the <STRONG>from</STRONG> box and 3.50 in the <STRONG>to</STRONG> box (notice no $ are used) 
+<LI>enter 3.75 in the <STRONG>Change by</STRONG> box 
+<LI>click on <STRONG>Change</STRONG></LI></UL>
+<H1>Changing book status en-mass</H1>
+<P><IMG align=bottom src="images/image56.png"></P>
+<P>Figure 57b.&nbsp; This section would be used to change the status of <STRONG>all</STRONG> of the books <EM>currently displayed</EM> in the database panel.&nbsp; This is accomplished by doing a <A href="searching.htm">search</A> to filter the books displayed in the database panel and then doing the change on those books.</P>
+<H1>Making mass changes to the database</H1>
+<P><IMG align=bottom src="images/image57.png"></P>
+<P>Figure 57c.&nbsp; This is probably the most powerful of the mass changes you can make.&nbsp; Here, you can change just about any field (except the book number and certain other fields) en-mass.&nbsp; For example. in the figure above, we want to remove the Signed by Author indicator from <STRONG>all books in the database.&nbsp; </STRONG><FONT color=#ff0000>This is a very important point - that all of the books in the database are changed in this section.</FONT></P><p align="right"><font size=1>Created using <a href="http://www.helpmatic.net" target="_blank">Helpmatic Pro HTML</a></font></p>
+<script language="javascript">
+	function HMSelectTopic(v_sTopicName)
+	{			
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					frames[i].SelectNodeByFilename(v_sTopicName);
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+		}
+	}
+	
+	
+	function ReloadFrame(v_sTopicName)
+	{
+		var bFound=false;
+		
+		try
+		{
+			var frames = parent.frames;
+			var iframecount = frames.length;
+			for(var i=0; i < iframecount; i++) 
+			{
+				if(frames[i].name == "frmNav") 
+				{
+					bFound=true;
+					break;
+				}
+			}
+		}
+		catch (e)
+		{
+			bFound=true;
+		}
+		
+		if(bFound==false)
+		{
+			window.location.href="index.html?" + v_sTopicName;
+		}
+	}
+</script>
+<script language='javascript'>ReloadFrame('mass changes.htm'); 
+HMSelectTopic('mass changes.htm');</script></body>
+</html>

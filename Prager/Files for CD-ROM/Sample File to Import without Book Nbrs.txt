@@ -1,0 +1,1079 @@
+HDRS|
+PRCT|HBV3.0
+DATE|01/08/2005 7:10:03 AM
+TIME|07:10:03
+HVER|2.3.19
+USER|Prager
+COMM|
+SYST|PROD
+FNAM|C:\Program Files\HomeBase\export\Purge20050108070930.txt
+HPFM|
+HDRE|
+HDRS|
+PRCT|HBV3.0
+DATE|10/19/2004 10:41:25 AM
+TIME|10:41:25
+HVER|2.3.19
+USER|Prager
+COMM|
+SYST|PROD
+FNAM|C:\Program Files\HomeBase\export\DB20041019104115_purge.txt
+HPFM|
+HDRE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Ayres
+TNAM|Basic Mathematics for Aviation
+PBLS|Houghton Mifflin Company
+SUB1|Basic Mathematics for Aviation
+DESC|Good. No dust jacket as issued. slight yellowing due to age; wear to edges due to age225 p.; diagrams; index;
+PRIC|7.63
+BIND|H
+UPDT|8/8/2004
+UPTM|11:54:34 AM
+BCAT|Science and Technology
+ABLE|1
+UBID|1430
+EDNT|First edition.
+JCKC|No DJ Issued
+BNDC|Hard Cover
+PBPL|New York
+PBYR|1943
+BOOC|Good
+STAT|
+PPRC|0
+LOCA|1
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+TNAM|The Private Side of American History: Redings in Everyday Life
+PBLS|Harcourt, Brace & World, Inc.
+SUB1|The Private Side of American History: Redings in Everyday Life
+DESC|Very good. No dust jacket as issued.424 p.; illus.; Personal incidents and the attitudes of ordinary people-especially their responses to the policies of the dominant power in their society.
+PRIC|27.63
+BIND|S
+UPDT|8/8/2004
+UPTM|11:54:44 AM
+BCAT|History - General
+ABLE|1
+ISBN|0155719653
+UBID|1431
+EDNT|2nd Ed. (since 1865)
+JCKC|No DJ Issued
+BNDC|Trade Paperback
+PBPL|New York
+PBYR|1979
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|1
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+TNAM|Time Ungarded The Ironside Diaries 1937-1940
+PBLS|David McKay Company, Inc
+SUB1|Time Ungarded The Ironside Diaries 1937-1940
+DESC|Very good in very good dust jacket.434 p.; illus.; index; Excerpts from the diaries of Field Marshal Lord Ironside, who was C.I.G.S. for th first nine months of WW II
+PRIC|27.63
+JACK|J
+BIND|H
+UPDT|8/8/2004
+UPTM|11:54:58 AM
+BCAT|History - WW II
+ABLE|1
+UBID|1432
+EDNT|Reprint.
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|1
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Baird, Dennis (Editor)
+TNAM|Faithful to Their Tribe and Friends: Samuel Black's 1829 Fort Nez Perce Report
+PBLS|University of Idaho Library
+SUB1|Faithful to Their Tribe and Friends: Samuel Black's 1829 Fort Nez Perce Report
+DESC|Fine. No dust jacket as issued.84 p.; 0.23" x 8.46" x 5.70".
+PRIC|7.63
+BIND|S
+UPDT|8/8/2004
+UPTM|11:55:08 AM
+BCAT|American Indian
+ABLE|1
+ISBN|0893015024
+UBID|1433
+JCKC|No DJ Issued
+BNDC|Trade Paperback
+PBPL|Moscow, ID
+PBYR|2001
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|1
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+TNAM|The Photographic History of the Civil War: The Navies
+PBLS|Castle Books
+SUB1|The Photographic History of the Civil War: The Navies
+DESC|Very good in very good dust jacket. dj in mylar cover322 p.; illus.; diagrams;
+PRIC|9.76
+JACK|J
+BIND|H
+UPDT|8/8/2004
+UPTM|11:55:19 AM
+BCAT|History - Civil War
+ABLE|1
+UBID|1434
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York
+PBYR|1957
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|58
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Young, James; Young, Cheryl
+TNAM|Collecting Processing and Germinating Seeds of Wildland Plants
+PBLS|Timber Pr
+SUB1|SEEDS SCIENCE BOTANY
+DESC|minimal ex-lib markings, else would be F/F
+PRIC|123.76
+JACK|J
+BIND|H
+UPDT|10/3/2004
+UPTM|8:53:21 AM
+BCAT|Gardening - General
+ABLE|1
+ISBN|0881920576
+UBID|4459
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|Portland, Oregon, U.S.A.
+PBYR|1986
+BOOC|Good
+BTYP|Ex-Library
+STAT|For Sale
+PPRC|1
+PDSC|Lakeside Library Sale 10/2/04
+LOCA|24
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Trilling, Susana
+TNAM|Seasons of My Heart : A Culinary Journey Through Oaxaca, Mexico
+PBLS|Ballantine Books
+SUB1|COOKERY MEXICAN COOKING REGIONAL ETHNIC
+DESC|minimal ex-lib markings, else would be f/f
+PRIC|16.88
+JACK|J
+BIND|H
+UPDT|03/27/2004
+UPTM|9:08:21 AM
+ABLE|1
+ISBN|0345425960
+UBID|3676
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York, NY, U.S.A.
+PBYR|1999
+BOOC|Good
+BTYP|Ex-Library
+STAT|For Sale
+PPRC|1
+LOCA|66
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+TNAM|The Photographic History of the Civil War: Prisons and Hospitals
+PBLS|Castle Books
+SUB1|The Photographic History of the Civil War: Prisons and Hospitals
+DESC|Very good in very good dust jacket.352 p.; illus.; diagrams;
+PRIC|9.76
+JACK|J
+BIND|H
+UPDT|8/8/2004
+UPTM|11:55:28 AM
+BCAT|History - Civil War
+ABLE|1
+UBID|1435
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York
+PBYR|1957
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|58
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+TNAM|The Photographic History of the Civil War: Soldier Life and the Secret Service
+PBLS|Castle Books
+SUB1|The Photographic History of the Civil War: Soldier Life and the Secret Service
+DESC|Very good in very good dust jacket. dj in mylar cover383 p.;
+PRIC|9.76
+JACK|J
+BIND|H
+UPDT|8/8/2004
+UPTM|11:55:38 AM
+BCAT|History - Civil War
+ABLE|1
+UBID|1436
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|58
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+TNAM|The Photographic History of the Civil War: Forts and Artillery
+PBLS|Castle Books
+SUB1|The Photographic History of the Civil War: Forts and Artillery
+DESC|Very good in very good dust jacket. dj in mylar cover322 p.;
+PRIC|9.76
+JACK|J
+BIND|H
+UPDT|8/8/2004
+UPTM|11:55:48 AM
+BCAT|History - Civil War
+ABLE|1
+UBID|1437
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|58
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+TNAM|The Photographic History of the Civil War: Two Years of Grim War
+PBLS|Castle Books
+SUB1|The Photographic History of the Civil War: Two Years of Grim War
+DESC|Very good in very good dust jacket. dj in mylar cover322 p.; maps;
+PRIC|9.76
+JACK|J
+BIND|H
+UPDT|8/8/2004
+UPTM|11:55:57 AM
+BCAT|History - Civil War
+ABLE|1
+UBID|1438
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|58
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|T Harry Williams
+TNAM|Huey Long
+PBLS|Alfred A. Knopf
+SUB1|Huey Long
+PRIC|17.63
+JACK|J
+BIND|H
+EDTN|F
+UPDT|08/09/2004
+UPTM|4:08:49 PM
+BCAT|Biographies, Autobiographies
+ABLE|1
+UBID|4237
+EDNT|First Edition
+JCKC|Very Good
+BNDC|Hard Cover
+PBPL|New York
+PBYR|1969
+BOOC|Good
+BTYP|Ex-Library
+STAT|For Sale
+PPRC|1
+PDSC|Colfax Library Sale
+LOCA|80
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Nilsson, Dale R.
+TNAM|Developing Javabeans Using Visualage for Java 2
+PBLS|John Wiley c1999
+SUB1|Java (Computer program language) JavaBeans Nonfiction VisualAge
+DESC|Fine. No dust jacket. Like new.Later printing. (pbk. /CD-ROM: alk. paper) p. cm.
+PRIC|37.63
+UPDT|8/9/2004
+UPTM|10:20:06 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0471345342
+UBID|1439
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|New York
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Schildt, Herbert
+TNAM|C++ The Complete Reference
+PBLS|Osborne McGraw-Hill c1991
+SUB1|C++ (Computer program language) Computers and computer technology Nonfiction Technology
+DESC|Fine. No dust jacket.Later printing. xxi, 594 p. : ill. ; 24 cm.Includes index.
+PRIC|12.76
+UPDT|8/9/2004
+UPTM|10:28:20 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0078816548
+UBID|1440
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Berkeley
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Parker, Tim
+TNAM|SAMS Teach Yourself TCP/IP in 14 Days
+PBLS|Sams Pub c1996
+SUB1|Nonfiction TCP/IP (Computer network protocol)
+DESC|Fine. No dust jacket.Later printing. xv, 480 p. : ill. ; 23 cm.Includes index.
+PRIC|14.76
+UPDT|8/9/2004
+UPTM|10:40:24 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0672308851
+UBID|1441
+EDNT|2nd ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Indianapolis, IN
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|D
+ANAM|Turton, Trevor, And Wahli, Ueli
+TNAM|Object Rexx for Os/2 Warp
+PBLS|International Technical Support Organization; Prentice Hall PTR c1997
+SUB1|Computers and computer technology Nonfiction Object-oriented programming (Computer science) OS/2 warp REXX (Computer program language) Technology
+DESC|Fine. No dust jacket.Later printing. xxx, 336 p. : ill. ; 25 cm. + 1 computer laser optical disc (4 3/4 in. )Includes index.
+PRIC|6.88
+UPDT|7/19/2004
+UPTM|8:37:00 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0132734672
+UBID|1442
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|San Jose, Calif. : Upper Saddle River, N.J.
+BOOC|Fine
+STAT|Sold
+PPRC|0
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Hahn, Harley, And Stout, Rick
+TNAM|The Internet Complete Reference
+PBLS|Osborne McGraw-Hill c1994
+SUB1|Handbooks, manuals, etc Internet (Computer network) Nonfiction
+DESC|Fine. No dust jacket.Later printing. xxvi, 818 p. : ill. ; 24 cm.Includes index.
+PRIC|14.76
+UPDT|5/23/2004
+UPTM|1:09:05 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0078819806
+UBID|1443
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Berkeley
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|74
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Flanagan, David
+TNAM|Java in a Nutshell: a Desktop Quick Reference
+PBLS|O'Reilly & Associates Inc. 11/1999
+SUB1|Java (computer program language) Nonfiction
+DESC|Good. No dust jacket. Highlighting/Underlining. has owners name on top and bottom edge.In a Nutshell (O'Reilly). Later printing. 648 p. ; 1.21" x 8.95" x 6.00".
+PRIC|12.76
+UPDT|5/19/2004
+UPTM|1:56:48 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1565924878
+UBID|1444
+EDNT|3rd edition
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+BOOC|Good
+STAT|For Sale
+PPRC|0
+LOCA|53
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Booch, Grady, And Eykholt, Edward M.
+TNAM|The Best of Booch: Designing Strategies for Object Technology
+PBLS|SIGS Books c1996
+SUB1|Booch method Computer software Development Nonfiction Object-oriented programming (Computer science)
+DESC|Fine. No dust jacket.SIGS reference library; 7; SIGS reference library series; 7. Later printing. (pbk. ) xiv, 236 p. : ill. ; 23 cm.Includes bibliographical references (p. 217-219) and index.
+PRIC|16.76
+UPDT|4/28/2004
+UPTM|8:51:56 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1884842712
+UBID|1445
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|New York
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Goodwin, Mark D. (Mark Dennis)
+TNAM|User Interfaces in C: Programmer's Guide to State-of-the-Art Interfaces
+PBLS|Management Information Source c1989
+SUB1|C (Computer program language) Nonfiction User interfaces (Computer systems)
+DESC|Good. No dust jacket. Highlighting/Underlining. has owners name on top and bottom edges.Later printing. x, 344 p. ; 24 cm.Includes index.
+PRIC|10.76
+UPDT|8/9/2004
+UPTM|10:20:24 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1558280022
+UBID|1446
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Portland, Or
+BOOC|Good
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Gosling, James, And Yellin, Frank
+TNAM|The Java Application Programming Interface
+PBLS|Addison-Wesley Publ
+SUB1|Computers and computer technology Java (Computer program language) Nonfiction
+DESC|Fine. No dust jacket.  Two (2) volumes!  The Java series. Later printing. v. : ill. ; 24 cm.Includes bibliographical references and index. v. 1. Core packages--v. 2. Window toolkit and applets.
+PRIC|28.9
+UPDT|5/19/2004
+UPTM|1:26:03 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0201634538
+UBID|1447
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Reading, Mass
+PBYR|1996
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|73
+BOOE|
+BOOS|
+BOOK|
+TRAN|D
+ANAM|McGraw, Gary, And Felten, Edward
+TNAM|Java Security
+PBLS|Wiley c1997
+SUB1|Computer security Java (Computer program language) Nonfiction Technology
+DESC|Fine. No dust jacket.Later printing. (pbk. : alk. paper) xiv, 192 p. : ill. ; 24 cm."Wiley Computer Publishing. " Includes bibliographical references (p. 183-184) and index.
+PRIC|15.76
+UPDT|7/28/2004
+UPTM|12:03:17 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|047117842X
+UBID|1448
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|New York
+BOOC|New Book
+STAT|Sold
+PPRC|0
+LOCA|73
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Arnold, Ken, And Gosling, James
+TNAM|The Java Programming Language
+PBLS|Addison-Wesley 
+SUB1|Java (Computer program language) Nonfiction
+DESC|Fine. No dust jacket.The Java series. Later printing. xix, 442 p. ; 24 cm.Includes index.  previous owner's name on top edge
+PRIC|16.76
+UPDT|5/19/2004
+UPTM|1:58:41 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0201310066
+UBID|1449
+EDNT|2nd ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Reading, MA
+PBYR|1998
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|53
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Mansfield, Richard
+TNAM|The Comprehensive Guide to Vbscript: the Encyclopedic Reference for VBSCRIPT, HTML & Activex
+PBLS|Ventana c1997
+SUB1|HTML (Document markup language) Nonfiction VBScript (Computer program language) World Wide Web (Information retrieval system)
+DESC|Fine. No dust jacket.Later printing. lxvi, 790 p. : ill. ; 24 cm. + 1 computer laser optical disc (4 3/4 in. )Includes index.
+PRIC|27.63
+UPDT|7/7/2004
+UPTM|4:19:10 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1566044707
+UBID|1450
+EDNT|1st ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Research Triangle Park, NC
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|74
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Eckstein, Robert
+TNAM|Xml Pocket Reference
+PBLS|O'Reilly & Associates Inc. 08/1999
+SUB1|Nonfiction Xml (document markup language)
+DESC|Fine. No dust jacket.Later printing. 107 p. ; 0.31" x 6.98" x 4.30".
+PRIC|7.63
+UPDT|8/9/2004
+UPTM|10:29:07 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1565927095
+UBID|1451
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+PDSC|very small book
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Vogel, Andreas, And Duddy, Keith
+TNAM|Java Programming With Corba
+PBLS|Wiley c1998
+SUB1|CORBA (Computer architecture) Java (Computer program language) Nonfiction
+DESC|Fine. No dust jacket.Later printing. (pbk. : alk. paper) xiv, 514 p. : ill. ; 24 cm."Object Management Group"--Cover. "Wiley computer publishing. " Includes index.
+PRIC|23.76
+UPDT|5/19/2004
+UPTM|12:46:50 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0471247650
+UBID|1452
+EDNT|2nd ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|New York
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|73
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Schatt, Stanley
+TNAM|Understanding Local Area Networks
+PBLS|H.W. Sams c1990
+SUB1|Computers and computer technology Local area networks (Computer networks) Nonfiction Technology
+DESC|Good. No dust jacket. owners name on top and bottom edge.Sams understanding series. Later printing. vi, 298 p. : ill. ; 23 cm.Includes bibliographical references (p. 289-290) and index.
+PRIC|6.88
+UPDT|8/9/2004
+UPTM|10:27:16 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0672273039
+UBID|1453
+EDNT|2nd ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Carmel, IN, USA
+BOOC|Good
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Carrel-Billiard, Marc, And Friess, Michael, And Mauny, Isabelle
+TNAM|Programming With Visualage for C++ for Windows
+PBLS|IBM International Technical Support Organization; Prentice Hall PTR c1997
+SUB1|C++ (Computer program language) Nonfiction Visual programming (Computer science) VisualAge
+DESC|Fine. No dust jacket.The VisualAge series. Later printing. 556 p. : ill. ; 24 cm. + 1 computer laser optical disc (4 3/4 in. )Includes index.
+PRIC|10.76
+UPDT|8/9/2004
+UPTM|10:26:56 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0136182089
+UBID|1454
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|San Jose, Calif. : Upper Saddle River, N.J.
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Akerley, John, And Parlavecchia, Antonello, And Li, Nina
+TNAM|Programming With Visualage for Java Version 2.0 With Cdrom
+PBLS|Prentice Hall 01/1999
+SUB1|Java (computer program language) Nonfiction
+DESC|Fine. No dust jacket.Later printing. 417 p. ; 1.42" x 9.21" x 7.03". Includes cdrom.
+PRIC|7.63
+UPDT|8/9/2004
+UPTM|10:29:55 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0130212989
+UBID|1455
+EDNT|2nd edition
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Tittel, Ed, And Dreiser
+TNAM|Foundations of the World Wide Web and Html Programming With Cd-Rom
+PBLS|IDG Books Worldwide Inc 08/1995
+SUB1|Html (document markup language) Nonfiction
+DESC|Fine. No dust jacket.Later printing. 648 p. ; 9.29" x 1.82" x 7.43".
+PRIC|10.76
+UPDT|8/9/2004
+UPTM|10:39:02 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1568847033
+UBID|1456
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Graham, Ian S.
+TNAM|The Html Sourcebook: a Complete Guide to Html 3.0
+PBLS|Wiley Computer Pub c1996
+SUB1|HTML (Document markup language) Nonfiction Technology
+DESC|Fine. No dust jacket.Later printing. (pbk. : alk. paper) xvi, 688 p. : ill. ; 24 cm.Includes index.
+PRIC|14.76
+UPDT|4/28/2004
+UPTM|8:53:26 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0471142425
+UBID|1457
+EDNT|2nd ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|New York
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Fang, Walter
+TNAM|Visualage for Smalltalk Distributed: Developing Distributed Object Applications
+PBLS|Prentice PTR c1996
+SUB1|Nonfiction Object-oriented programming (Computer science) Smalltalk (Computer program language) Visual programming (Computer science) VisualAge
+DESC|Fine. No dust jacket.The VisualAge series. Later printing. (pbk. : alk. paper) xxvi, 250 p. : ill. ; 24 cm. + 1 computer disk (3 1/2 in. )Includes bibliographical references (p. 241) and index.
+PRIC|36.06
+UPDT|10/14/2004
+UPTM|11:24:32 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0135708052
+UBID|1458
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Upper Saddle River, N.J.
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Bitterer, Andreas
+TNAM|AS/400 Application Development With Visualage for Smalltalk
+PBLS|IBM International Technical Support Organization; Prentice Hall PTR c1997
+SUB1|Application software Computers and computer technology Development IBM AS/400 (Computer) Nonfiction Programming Smalltalk (Computer program language) VisualAge
+DESC|Fine. No dust jacket.The VisualAge series. Later printing. xxvii, 356 p. : ill. ; 24 cm. + 1 computer disk (3 1/2 in.).Includes index.
+PRIC|10.76
+UPDT|8/9/2004
+UPTM|10:31:06 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0135204534
+UBID|1459
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|San Jose, Calif. : Upper Saddle River, NJ
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Wetmore, Alexander, And Grosvenor, Gilbert Hovey, And Brooks, Allan
+TNAM|The Book of Birds: the First Work Presenting in Full Color All the Major Species of the United States and Canada
+PBLS|National Geographic Society c1939
+SUB1|Birds Canada Nonfiction United States
+DESC|Very Good. No dust jacket. some yellowing due to age; volume 1 only.Later printing. 2 v. : ill. (part col. ); 26 cm."Second edition. "--Foreword. Map on lining papers. Includes indexes. v. 1. Diving birds, ocean-birds, swimmers, wading birds, wild fowl, birds of prey, game birds, shore birds, marsh dwellers, birds of the northern seas--v. 2. Owls, goatsuckers, swifts, woodpeckers, flycatchers, crows, jays, blackbirds, orioles, chickadees, creepers, thrushes, swallows, tanagers, wrens, warblers, hummingbirds, finches, and sparrows.
+PRIC|9.76
+BIND|H
+UPDT|4/28/2004
+UPTM|8:54:53 AM
+ABLE|1
+UBID|1460
+JCKC|No Jacket as Issued
+BNDC|Hard Cover
+PBPL|Washington, D.C.
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|inside
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Sessions, Roger
+TNAM|Class Construction in C and C++: Object-Oriented Programming Fundamentals
+PBLS|Prentice Hall c1992
+SUB1|C (Computer program language) C plus plus (computer program language) C++ (Computer program language) Nonfiction Object-oriented programming
+DESC|Very Good. No dust jacket. owners name on top and bottom edges.Later printing. xi, 477 p. : ill. ; 24 cm.Includes bibliographical references (p. 457-458) and index.
+PRIC|14.76
+UPDT|8/9/2004
+UPTM|10:27:34 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0136301045
+UBID|1461
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Englewood Cliffs, N.J.
+BOOC|Very Good
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Leinecker, Richard C.
+TNAM|Visual C++ 5 Power Toolkit: for Windows 95 & Windows Nt
+PBLS|Ventana c1997
+SUB1|C plus plus (computer program language) C++ (Computer program language) Microsoft visual basic (computer program) Microsoft Visual C++ Nonfiction
+DESC|Fine. No dust jacket.Later printing. xxvi, 584 p. : ill. ; 24 cm. + 1 computer laser optical disc (4 3/4 in. )Rev. ed. of: Visual C++ power toolkit. 1995. Includes index.
+PRIC|10.76
+UPDT|8/9/2004
+UPTM|10:20:41 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1566045282
+UBID|1462
+EDNT|1st ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Research Triangle Park, NC
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Deitel, Harvey M. , And Deitel, Paul J.
+TNAM|C++ How to Program
+PBLS|Prentice Hall c1994
+SUB1|C++ (Computer program language) Data processing Nonfiction Technology
+DESC|Good. No dust jacket. Highlighting/Underlining.Later printing. xlviii, 950 p. : ill. ; 24 cm.Includes bibliographical references (p. 909-917) and index.
+PRIC|14.76
+UPDT|8/9/2004
+UPTM|10:21:11 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0131173340
+UBID|1463
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Englewood Cliffs, N.J.
+BOOC|Good
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Petrusha, Ronald, And Shulmann, Andrew (Ed. )
+TNAM|Inside the Windows 95 Registry With 3.5 Disk
+PBLS|O'Reilly & Associates Inc. 08/1996
+SUB1|Microsoft windows 95 (computer program) Nonfiction Technology
+DESC|Fine. No dust jacket.Later printing. 594 p. ; 9.17" x 1.31" x 7.06". Includes 3.5 disk.
+PRIC|7.63
+UPDT|8/9/2004
+UPTM|10:19:07 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1565921704
+UBID|1464
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+BOOC|Fine
+STAT|For Sale
+PPRC|0
+LOCA|83
+BOOE|
+BOOS|
+BOOK|
+TRAN|D
+ANAM|Liberty, Jesse
+TNAM|Beginning OOA & D
+PBLS|Wrox Press 03/1998
+SUB1|Nonfiction Object-oriented programming (computer science
+DESC|Fine. No dust jacket.Beginning. Later printing. 400 p. ; 9.28" x 1.00" x 7.29".
+PRIC|8.49
+UPDT|9/9/2004
+UPTM|1:18:58 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1861001339
+UBID|1465
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+BOOC|Fine
+STAT|Sold
+PPRC|0
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Koch, George, And Loney, Kevin
+TNAM|Oracle: the Complete Reference
+PBLS|Osborne McGraw-Hill c1997
+SUB1|Nonfiction Oracle (Computer file) Relational databases
+DESC|Fine. No dust jacket.Later printing. xxxv, 1136 p. : ill. ; 24 cm. + 1 computer laser optical disc (4 3/4 in. )"Covers versions 5 & 6"--Cover. Includes index.
+PRIC|32.63
+UPDT|5/23/2004
+UPTM|8:38:31 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0078822858
+UBID|1466
+EDNT|Electronic ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Berkeley
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|74
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Feuerstein, Steven
+TNAM|Advanced Oracle Pl/Sql: Programming With Packages
+PBLS|O'Reilly & Associates
+SUB1|Computers and computer technology Nonfiction Oracle (Computer file) PL/SQL (Computer program language) Relational databases
+DESC|Fine. No dust jacket.A nutshell handbook. Later printing. xxvi, 661 p. ; 24 cm. + 1 computer disk (3 1/2 in. )."Oracle development language"--Cover. Title on diskette: PL/Vision Lite: a companion reference for Advanced Oracle PL/SQL: programming with packages. Includes index.
+PRIC|23.38
+UPDT|5/23/2004
+UPTM|8:36:15 AM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1565922387
+UBID|1467
+EDNT|1st ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|Sebastopol, CA
+PBYR|1996
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|74
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Bobrowski, Steven M.
+TNAM|Mastering Oracle 7 & Client/Server Computing
+PBLS|Sybex c1996
+SUB1|Client/server computing Computers and computer technology Nonfiction Oracle (Computer file) Relational databases Technology
+DESC|Fine. No dust jacket.Later printing. xxxv, 714 p. : ill. ; 23 cm. + 1 computer diskIncludes index.
+PRIC|27.63
+UPDT|9/9/2004
+UPTM|1:19:14 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0782118402
+UBID|1468
+EDNT|2nd ed.
+JCKC|No Jacket as Issued
+BNDC|Trade pb
+PBPL|San Francisco
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|74
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Peek, Jerry D. , And O'Reilly, Tim, And Loukides, Michael Kosta
+TNAM|Unix Power Tools
+PBLS|O'Reilly Associates; Bantam Books
+SUB1|Nonfiction UNIX (Computer file) Unix (computer operating system) Utilities (Computer programs)
+DESC|Fine. No dust jacket, as issued.Later printing. xliii, 1073 p. ; 24 cm. + 1 computer laser optical disc (4 3/4 in. )Includes index.
+PRIC|34.56
+UPDT|5/23/2004
+UPTM|1:15:54 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|1565922603
+UBID|1469
+EDNT|2nd ed.
+JCKC|No DJ Issued
+BNDC|Trade pb
+PBPL|Sebastopol, CA: New York
+PBYR|1994
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|74
+BOOE|
+BOOS|
+BOOK|
+TRAN|A
+ANAM|Cowart, Robert
+TNAM|Windows NT 4 Unleashed
+PBLS|Sams c1997
+SUB1|Microsoft Windows NT Microsoft windows nt (computer program) Nonfiction Operating systems (Computers)
+DESC|Fine. No dust jacket.Later printing. xxxvii, 1044 p. : ill. ; 24 cm. + 1 computer laser optical disc (4 3/4 in. )Includes index.
+PRIC|27.63
+BIND|H
+UPDT|7/7/2004
+UPTM|4:18:23 PM
+BCAT|Computers and Information Technology
+ABLE|1
+ISBN|0672310015
+UBID|1470
+EDNT|Professional reference ed.
+JCKC|No Jacket as Issued
+BNDC|Hard Cover
+PBPL|Indianapolis, IN
+BOOC|New Book
+STAT|For Sale
+PPRC|0
+LOCA|74
+BOOE|
+TRLS|
+PRCT|HBV3.0
+DATE|01/09/2005 7:10:14 AM
+TIME|07:10:14
+HVER|2.3.19
+USER|Prager
+COMM|
+SYST|PROD
+FNAM|C:\Program Files\HomeBase\export\Purge20050108070930.txt
+HPFM|
+TADD|41
+TDEL|0
+TCNT|41
+TRLE|
