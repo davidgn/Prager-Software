@@ -1,4 +1,3 @@
-
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -10,17 +9,6 @@ using MarketplaceWebServiceProducts;
 using MarketplaceWebServiceProducts.Model;
 
 
-//------------    static keys for uploads and upload Verification   -----------------
-//  Developer: MWS Access Key ID:  AKIAIZEE34BK5NOX5SDA
-//             Secret Key: 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
-//             Account Nbr: 1145-8140-6600
-//             Merchant ID: A20V78MULJSCYR  (aka "Seller ID")
-//             Marketplace ID: ATVPDKIKX0DER
-
-//----------    my AWS keys for getting prices    ------------------  ??????????????????
-//  Seller:  Access key:  AKIAJCD64XK7AANOIA3A
-//           Secret Key:  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
-//           Associates Tag: wwwpragerbook-20   
 
 namespace BulkAddBooks
 {
