@@ -22,29 +22,7 @@ using MarketplaceWebService.Model;
 #endregion
 
 
-//  Prager, Software Application Developer Account No: 1145-8140-6600
 
-//  AWS keys (use these AWS keys for uploading MY files from my registering thru MWS)
-//  Developer: AWS Access Key ID:  AKIAIZEE34BK5NOX5SDA
-//             Secret Key: 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
-
-//  AWS keys for Prager, Booksellers (from registering thru AWS)
-//  Seller:  Access key:  084BT0EPNB27A07DGR82
-//           Secret Key:  Gk0QGlcORtiSZQxqGiifKyiarqmyf9jcS1U/5Eyw
-//           Associates Tag: pragbook-20
-//           AWS Account ID: 	1465-5179-3419
-
-//  MWS keys (always the same)
-//  Seller:  Merchant ID: A20V78MULJSCYR
-//           Marketplace ID: ATVPDKIKX0DER
-
-
-/*
-Account Number:  1263-3989-2093  (Rolf Marsh)
-Access Key:  1ZN3KKZZHXJ4MHCKRP02
-Secret Access Key: qk5Bbyymzc2aJ5k5h0pvL9+V8YBZHjLL+zak7buK
-Signin ID: rmmarsh@fastmail.us
- */
 
 namespace Media_Inventory_Manager
 {
